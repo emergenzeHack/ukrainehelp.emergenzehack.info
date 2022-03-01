@@ -52,7 +52,7 @@ TMPCSVFILE = './issues_temp.csv'
 TMPJSONFILE = './issuesjson_temp.json'
 TMPGEOJSONFILE = './issues_temp.geojson'
 
-REPO_NAME = 'covid19italia_segnalazioni'
+REPO_NAME = 'europehelp.info_segnalazioni'
 ORG = 'emergenzeHack'
 TOKEN = os.environ.get('GITHUB_TOKEN')
 
