@@ -5,24 +5,24 @@
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
-#baseurl: "http://covid19italia.info"
+#baseurl: "http://europehelp.info"
 
 #baseurl: "https://github.com/emergenzeha/COVID19"
-url: "https://covid19italia.help"
+url: "https://europehelp.info"
 
 # Configuration of DATA repo
-dataurl: "https://github.com/emergenzeHack/covid19italia_data.git"
+dataurl: "https://github.com/emergenzeHack/europehelp.info_segnalazioni.git"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Covid19Italia.help
+title: europehelp.info
 
 # Logo description
-logo-description: Il logo di covid19italia due cerchi concentrici uno rosso e uno verde ed all'esterno dei semicerchi sparsi
+logo-description: Il logo di europehelp
 
 # Short description of your site
-description: Un progetto per condividere informazioni a supporto dell'emergenza COVID19
+description: Un progetto per condividere informazioni a supporto dell'emergenza in Europa
 
 # --- Navigation bar options --- #
 # List of links in the navigation bar -> NOT MORE USED! see in navigation.yml in Data folder.
@@ -31,23 +31,23 @@ description: Un progetto per condividere informazioni a supporto dell'emergenza 
 # Remove this parameter if you don't want an image in the navbar
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/covid19italia.png
+avatar: /images/europehelp.png
 
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: COVID19Italia
-  email: "mailto:covid19ita@gmail.com"
-  facebook: covid19italia.help  # eg. daattali
-  facebook_group: 2921275147894653
-  github: emergenzeHack/covid19italia    # eg. daattali
-  twitter: ItaliaCovid19   # eg. daattali
-  linkedin: covid19italia-help # eg. daattali
+  name: EuropeHelp
+  email: "mailto:europehelp@gmail.com"
+    #facebook: covid19italia.help  # eg. daattali
+    #facebook_group: 2921275147894653
+  github: emergenzeHack/europehelp.info    # eg. daattali
+    #twitter: ItaliaCovid19   # eg. daattali
+    #linkedin: europehelp-help # eg. daattali
   #xing:       # eg. daattali
   #stackoverflow:   # eg. "3943160/daattali"
-  instagram: covid19italia.help # eg. daattali
+  #instagram: covid19italia.help # eg. daattali
   #youtube: yourlink # eg. user/daattali or channel/daattali
   #rss: https://emergenzehack.github.io/covid19italia/feed.xml
   telegram: https://t.me/COVID19I
@@ -112,14 +112,14 @@ share-links-active:
 # --- Misc --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "covid19italia"
+disqus: "europehelp.info"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: "UA-128871385-2"
 
 jekyll-crosseverything_to_medium:
   enabled: false
-  useraccount: 'https://medium.com/covid19italia'
+  useraccount: 'https://medium.com/europhelp'
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
