@@ -3,7 +3,7 @@
 {% else %}
 {% assign lang = site.lang %}
 {% endif %}
-<nav class="navbar navbar-default navbar-dark fixed-top navbar-expand-lg" style="background-color: #294481;">
+<nav class="navbar navbar-default navbar-dark fixed-top navbar-expand-lg" style="background-color: #0057B8;">
     {%- if site.avatar and (layout.show-avatar or page.show-avatar) -%}
     <a class="navbar-brand" href="/">
         <img itemprop="logo" width="50" height="50" class="d-inline-block align-center rounded-circle" style="background-color: white;"
@@ -23,7 +23,7 @@
             {%- if link[1].first -%}
             <li itemprop="name" class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink{{ link[0] }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ link[0] }}</a>
-                <div class="dropdown-menu" style="background-color: #294481;" aria-labelledby="navbarDropdownMenuLink{{ link[0]}}">
+                <div class="dropdown-menu" style="background-color: #0057B8;" aria-labelledby="navbarDropdownMenuLink{{ link[0]}}">
                     {%- for childlink in link[1] -%}
                     {%- for linkparts in childlink -%}
                     {%- include navbarlink.html link=linkparts dropdown=true -%}
