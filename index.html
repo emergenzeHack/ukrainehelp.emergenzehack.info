@@ -6,11 +6,6 @@ lang: en
 ---
 
 
-<div class="page-heading">
-  {% if site.emergency_activated and site.emergency_activated_name != empty %}
-  {% endif %}
-</div>
-
 
 <div class="homepage-categories">
 {% assign categories_without_map = site.data.cfg.logos | where: "map", false %}
