@@ -4,6 +4,12 @@ layout: base
 
 {% include header.html type="page" %}
 
+<div class="activations">
+  {% if site.emergency_activated and site.emergency_activated_name != empty %}
+  <h2> {{ site.emergency_activated }} with {{ site.emergency_activated_name }} </h2>
+  {% endif %}
+</div>
+
 <div class="container-fluid" role="main">
   <div class="row">
     <div class="col-lg-10 offset-lg-1 col-sm-12">
