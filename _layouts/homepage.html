@@ -6,13 +6,14 @@ layout: base
 
 <div class="container-fluid" role="main">
   <div class="row">
+
+    <div class="activations">
+      {% if site.emergency_activated and site.emergency_activated_name != empty %}
+      <!--<h2> {{ site.emergency_activated }} with {{ site.emergency_activated_name }} </h2> -->
+      {% endif %}
+    </div>
+
     <div class="col-lg-10 offset-lg-1 col-sm-12">
-      <div class="activations">
-        {% if site.emergency_activated and site.emergency_activated_name != empty %}
-        <!--<h2> {{ site.emergency_activated }} with {{ site.emergency_activated_name }} </h2> -->
-        {% endif %}
-      </div>
-      
       {{ content }}
     </div>
   <!--  <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">

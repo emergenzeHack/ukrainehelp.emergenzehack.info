@@ -4,11 +4,6 @@ title: EuropeHelp.info
 subtitle: A project to collect and share information to support emergencies
 lang: en
 ---
-<div class="activations">
-{% if site.emergency_activated and site.emergency_activated_name != empty %}
-<h2> {{ site.emergency_activated }} with {{ site.emergency_activated_name }} </h2>
-{% endif %}
-</div>
 
 <div class="homepage-categories">
 {% assign categories_without_map = site.data.cfg.logos | where: "map", false %}
