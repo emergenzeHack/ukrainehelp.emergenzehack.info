@@ -6,6 +6,10 @@ lang: en
 ---
 
 <div class="homepage-categories">
+  {% if site.emergency_activated and site.emergency_activated_name != empty %}
+  <h2> {{ site.emergency_activated }} with {{ site.emergency_activated_name }} </h2>
+  {% endif %}
+  
 {% assign categories_without_map = site.data.cfg.logos | where: "map", false %}
 {% for category in categories_without_map %}
   {% capture logo_alt %}
