@@ -33,6 +33,9 @@ description: Un progetto per condividere informazioni a supporto dell'emergenza 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/europehelp.png
 
+emergency_activated: Emergency Ukraine War Activated 
+emergency_activated_name: UkraineInfo.help
+
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
