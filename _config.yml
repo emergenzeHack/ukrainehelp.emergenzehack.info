@@ -41,16 +41,16 @@ author:
   name: EuropeHelp
   email: "mailto:europehelp@gmail.com"
     #facebook: covid19italia.help  # eg. daattali
-    #facebook_group: 2921275147894653
+  facebook_group: 449673436901610
   github: emergenzeHack/europehelp.info    # eg. daattali
-    #twitter: ItaliaCovid19   # eg. daattali
-    #linkedin: europehelp-help # eg. daattali
+  twitter: ukraineinfohelp
+  # eg. daattali
   #xing:       # eg. daattali
   #stackoverflow:   # eg. "3943160/daattali"
   #instagram: covid19italia.help # eg. daattali
   #youtube: yourlink # eg. user/daattali or channel/daattali
   #rss: https://emergenzehack.github.io/covid19italia/feed.xml
-  telegram: https://t.me/COVID19I
+  telegram: https://t.me/ukraineinfohelp
   #medium: https://medium.com/@covid19italia
   #archiveorg: https://archive.org/details/@covid19italia
   #messenger: messenger
@@ -58,7 +58,7 @@ author:
   #androidapp: to do
   #messenger: to do
   #telegram_group: https://t.me/COVID19I
-  slack: https://join.slack.com/t/covid19peoplehelp/shared_invite/zt-dbg7ctmp-ta7ZYJN5Lvvse1w0eCymMQ
+  #slack: https://join.slack.com/t/covid19peoplehelp/shared_invite/zt-dbg7ctmp-ta7ZYJN5Lvvse1w0eCymMQ
 
 # Select which links to show in the footer
 footer-links-active:
