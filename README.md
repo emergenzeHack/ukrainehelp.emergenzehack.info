@@ -4,11 +4,10 @@ Share info of the emergency in Europe
 
 ### [Contribuisci](https://www.europehelp.info/contribuisci/)
 
-## Link
-
 ### Social
 
-- Facebook: https://www.facebook.com/covid19italia.help
+- Facebook: https://www.facebook.com/groups/449673436901610/
+- Telegram: https://t.me/ukraineinfohelp
 
 ### GitHub
 
