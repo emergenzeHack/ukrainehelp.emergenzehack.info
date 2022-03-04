@@ -1,8 +1,8 @@
 ---
 lang: en
 layout: page
-title: "Emergency COVID19 ask for help, report initiatives, news, data"
-subtitle: Ask for help or upload initiatives in Covid19Italia.help
+title: "Emergency ask for help, report initiatives, news, data"
+subtitle: Ask for help or upload initiatives
 permalink: /en/recommend/
 ---
 
