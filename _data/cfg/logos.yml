@@ -37,9 +37,9 @@
   logo-alt: news
   logo: /img/icone/bufala-tci-1.png              #       SERVE ICONA NUOVA??
   map: false
-  link: notizie/
+  link: notizie-utili/
   name_en: NEWS
-  link_en: notizie
+  link_en: notizie-utili
   name_pt: Notícias
   link_pt: pt/fake-news
 - name: FAKE NEWS
