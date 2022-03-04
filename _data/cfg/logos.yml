@@ -35,7 +35,7 @@
   link_pt: pt/ajuda
 - name: NEWS
   logo-alt: news
-  logo: /img/icone/bufala-tci-1.png              #       SERVE ICONA NUOVA??
+  logo: /img/icone/news2-tci.png              #       SERVE ICONA NUOVA??
   map: false
   link: notizie-utili/
   name_en: NEWS
