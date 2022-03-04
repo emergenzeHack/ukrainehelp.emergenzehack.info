@@ -53,7 +53,7 @@
   link_pt: pt/fake-news
 - name: TUTTE LE SEGNALAZIONI
   logo-alt: Elenco delle segnalazioni ricevute
-  logo: /img/icone/tci-solidali.png
+  logo: /img/icone/12-aiuta-a.png
   map: false
   link: issues/
   name_en: ALL ISSUES
