@@ -2,7 +2,7 @@
 lang: en
 layout: page
 title: Contacts
-subtitle: Contact Covid19Italia.help and follow our social media
+subtitle: Contact and follow our social media
 permalink: en/channels/
 ---
 
@@ -109,7 +109,7 @@ permalink: en/channels/
             </a><span>per leggere le nostre storie</span>
           </li>
           {% endif %}
-          {% if site.share-links-active.rss %}
+          {% if site.author.feed %}
           <li>
           <a href="http://feeds.feedburner.com/covid19ita_segnalazioni" title="RSS">
               <span class="fa-stack fa-lg" aria-label="Logo riferito a RSS, raffigura un cercio e due cerchi semi concentrici paralleli come a rappresentare un antenna che trasmette messaggi." role="img">
@@ -140,5 +140,4 @@ permalink: en/channels/
           </li>
           {% endif %}
      </ul>
-          <p>Tutto ciò che ci invii sarà gestito dal nostro team, che potrà provvedere alla pubblicazione delle informazioni sul sito appena possibile. Ricordati che usando i nostri canali accetti automaticamente di sottoscrivere l'<a href="{{ site.url }}/legal_segnalazioni/">informativa legale</a> per le informazioni di questo progetto.</p>
 </div>
