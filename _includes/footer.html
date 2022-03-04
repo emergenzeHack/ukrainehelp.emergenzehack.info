@@ -128,6 +128,16 @@
             </a>
           </li>
           {% endif %}
+          {% if site.author.facebook_group and site.footer-links-active.facebook_group %}
+          <li class="list-inline-item">
+            <a itemprop="sameAs" href="https://www.facebook.com/groups/{{ site.author.archiveorg }}" title="facebook group" target="_blank" rel="noopener">
+              <span class="fa-stack fa-lg" aria-label="Logo riferito al sito gruppo facebook, raffigura un tempio bianco su sfondo nero." role="img">
+                <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                <i class="fa fa-archive fa-stack-1x fa-inverse" aria-hidden="true"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
 		  {% if site.footer-links-active.rss %}
 		  <li class="list-inline-item">
 			<a href="{{ '/rss' | prepend: site.baseurl }}" title="RSS" target="_blank" rel="noopener">
