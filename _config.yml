@@ -66,7 +66,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   androidapp: false
-  rss: true
+  rss: false
   facebook: true
   email: false
   twitter: true
@@ -82,6 +82,7 @@ footer-links-active:
   messenger: false
   waze: false
   flickr: false
+  facebook_group: true
 
 # Select which share links to show in posts
 share-links-active:
