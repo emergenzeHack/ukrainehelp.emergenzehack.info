@@ -37,7 +37,7 @@ languages:
       CONTRIBUTE:
         - ACTIVATE YOUR COUNTRY: "en/contribute/"
         - WIKI: "en/wiki/"
-      PRIVACY: "legal"
+      PRIVACY: "legal_reporting"
     other-links:
   - language: pt
     navbar-links:
