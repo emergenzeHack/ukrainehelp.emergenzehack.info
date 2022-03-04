@@ -35,7 +35,7 @@ languages:
         - FAQ: "en/faq/"
         - OPEN DATA: "en/opendata/"
       CONTRIBUTE:
-        - ACTIVATE YOUR COUNTRY: "en/contribute/"
+        - ACTIVATE YOUR COMMUNITY: "en/contribute/"
         - WIKI: "en/wiki/"
       PRIVACY: "legal_reporting"
     other-links:
