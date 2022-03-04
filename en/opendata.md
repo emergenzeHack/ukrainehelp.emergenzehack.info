@@ -1,8 +1,8 @@
 ---
 lang: en
 layout: page
-title: Open Data Covid19 | Open Data Coronavirus
-subtitle:  Open data of Covid19Italia.Help with reports coronavirus emergency
+title: Open Data
+subtitle:  Open data with reports of emergency
 permalink: en/opendata/
 ---
 
@@ -14,5 +14,3 @@ Name            |Dataset         |Licence         |Link Licence    |Source      
 :---------------|:---------------|:---------------|:---------------|:---------------|:---------------|:---------------
 {% for member in site.data.opendata %} {{member.Nome}} | [Dataset]({{member.Dataset}}) | {{member.Licenza}} | [Link Licenza]({{member.Linklicenza}}) | [Fonte]({{member.Fonte}}) | {{member.Formato}} | {{member.Note}}
 {% endfor %}
-
-If you have a service that can use the FEED RSS you can use also [this feed rss](http://feeds.feedburner.com/covid19ita_segnalazioni) or [this feed of most important news](https://script.google.com/macros/s/AKfycbxTuPFn9ePZOhI7et2f8nSPjkjlhd9zqHth9sOVYRZ6Va09zmE/exec).
