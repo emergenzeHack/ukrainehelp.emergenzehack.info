@@ -25,10 +25,10 @@ languages:
     navbar-links:
       RECOMMEND: "en/recommend/"
       DISCOVER:
-        - ITALIAN INITIATIVES : "issues/"
-        - INITIATIVES FOR ITALIAN REGION : "issues/regione/"
+        - INITIATIVES : "issues/"
+        - INITIATIVES FOR REGION : "issues/regione/"
       FOLLOW:
-        - ITALIAN NEWS: "notizie-utili/"
+        - NEWS: "notizie-utili/"
         - CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
