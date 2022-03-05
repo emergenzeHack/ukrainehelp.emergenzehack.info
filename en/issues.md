@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: issuelist
 title: "Emergency: all the reports"
 subtitle: Discover all the reports

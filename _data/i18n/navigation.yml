@@ -27,7 +27,7 @@ languages:
       DISCOVER:
         - INITIATIVES : "en/issues/"
       FOLLOW:
-        - NEWS: "notizie-utili/"
+        - NEWS: "en/notizie-utili/"
         - CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
