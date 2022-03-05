@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Che cos'è Covid19 Italia Help? La risposta all'emergenza coronavirus
+title: Che cos'è EmergenzaHelp? La risposta all'emergenza del civic hacking
 subtitle: Scopri come funziona la piattaforma, come e da chi viene sviluppata
 permalink: /about/
 lang: it
@@ -8,7 +8,7 @@ lang: it
   
 ## Il Progetto
 
-**covid19italia.help** è un progetto no profit, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate sull'emergenza Coronavirus scoppiata in Italia nel 2020.
+Questo è un progetto no profit, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate sull'emergenza Coronavirus scoppiata in Italia nel 2020.
 
 Lo scopo è quello di verificare, aggregare ed etichettare segnalazioni di varia natura, al fine di mettere in contatto richieste di aiuto e offerte di beni e servizi.
 
@@ -35,7 +35,7 @@ I dati che raccogliamo e produciamo vengono pubblicati e tenuti aggiornati come 
 
 Laddove lo si ritenga utile, tutta l'infrastruttura è ri-usabile da organizzazioni, associazioni, gruppi informali ed anche pubbliche amministrazioni che avessero bisogno di un servizio per informare e attivarsi per rispondere all’emergenza covid19.
 
-Il progetto è descritto tramite il nostro [wiki](https://github.com/emergenzeHack/covid19italia/wiki).
+Il progetto è descritto tramite il nostro [wiki](https://github.com/emergenzeHack/europehelp.info/wiki).
 
 L'idea e buona parte del progetto è del gruppo [emergenzeHack](https://emergenzehack.github.io), la stessa squadra che ha sviluppato il progetto [TerremotoCentroItalia](https://www.terremotocentroitalia.info).
 
@@ -99,15 +99,8 @@ Ecco la squadra di volontari che lavora a questo progetto:
 
 ### Contatti
 
-- [Email](mailto:covid19ita@gmail.com)
-- [Twitter](https://twitter.com/ItaliaCovid19)
-- [Instagram](https://www.instagram.com/covid19italia.help/)
-- [Pagina Facebook](https://www.facebook.com/covid19italia.help/)
-- [Gruppo Facebook](https://www.facebook.com/groups/2921275147894653/)
-- [Slack](https://join.slack.com/t/covid19peoplehelp/shared_invite/zt-dbg7ctmp-ta7ZYJN5Lvvse1w0eCymMQ)
-- [Gruppo Telegram ](https://t.me/COVID19I)
-- [Canale Telegram](https://t.me/COVID19I)
-- [Repository Github](https://github.com/emergenzeHack/covid19italia)
+- [Email](mailto:europehelp.info@gmail.com)
+- [Repository Github](https://github.com/emergenzeHack/europehelp.info)
 
 ### Tecnologie e Progetti Riusati
 
