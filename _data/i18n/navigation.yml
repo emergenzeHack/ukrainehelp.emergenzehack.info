@@ -25,7 +25,7 @@ languages:
     navbar-links:
       RECOMMEND: "en/recommend/"
       DISCOVER:
-        - INITIATIVES : "issues/"
+        - INITIATIVES : "en/issues/"
       FOLLOW:
         - NEWS: "notizie-utili/"
         - CONTACTS: "en/channels/"
