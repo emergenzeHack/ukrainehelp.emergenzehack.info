@@ -6,8 +6,7 @@ lang: en
 ---
 
 
-Welcome in Covid19Italia wiki. Covid19Italia is a community based on social media, born with the purpose of sharing useful and verified information on Corona virus in Italy.
-
+Welcome in our wiki. This project is a community based on social media, born with the purpose of sharing useful and verified information in emergency.
 The project is completely open and anyone can provide support using the following guidelines.
 
 **The site**
@@ -16,54 +15,25 @@ Our site has been created with [Github](http://www.github.com/).
 
 **Get involved**
 
-In order to be added at the list of the repository developers open an issue here ([qui](https://github.com/emergenzehack/covid19italia/issues/new?title=%5Brichiesta%20iscrizione%5D)), ask to get the access sharing your [Telegram](https://web.telegram.org/) username.
+In order to be added at the list of the repository developers open an issue here ([qui](https://github.com/emergenzehack/europehelp.info/issues/new?title=%5Brichiesta%20iscrizione%5D)), ask to get the access sharing your [Telegram](https://web.telegram.org/) username.
 
 **Help us in improving it**
 
-Covid19Italia is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzeHack/covid19italia/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
+Covid19Italia is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzeHack/europehelp.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
 
 Github repositories we are using are the following ones :
 
 
-*   [QUESTO](https://github.com/emergenzeHack/covid19italia) This one for the website development
-*   [QUESTO](https://github.com/emergenzeHack/covid19italia_segnalazioni) This one for collecting and controlling the reports.
-*   [QUESTO](https://github.com/emergenzeHack/covid19italia_data) This one in order to archive the open data we created
-*   [QUESTO](https://github.com/emergenzeHack/covid19italia_form) This one for the development of the reporting forms
-*   [QUESTO](https://github.com/emergenzeHack/covid19italia_app) This one for the development of a mobile app
+*   [Here](https://github.com/emergenzeHack/europehelp.info) This one for the website development
+*   [Here](https://github.com/emergenzeHack/europehelp.info_segnalazioni) This one for collecting and controlling the reports.
+*   [Here](https://github.com/emergenzeHack/europehelp.info_data) This one in order to archive the open data we created
 
-
-# Contributing
-
-Welcome to the wiki of Covid19Italia, a social media-based community created to share useful and verified information about the corona virus in Italy.
-
-The project is completely open and anyone can contribute according to these guidelines.
-
-
-# The site
-
-Our site is created with [Github]([http://www.github.com/](http://www.github.com/)).
-
-
-# Become a contributor
-
-To be added to the developers list of the repository open an issue [here](https://github.com/emergenzehack/covid19italia/issues/new?title=%5Brichiesta%20iscrizione%5D), request access by leaving your [Telegram](https://web.telegram.org/) username.
+Thank you, we're waiting for your help!
 
 
 # Help us to improve
 
 Covid19Italia is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/covid19italia/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
-
-The Github repositories we use are
-
-
-
-*   THIS for the development of the website
-*   THIS for the collection and moderation of alerts
-*   THIS for the storage of open data provided by us
-*   THIS for the development of the alert entry form
-*   THIS for the development of a mobile APP
-
-Thank you, we're waiting for your help!
 
 
 # Reuse
@@ -72,8 +42,6 @@ Covid19Italia is an opensource project composed of various integrated applicatio
 
 
 ## Index of contents
-
-
 
 *   Open an Issue
 *   How to use GitHub
@@ -89,7 +57,6 @@ Covid19Italia is an opensource project composed of various integrated applicatio
 Issues can be used to keep track of bugs, improvements or other project requests.
 
 All GitHub users can create an issue for a public project.
-
 
 
 *   On Github navigate to the main project page.
@@ -120,14 +87,14 @@ This page is a mirror of [this simple tutorial](https://guides.github.com/activi
 
 Preamble:
 
-This document is intended for the team working on Reports. Other users do not have permission to perform the operations described here, but they can freely leave a comment on any Issue contributing to it. For example, at [this link](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) you can see all the Reports that are still missing a position. You can suggest coordinates in a comment. A moderator will take over and apply your suggestions as soon as possible.
+This document is intended for the team working on Reports. Other users do not have permission to perform the operations described here, but they can freely leave a comment on any Issue contributing to it. For example, at [this link](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) you can see all the Reports that are still missing a position. You can suggest coordinates in a comment. A moderator will take over and apply your suggestions as soon as possible.
 
 To join the team of Moderators, make sure you are an active member of the community, that you have contributed previously and that you enter the group chat of contributors.
 
 
 ## Mechanism
 
-Each compilation of a Covid19Italia form generates - after about 30 seconds - a new Issue [here](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues).
+Each compilation of a form generates - after about 30 seconds - a new Issue [here](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues).
 
 Different labels are applied to these Issues to describe their nature and approval status (which determines their final publication on the site, on bulletins, on Twitter, on Telegram channel and bot,...).
 
@@ -193,16 +160,9 @@ L\'altro
 
 
 1. The title of the Issue becomes the title of the report on the front end.
-2. Changes (including publication/de-publication) appear on the final site after a maximum of 15 minutes. Use CTRL+F5 or anonymous navigation mode if you do not see any changes. If things still don't come back to you after this, proceed to open Issue and report the problem. Issue on forms (fields, structure, missing data) should be opened on [covid19italia_forms]([https://github.com/emergenzeHack/covid19italia_form/issues](https://github.com/emergenzeHack/covid19italia_form/issues)).
-3. If you need to change the Labels that are already assingned to the Issue (the ones you see already automatically assigned) please report it [here]([https://github.com/emergenzeHack/covid19italia_form/issues/new](https://github.com/emergenzeHack/covid19italia_form/issues/new))
+2. Changes (including publication/de-publication) appear on the final site after a maximum of 15 minutes. Use CTRL+F5 or anonymous navigation mode if you do not see any changes. If things still don't come back to you after this, proceed to open Issue and report the problem.
+3. If you need to change the Labels that are already assingned to the Issue (the ones you see already automatically assigned) please report it [here]([https://github.com/emergenzeHack/europehelp.info/issues/new](https://github.com/emergenzeHack/europehelp.info/issues/new))
 4. Do not remove the Label "form", it helps us to investigate the origin of the reports.
-
-
-# Geolocation
-
-There are some issues that have a "Location" field, like this [one](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/332).
-
-And they end up on the map [here]([https://www.covid19italia.help/issues/](https://www.covid19italia.help/issues/)).
 
 
 ## Check geolocation
@@ -219,7 +179,7 @@ Therefore, issues marked with the “Posizione Mancante” label need manual int
 
 ## How to find the coordinates of a location?
 
-Let's take for example [this](https://www.covid19italia.help/issues/) report on Milan.
+Let's take for example [this](https://www.europehelp.info/issues/) report on Milan.
 
 You can use this site: [Nominatim](https://nominatim.openstreetmap.org/).
 
@@ -251,7 +211,7 @@ Example:
 
 **How to know which region/province/commune has identified the system?**
 
-By looking on the site at www.covid19italia.help/issues/ (for example https://www.covid19italia.help/issues/748/) if the report has a position already entered, the values ‘Provincia’ and ‘Region’ are those recognized based on geographical data. **In this case, if there are errors, it would be more useful to fix the position**.
+By looking on the site at www.covid19italia.help/issues/ (for example https://www.europehelp.info/issues/748/) if the report has a position already entered, the values ‘Provincia’ and ‘Region’ are those recognized based on geographical data. **In this case, if there are errors, it would be more useful to fix the position**.
 
 There may be reports that have a region or province or municipality of reference, but for which it makes no sense to enter a pair of coordinates. In order for these reports to be listed on the page by region or province anyway, you can enter a field in the data of type
 
@@ -314,9 +274,6 @@ Titolo: Serve aiuto?
 
 These are some of the policies, guidelines and rules which have been decided:
 
-
-
-*   We do not accept reports of scientific research ([https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/315#issuecomment-598456738](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/315#issuecomment-598456738)).
 *   If some fields seem to be invalid, try to correct them or search for more information on Google from the title, DO NOT close the Issue immediately if the link fails or similar problems occur.
 
 To discuss or provide feedback, open an Issue.
@@ -328,19 +285,15 @@ This project is "cloned" from a precedent used for the 2016 earthquake in centra
 
 TCI (terremotocentroitalia.info) is a "dynamic" site based on:
 
-
-
 *   a management of reports through issue github and from some scripts (from now on "backend")
 *   a cataloguing and pagination of alerts by jekyll (from now on "frontend")
 
 
 ### Backend
 
-The backend is directly represented by a github repo of which only the reporting part is used (you can see it [here](https://github.com/emergenzeHack/terremotocentro_segnalazioni/issues)).
+The backend is directly represented by a github repo of which only the reporting part is used (you can see it [here](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues)).
 
 Pros:
-
-
 
 *   the system is robust, functional, managed by others
 *   very easy to use, there are several people who already have experience
@@ -349,16 +302,13 @@ Pros:
 
 Against:
 
-
-
 *   to insert "machine readable" info in the reports we use YAML, which must be managed by an external editor
 *   if the YAML breaks, you have to intervene "by hand".
 
 
 ### Conversion Script
 
-Every 5 minutes, a [script](https://github.com/emergenzeHack/covid19italia/blob/master/scripts/csvupdate.sh):
-
+Every 5 minutes, a [script](https://github.com/emergenzeHack/europehelp.info/blob/master/scripts/csvupdate.sh):
 
 
 *   download all the reports from github
@@ -421,11 +371,11 @@ Done it! Easy, right?
 
 ## How to insert an element in Press
 
-To insert an item in the [PRESS](https://www.covid19italia.help/about/#press) table proceed as follows:
+To insert an item in the [PRESS](https://www.europehelp.info/about/#press) table proceed as follows:
 
 
 
-*   Go to this PRESS [file](https://github.com/emergenzeHack/covid19italia_data/blob/master/press.csv)
+*   Go to this PRESS [file](https://github.com/emergenzeHack/europehelp.info_data/blob/master/press.csv)
 *   Click the pencil icon to edit the file on Github
 *   Add a line to the file and insert in sequence date,source,title,comma separated links. Note: there must be no additional commas except those separating the 4 fields.
 *   Click on the "Commit changes" or "Propose changes" button at the bottom of the page.
@@ -495,7 +445,7 @@ Let's fork the repository on github, then clone our fork locally (remember to us
 
 ```sh
 
-git clone https://github.com/username/covid19italia.git
+git clone https://github.com/username/europehelp.info.git
 
 ```
 
@@ -519,7 +469,7 @@ bundle install --path vendor/bundle
 
 Let's get the site up and running!
 
-Let's execute, always in the folder `covid19italia`:
+Let's execute, always in the folder `europehelp.info`:
 
 ```sh
 
