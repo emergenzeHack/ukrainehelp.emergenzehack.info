@@ -1,8 +1,8 @@
 ---
 lang: it
 layout: issuelist_new
-title: "Emergenza coronavirus: tutte le segnalazioni"
-subtitle: Scopri tutte le segnalazioni fatte sulla piattaforma Covid19Italia.Help
+title: "Tutte le segnalazioni"
+subtitle: Scopri tutte le segnalazioni fatte sulla piattaforma
 permalink: /issues_new/
 categorieMapAll: true
 justLatestIssues: true

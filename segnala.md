@@ -1,8 +1,8 @@
 ---
 lang: it
 layout: page
-title: "Emergenza coronavirus chiedi aiuto, segnala iniziative, notizie, dati"
-subtitle: Chiedi aiuto o segnala iniziative su Covid19Italia.Help
+title: "Emergenza chiedi aiuto, segnala iniziative, notizie, dati"
+subtitle: Chiedi aiuto o segnala iniziative
 permalink: /segnala/
 ---
 

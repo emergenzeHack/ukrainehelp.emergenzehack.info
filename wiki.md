@@ -5,7 +5,7 @@ permalink: /wiki/
 lang: it
 ---
 
-Benvenuto nel wiki di Covid19Italia, una community basata sui *social media*, nata per condividere informazioni utili e verificate sul corona virus in Italia.
+Benvenuto nel wiki del nostro progetto, una community basata sui *social media*, nata per condividere informazioni utili e verificate sul corona virus in Italia.
 
 Il progetto è completamente aperto e chiunque può dare il suo contributo seguendo queste linea guida.
 
@@ -14,25 +14,24 @@ Il progetto è completamente aperto e chiunque può dare il suo contributo segue
 Il nostro sito è creato con [Github](http://www.github.com).
 
 ## Contribuisci
-Per essere aggiunto alla lista degli sviluppatori del repository apri un issue [qui](https://github.com/emergenzehack/covid19italia/issues/new?title=%5Brichiesta%20iscrizione%5D) ed unisciti a [questo canale Slack](https://join.slack.com/t/covid19peoplehelp/shared_invite/zt-dbg7ctmp-ta7ZYJN5Lvvse1w0eCymMQ) per discutere con noi.
+Per essere aggiunto alla lista degli sviluppatori del repository apri un issue [qui](https://github.com/emergenzehack/europehelp.info/issues/new?title=%5Brichiesta%20iscrizione%5D).
 
 ##  Aiutaci a migliorare
 
-*Covid19Italia è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/covid19italia/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
+*Covid19Italia è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/europehelp.info/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
 
 
 I repository Github che usiamo sono
-* [QUESTO](https://github.com/emergenzeHack/covid19italia) per lo sviluppo del sito web
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_segnalazioni) per la raccolta e la moderazione delle segnalazioni
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_data) per l'archiviazione dei dati aperti da noi prodotti
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_form) per lo sviluppo del form di inserimento segnalazioni
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_app) per lo sviluppo di una APP mobile
+* [QUESTO](https://github.com/emergenzeHack/europehelp.info) per lo sviluppo del sito web
+* [QUESTO](https://github.com/emergenzeHack/europehelp.info_segnalazioni) per la raccolta e la moderazione delle segnalazioni
+* [QUESTO](https://github.com/emergenzeHack/europehelp.info_data) per l'archiviazione dei dati aperti da noi prodotti
+
 
 
 Grazie, aspettiamo il tuo aiuto!
 
 ## Riuso
-Covid19Italia è un progetto opensource composto da varie applicazioni integrate. Questo WIKI consente di capire come è strutturato il progetto e come poterlo riusare. TerremotoCentroItalia è concesso con licenza Creative Commons Attribuzione 3.0 (CC BY) il cui testo è disponibile [a questo indirizzo](https://creativecommons.org/licenses/by/3.0/it/). Ove non diversamente specificato (ad esempio nei repository del codice sorgente) ti chiediamo se riusi parte del nostro progetto di rispettare i criteri di questa licenza.
+Questo è un progetto opensource composto da varie applicazioni integrate. Questo WIKI consente di capire come è strutturato il progetto e come poterlo riusare. TerremotoCentroItalia è concesso con licenza Creative Commons Attribuzione 3.0 (CC BY) il cui testo è disponibile [a questo indirizzo](https://creativecommons.org/licenses/by/3.0/it/). Ove non diversamente specificato (ad esempio nei repository del codice sorgente) ti chiediamo se riusi parte del nostro progetto di rispettare i criteri di questa licenza.
 
 
 <!-- commento per innescare la GitHub Action "gollum" -->
@@ -280,9 +279,9 @@ L\'altro
 
 2. Il titolo dell'Issue diventa il titolo della segnalazione sul sito frontale.
 
-3. Le modifiche (inclusa la pubblicazione/depubblicazione) appaiono sul sito finale dopo massimo 15 minuti. Usate <kbd>CTRL</kbd>+<kbd>F5</kbd> oppure la modalità navigazione in anonimo se non vedete cambiamenti. Se dopo queste operazioni ancora le cose non vi tornano procedente ad aprire Issue riportando il problema. Le Issue sui moduli (campi, struttura, dati mancanti) vanno aperte su [covid19italia_forms](https://github.com/emergenzeHack/covid19italia_form/issues).
+3. Le modifiche (inclusa la pubblicazione/depubblicazione) appaiono sul sito finale dopo massimo 15 minuti. Usate <kbd>CTRL</kbd>+<kbd>F5</kbd> oppure la modalità navigazione in anonimo se non vedete cambiamenti. 
 
-4. Se avete bisogno di cambiare le Label che vengono preassegnate alle Issue (quelle che vedete già assegnate automaticamente) segnalatecelo [qui](https://github.com/emergenzeHack/covid19italia_form/issues/new)
+4. Se avete bisogno di cambiare le Label che vengono preassegnate alle Issue (quelle che vedete già assegnate automaticamente) segnalatecelo [qui](https://github.com/emergenzeHack/europehelp.info/issues/new)
 
 5. Non rimuovete la Label "form", ci aiuta ad investigare l'origine delle segnalazioni.
 
@@ -290,7 +289,7 @@ L\'altro
 
 Ci sono alcune issue che hanno un campo "Posizione", come [questa](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/332)
 
-E finiscono nella mappa che c'è [qui](https://www.covid19italia.help/issues/)
+E finiscono nella mappa che c'è [qui](https://www.europehelp.info/issues/)
 
 ## Verificare geolocalizzazione
 
@@ -305,7 +304,7 @@ Quindi, le issue segnalate con la label <kbd>Posizione mancante</kbd> hanno biso
 
 ### Come trovare le coordinate di un luogo?
 
-Prendiamo ad esempio [questa](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/334) segnalazione su Milano) 
+Prendiamo ad esempio [questa](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues/) segnalazione su Milano) 
 
 Si può usare questo sito: [Nominatim](https://nominatim.openstreetmap.org/).
 
@@ -378,10 +377,6 @@ Titolo: Serve aiuto?
 
 ## Politiche
 
-Queste sono alcune delle politiche, linee guida e regole su cui è stato deciso:
-
-1. Non accettiamo segnalazioni riguardo ricerca scientifica (https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/315#issuecomment-598456738)
-2. Se alcuni campi sembrano invalidi, provare a correggerli o cercare maggiori informazioni su Google a partire dal titolo, NON chiudere immediatamente la Issue se non va il link o problemi analoghi.
 
 Per discutere o fornire feedback, aprite un Issue
 
@@ -397,7 +392,7 @@ TCI (terremotocentroitalia.info) è un sito "dinamico" basato su:
 
 ## Backend
 
-Il backend è direttamente rappresentato da un repo github del quale viene utilizzata solo la parte di segnalazioni (lo potete vedere qui https://github.com/emergenzeHack/terremotocentro_segnalazioni/issues).
+Il backend è direttamente rappresentato da un repo github del quale viene utilizzata solo la parte di segnalazioni (lo potete vedere qui https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues).
 
 Pro:
 * il sistema è robusto, funzionale, gestito da altri
@@ -411,7 +406,7 @@ Contro:
 
 ### Script di conversione
 
-Ogni 5 minuti, uno script (https://github.com/emergenzeHack/covid19italia/blob/master/scripts/csvupdate.sh):
+Ogni 5 minuti, uno script (https://github.com/emergenzeHack/europehelp.info/blob/master/scripts/csvupdate.sh):
 * scarica tutte le segnalazioni da github
 * decodifica lo YAML
 * crea un array JSON che contiene le segnalazioni e lo YAML convertito in JSON
@@ -462,9 +457,9 @@ Facile no?
 
 # Come si inserisce un elemento in Press
 
-Per inserire un elemento nella tabella [PRESS](https://www.covid19italia.help/about/#press) procedere come segue:
+Per inserire un elemento nella tabella [PRESS](https://www.europehelp.info/about/#press) procedere come segue:
 
-* Andare su [questo file](https://github.com/emergenzeHack/covid19italia_data/blob/master/press.csv) dei PRESS
+* Andare su [questo file](https://github.com/emergenzeHack/europehelp.info_data/blob/master/press.csv) dei PRESS
 * Cliccare sull'icona matita per editare il file su Github
 ![cliccare l'icona per modificare il file PRESS](https://d186loudes4jlv.cloudfront.net/git/images/github_my_first_repo_readme.png)
 * Aggiungere una riga al file ed inserire in sequenza data,fonte,titolo,link separati da virgola. Nota: non devono esserci virgole ulteriori eccetto quelle che separano i 4 campi.
@@ -517,16 +512,16 @@ Su Ubuntu:
 sudo apt install build-essential git ruby-full ruby-bundler zlib1g-dev
 ```
 
-Facciamo su github il *fork* del repository, poi cloniamo il nostro fork in locale: `git clone https://github.com/nomeutente/covid19italia.git` (ricordati di sostituire il tuo vero nome utente)
+Facciamo su github il *fork* del repository, poi cloniamo il nostro fork in locale: `git clone https://github.com/nomeutente/europehelp.info.git` (ricordati di sostituire il tuo vero nome utente)
 
-Se si lavora sui dati (_data/) bisognerà forkare e lavorare su covid19italia_data invece che su covid19italia.
+Se si lavora sui dati (_data/) bisognerà forkare e lavorare su europehelp.info_data invece che su europehelp.info.
 
-Portiamoci all'interno della nuova cartella: `cd covid19italia`
+Portiamoci all'interno della nuova cartella: `cd europehelp.info`
 
 Installiamo tutte le dipendenze del progetto: `bundle install --path vendor/bundle`
 
 ## Facciamo partire il sito!
-Eseguiamo, sempre nella cartella covid19italia, `bundle exec jekyll serve`
+Eseguiamo, sempre nella cartella europehelp.info, `bundle exec jekyll serve`
 
 Il programma stamperà a video l'indirizzo da aprire nel browser, che sarà del tipo http://127.0.0.1:4000/.
 
