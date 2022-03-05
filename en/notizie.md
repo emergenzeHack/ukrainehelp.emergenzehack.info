@@ -21,5 +21,5 @@ permalink: /en/notizie-utili/
 </dl>
 {% include social-share-issue.html %}
 </div>
-{% endfor %}
 </div>
+{% endfor %}
