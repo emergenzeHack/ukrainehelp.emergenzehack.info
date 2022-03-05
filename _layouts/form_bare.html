@@ -1,0 +1,16 @@
+---
+layout: bare
+lang: en
+---
+
+<div id="formio"></div>
+
+<script>
+Formio.icons = 'fontawesome';
+    Formio.createForm(document.getElementById('formio'), {{content}}).then(function(form) {
+  form.on('submit', function(submission) {
+    console.log(submission);
+  });
+});
+</script>
+

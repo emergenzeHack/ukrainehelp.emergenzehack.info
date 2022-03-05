@@ -1,9 +1,5 @@
----
-layout: form_bare
-lang: en
----
-
 {
+
 components: [
 
  {
@@ -623,4 +619,5 @@ conditional: {
     ],
     display: "form",
     page: 0
+
 }
