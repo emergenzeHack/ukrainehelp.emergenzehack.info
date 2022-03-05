@@ -8,7 +8,7 @@ lang: it
   
 ## Il Progetto
 
-Questo è un progetto no profit, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate sull'emergenza Coronavirus scoppiata in Italia nel 2020.
+Questo è un progetto no profit, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate sull'emergenza.
 
 Lo scopo è quello di verificare, aggregare ed etichettare segnalazioni di varia natura, al fine di mettere in contatto richieste di aiuto e offerte di beni e servizi.
 
