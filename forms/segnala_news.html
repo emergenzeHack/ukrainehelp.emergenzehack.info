@@ -1,0 +1,273 @@
+---
+layout: form_bare
+lang: en
+---
+{
+    -components: [
+    - {
+    autofocus: false,
+    input: true,
+    tableView: true,
+    inputType: "text",
+    inputMask: "",
+    label: "Title",
+    key: "title",
+    placeholder: "",
+    prefix: "",
+    suffix: "",
+    multiple: false,
+    defaultValue: "",
+    protected: false,
+    unique: false,
+    persistent: true,
+    hidden: false,
+    clearOnHide: true,
+    spellcheck: true,
+    -validate: {
+    required: true,
+    minLength: "",
+    maxLength: "",
+    pattern: "",
+    custom: "",
+    customPrivate: false
+            },
+    -conditional: {
+    show: "",
+    when: null,
+    eq: ""
+            },
+    type: "textfield",
+    $$hashKey: "object:275",
+    labelPosition: "top",
+    inputFormat: "plain",
+    -tags: [],
+    -properties: {},
+    tooltip: "title of the news"
+        },
+    - {
+    autofocus: false,
+    input: true,
+    tableView: true,
+    label: "Description",
+    key: "description",
+    placeholder: "",
+    prefix: "",
+    suffix: "",
+    rows: 3,
+    multiple: false,
+    defaultValue: "",
+    protected: false,
+    persistent: true,
+    hidden: false,
+    wysiwyg: false,
+    clearOnHide: true,
+    spellcheck: true,
+    -validate: {
+    required: false,
+    minLength: "",
+    maxLength: "",
+    pattern: "",
+    custom: ""
+            },
+    type: "textarea",
+    $$hashKey: "object:437",
+    labelPosition: "top",
+    inputFormat: "plain",
+    -tags: [],
+    -conditional: {
+    show: "",
+    when: null,
+    eq: ""
+            },
+    -properties: {}
+        },
+    - {
+    autofocus: false,
+    input: true,
+    tableView: true,
+    inputType: "text",
+    inputMask: "",
+    label: "Link",
+    key: "link",
+    placeholder: "",
+    prefix: "",
+    suffix: "",
+    multiple: false,
+    defaultValue: "",
+    protected: false,
+    unique: false,
+    persistent: true,
+    hidden: false,
+    clearOnHide: true,
+    spellcheck: true,
+    -validate: {
+    required: false,
+    minLength: "",
+    maxLength: "",
+    pattern: "",
+    custom: "",
+    customPrivate: false
+            },
+    -conditional: {
+    show: "",
+    when: null,
+    eq: ""
+            },
+    type: "textfield",
+    $$hashKey: "object:738",
+    labelPosition: "top",
+    inputFormat: "plain",
+    -tags: [],
+    -properties: {}
+        },
+    - {
+    label: "Location",
+    tableView: false,
+    provider: "nominatim",
+    key: "address",
+    type: "address",
+    -providerOptions: {
+    -params: {
+    -autocompleteOptions: {}
+                }
+            },
+    input: true,
+    -components: [
+    - {
+    label: "Address 1",
+    tableView: false,
+    key: "address1",
+    type: "textfield",
+    input: true,
+    customConditional: "show = _.get(instance, 'parent.manualMode', false);"
+                },
+    - {
+    label: "Address 2",
+    tableView: false,
+    key: "address2",
+    type: "textfield",
+    input: true,
+    customConditional: "show = _.get(instance, 'parent.manualMode', false);"
+                },
+    - {
+    label: "City",
+    tableView: false,
+    key: "city",
+    type: "textfield",
+    input: true,
+    customConditional: "show = _.get(instance, 'parent.manualMode', false);"
+                },
+    - {
+    label: "State",
+    tableView: false,
+    key: "state",
+    type: "textfield",
+    input: true,
+    customConditional: "show = _.get(instance, 'parent.manualMode', false);"
+                },
+    - {
+    label: "Country",
+    tableView: false,
+    key: "country",
+    type: "textfield",
+    input: true,
+    customConditional: "show = _.get(instance, 'parent.manualMode', false);"
+                },
+    - {
+    label: "Zip Code",
+    tableView: false,
+    key: "zip",
+    type: "textfield",
+    input: true,
+    customConditional: "show = _.get(instance, 'parent.manualMode', false);"
+                }
+            ],
+    autofocus: false,
+    placeholder: "",
+    multiple: false,
+    protected: false,
+    clearOnHide: true,
+    unique: false,
+    persistent: true,
+    hidden: false,
+    -map: {
+    region: "",
+    key: ""
+            },
+    -validate: {
+    required: false
+            },
+    labelPosition: "top",
+    -tags: [],
+    -conditional: {
+    show: "",
+    when: null,
+    eq: ""
+            },
+    -properties: {},
+    $$hashKey: "object:1110"
+        },
+    - {
+    autofocus: false,
+    input: true,
+    inputType: "checkbox",
+    tableView: true,
+    label: "I confirm to have read informative to threat personal data",
+    dataGridLabel: false,
+    key: "iconfirmtohavereadinformativetothreatpersonaldata",
+    defaultValue: false,
+    protected: false,
+    persistent: true,
+    hidden: false,
+    name: "",
+    value: "",
+    clearOnHide: true,
+    -validate: {
+    required: true
+            },
+    type: "checkbox",
+    labelPosition: "right",
+    $$hashKey: "object:922",
+    hideLabel: false,
+    -tags: [],
+    -conditional: {
+    show: "",
+    when: null,
+    eq: ""
+            },
+    -properties: {}
+        },
+    - {
+    autofocus: false,
+    input: true,
+    label: "Submit",
+    tableView: false,
+    key: "submit",
+    size: "md",
+    leftIcon: "",
+    rightIcon: "",
+    block: false,
+    action: "url",
+    disableOnInvalid: false,
+    theme: "primary",
+    type: "button",
+    $$hashKey: "object:1166",
+    -tags: [],
+    -conditional: {
+    show: "",
+    when: null,
+    eq: ""
+            },
+    -properties: {},
+    -headers: [
+    - {
+    value: "news",
+    header: "label"
+                }
+            ],
+    url: "https://95.217.214.175:5000/report"
+        }
+    ],
+    display: "form",
+    page: 0
+}
