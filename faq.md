@@ -88,27 +88,24 @@ Se hai un profilo **Facebook**:
 
 Usi **Twitter**? 
 
-Twitter è un ottimo strumento per raccogliere e diffondere segnalazioni. Puoi parlare di @ItaliaCovid19 e ritwittare le segnalazioni. 
+Twitter è un ottimo strumento per raccogliere e diffondere segnalazioni. Puoi parlare di noi e ritwittare le segnalazioni. 
 
 Sei su **Telegram**? 
 
-Segui @COVID19I, è un canale su cui troverai le principali segnalazioni che riceviamo e tutte le informazioni necessarie per supportare il progetto. 
+Segui il nostro canale o gruppo telegram, è un canale su cui troverai le principali segnalazioni che riceviamo e tutte le informazioni necessarie per supportare il progetto. 
 
-## Vorrei fare di più. Come posso dare una mano operativamente al team di COVID19Italia? 
+## Vorrei fare di più. Come posso dare una mano operativamente al team? 
 
-Grandioso! Alla pagina [Contribuisci](https://covid19italia.help/contribuisci/) trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
+Grandioso! Alla pagina [Contribuisci](https://europehelp.info/contribuisci/) trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
 
-## Posso sapere qualcosa in più su chi fa Covid19.help?
+## Posso sapere qualcosa in più su di voi?
 
 Grazie per averlo chiesto! Ci fa piacere poterci presentare. Nel backstage di progetti come questo, a lavorare dietro le quinte, ci sono volontarie e volontari. Persone, insomma, con un volto, nomi, competenze, passioni e voglia di mettere un po’ del loro tempo (a volte proprio tanto tempo!) e delle loro capacità per fare qualcosa di utile.
-L’esperienza di Covid19.help, in particolare, deriva, fra l’altro, da un progetto analogo che seguiva informazioni, iniziative, notizie legate al terremoto in centro Italia del 2016. Lo puoi vedere qui: https://terremotocentroitalia.info/
+L’esperienza di questo progetto, in particolare, deriva, fra l’altro, da un progetto analogo che seguiva informazioni, iniziative, notizie legate al terremoto in centro Italia del 2016. Lo puoi vedere qui: https://terremotocentroitalia.info/
 
-Come successo con terremotocentroitalia anche Covid19.help è sostenuta da ActionAid Italia tramite il lavoro del suo staff, di attiviste e attivisti e partner di progetti sul territorio nazionale. 
-
-Poi di solito – e sta succedendo anche questa volta – si aggregano persone che hanno altre esperienze e competenze.
 Il gruppo di lavoro eredita quel che c’era a disposizione nel passato (ad esempio: il codice, le procedure per organizzarsi, la metodologia di sviluppo e di comunicazione) ed elabora altre idee. Il risultato è quello che vedi: il lavoro di un’intelligenza collettiva, che se vuoi puoi chiamare anche civic hacking.
 
-I nomi di chi partecipa li trovi qui: https://www.covid19italia.info/about/ (è una pagina in continuo aggiornamento). 
+I nomi di chi partecipa li trovi qui: https://www.europehelp.info/about/ (è una pagina in continuo aggiornamento). 
 
 ## Bello! Mi dite qualcosa in più sul civic hacking, sul metodo, sull’approccio?
 
@@ -120,7 +117,7 @@ L’approccio che si applica a un progetto come questo si chiama **AGOPENDI**: *
 
 - **Aggrega** i contenuti. I contenuti non sono strutturati e provengono da varie fonti (social media, mail, contatti etc…). La piattaforma li aggrega tramite un gran lavoro manuale di moderazione e di strutturazione in modo tale da dare loro una struttura “standard” e farne dei dati effettivamente riusabili.
 - **Apre** i dati. Tutti i dati ricavati sono publici e accessibili con licenze libere. Dovendo aggregare e strutturare, aprire i dati consente sviluppo di ulteriore informazione e servizio. E’ valore che si libera in modo piuttosto agevole. 
-- **Distrubuisce** le informazioni. Ciò che è dato aperto può essere facilmente reso una nuova informazioni utile. Come? Con un servizio. Quale? Si può dare libero sfogo alla fantasia ma sempre senza esagerare e cercando strumenti utilizzati o comunque semplicemente divulgabili. Per esempio, Covid19Italia.help ha un sito, un profilo Twitter, una pagina Facebook, un gruppo Facebook, Instagram, un canale Telegram da cui chiunque può ricondividere le singole segnalazioni.
+- **Distrubuisce** le informazioni. Ciò che è dato aperto può essere facilmente reso una nuova informazioni utile. Come? Con un servizio. Quale? Si può dare libero sfogo alla fantasia ma sempre senza esagerare e cercando strumenti utilizzati o comunque semplicemente divulgabili. Per esempio, questo progetto ha un sito, un profilo Twitter, una pagina Facebook, un gruppo Facebook, un canale Telegram da cui chiunque può ricondividere le singole segnalazioni.
 
 Tutto questo può essere riutilizzato in futuro e migliorato.
 
