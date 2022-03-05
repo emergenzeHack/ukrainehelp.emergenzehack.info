@@ -1,8 +1,8 @@
 ---
 lang: it
 layout: page
-title: Domande Frequenti su civic hacking per emergenza coronavirus
-subtitle: Come funziona la risposta partecipata di Covid19Italia.Help all'emergenza coronavirus?
+title: Domande Frequenti su civic hacking per emergenza 
+subtitle: Come funziona la risposta partecipata in emergenza?
 permalink: /faq/
 ---
 
@@ -10,7 +10,7 @@ permalink: /faq/
 
 Probabilmente è più facile provare a usarlo che spiegarlo!
 
-Comunque, prima di tutto Covid19Italia.help è un posto utile a tutte le persone interessate dall’emergenza Coronavirus e che vogliono attivarsi per dare una mano.
+Comunque, prima di tutto Covid19Italia.help è un posto utile a tutte le persone interessate dall’emergenza e che vogliono attivarsi per dare una mano.
 
 È un servizio informazioni su quello che è importante sapere in questi giorni.
 
@@ -21,11 +21,11 @@ Comunque, prima di tutto Covid19Italia.help è un posto utile a tutte le persone
 
 ## A chi serve?
 
-A tutte le persone coinvolte dall’emergenza Coronavirus, che vogliono informazioni sulle iniziative, sulle fonti ufficiali da consultare, su notizie verificate, sulle raccolte fondi e molto altro. Quindi, probabilmente, anche a te.
+A tutte le persone coinvolte dall’emergenza, che vogliono informazioni sulle iniziative, sulle fonti ufficiali da consultare, su notizie verificate, sulle raccolte fondi e molto altro. Quindi, probabilmente, anche a te.
 
 ## Cosa si può fare?
 
-Su Covid19Italia.help puoi:
+Qui puoi:
 
 - Sentirti parte di una comunità;
 - Aiutare, collaborare, renderti utile alla comunità;
@@ -35,7 +35,7 @@ Su Covid19Italia.help puoi:
 
 ## Perchè?
 
-In un momento di emergenza siamo tutti disorientati. Spesso è difficile trovare le informazioni utili e più rilevanti. Ci sono così tante iniziative a supporto delle persone che si rischia di perdersi nel marasma delle informazioni. Si rischia anche di disperdere di valore di queste iniziative. Covid19Italia.help le aggrega, verifica e le rende facilmente consultabili, dividendole per tipo e per posizione geografica.
+In un momento di emergenza siamo tutti disorientati. Spesso è difficile trovare le informazioni utili e più rilevanti. Ci sono così tante iniziative a supporto delle persone che si rischia di perdersi nel marasma delle informazioni. Si rischia anche di disperdere di valore di queste iniziative. Il nostro progetto le aggrega, verifica e le rende facilmente consultabili, dividendole per tipo e per posizione geografica.
 
 La cosa più bella è che anche tu puoi collaborare in prima persona, con le tue segnalazioni.
 
@@ -67,12 +67,12 @@ Per questo è importante mettere in rete la conoscenza. L’informazione è un b
 
 Eccoti le istruzioni, passo dopo passo:
 
-1. Accedi alla pagina delle segnalazioni: [covid19italia.help/segnala/](https://covid19italia.help/segnala/);
+1. Accedi alla pagina delle segnalazioni: [europehelp.info/segnala/](https://europehelp.info/segnala/);
 2. Scegli a che categoria appartiene la tua segnalazione;
 3. Compila il form con i dati richiesti;
 4. La tua segnalazione è stata fatta!
 5. Un team di volontari se ne farà carico per verificarla e pubblicarla. A quel punto sarà nell’archivio e sulla mappa;
-6. Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra questi qui: [covid19italia.info/canali/](https://covid19italia.help/canali/)
+6. Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra questi qui: [europehelp.info/canali/](https://europehelp.info/canali/)
 
 ## Come posso rendermi utile utilizzando i miei social?
 
@@ -82,15 +82,9 @@ Parla del progetto. In questo [post](2020-03-11-come-postare-sui-social/) spiegh
 
 Se hai un profilo **Facebook**:
 
-1. Condividi la pagina di Covid19 (la trovi qui: https://www.facebook.com/covid19italia.help/ ) e invita i tuoi contatti a mettere like 
-2. Iscriviti al gruppo e segnalaci le iniziative che ritieni più utili (https://www.facebook.com/groups/covid19italia/?source_id=105297061095370 )
-3. Se fai parte di gruppi o community: condividi e spiega il progetto di COVID19Italia.help. Più siamo più le informazioni circolano.  
+1. Iscriviti al gruppo e segnalaci le iniziative che ritieni più utili (https://www.facebook.com/groups/ukraineinfo.help/)
+2. Se fai parte di gruppi o community: condividi e spiega il progetto di europehelp.info. Più siamo più le informazioni circolano.  
 
-Se hai un profilo **Instagram**:
-
-1. Condividi il profilo @covid19italia.help 
-2. Parla nelle tue Stories di @covid19italia.help e usa l’hashtag #Covid19Italia
-3. Sei in contatto con influencer o microinfluencer che ritieni possano essere interessati al progetto? Parlagliene e condividi con loro il cuore e la missione di COVID19Italia.help 
 
 Usi **Twitter**? 
 
