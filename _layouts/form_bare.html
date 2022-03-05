@@ -7,10 +7,29 @@ lang: en
 
 <script>
 Formio.icons = 'fontawesome';
-    Formio.createForm(document.getElementById('formio'), {{content}}).then(function(form) {
-  form.on('submit', function(submission) {
-    console.log(submission);
+    Formio.createForm(document.getElementById('formio'), {{content}})
+  .then(function(form) {
+    // Prevent the submission from going to the form.io server.
+    form.nosubmit = true;
+
+    // Triggered when they click the submit button.
+    form.on('submit', function(submission) {
+      console.log(submission);
+      alert('Submission sent to custom endpoint. See developer console.');
+      return Formio.fetch('http://europehelp.info:5000/report', {
+          body: JSON.stringify(submission),
+          headers: {
+            'content-type': 'application/json'
+          },
+          method: 'POST',
+          mode: 'cors',
+        })
+        .then(function(response) {
+          form.emit('submitDone', submission)
+          response.json()
+        })
+    });
   });
-});
+    
 </script>
 
