@@ -1,7 +1,7 @@
 ---
 lang: it
 layout: page
-title: Rassegna stampa emergenza coronavirus
+title: Rassegna stampa emergenza
 subtitle: Tutte le pubblicazioni che parlano di noi
 permalink: /press/
 ---
