@@ -26,7 +26,6 @@ languages:
       RECOMMEND: "en/recommend/"
       DISCOVER:
         - INITIATIVES : "issues/"
-        - INITIATIVES FOR REGION : "issues/regione/"
       FOLLOW:
         - NEWS: "notizie-utili/"
         - CONTACTS: "en/channels/"
