@@ -1,0 +1,50 @@
+---
+layout: base
+lang: en
+---
+{% include header.html type="page" %}
+
+<div class="container-fluid" role="main">
+
+  <div id="formio"></div>
+
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+      {{ content }}
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+    </div>
+  </div>
+</div>
+
+
+<script>
+Formio.icons = 'fontawesome';
+    Formio.createForm(document.getElementById('formio'), {{content}})
+  .then(function(form) {
+    // Prevent the submission from going to the form.io server.
+    form.nosubmit = true;
+
+    // Triggered when they click the submit button.
+    form.on('submit', function(submission) {
+      console.log(submission);
+      return Formio.fetch('https://www.europehelp.info:5000/report', {
+          body: JSON.stringify(submission),
+          headers: {
+            'content-type': 'application/json'
+          },
+          method: 'POST',
+          mode: 'cors',
+        })
+        .then(function(response) {
+          form.emit('submitDone', submission)
+          response.json()
+        })
+    });
+  });
+    
+</script>
+
