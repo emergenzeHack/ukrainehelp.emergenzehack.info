@@ -7,7 +7,7 @@ permalink: /en/recommend/
 ---
 
 <div class="offset-md-3 col-md-6">
-  <a class="btn btn-success btn-lg btn-block btn-form" href="/segnala/en/chiedi-aiuto">Ask for help</a>
+  <a class="btn btn-success btn-lg btn-block btn-form" href="/forms/en/segnala_help_page">Ask for help</a>
   <a class="btn btn-success btn-lg btn-block btn-form" href="/segnala/dona-beni-servizi">Donate goods or services</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/segnala/iniziative-servizi">Recommend Initiatives and Services</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/forms/segnala_fund_page">Recommend Fundraising</a>
