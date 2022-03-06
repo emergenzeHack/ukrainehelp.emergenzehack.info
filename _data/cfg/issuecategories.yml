@@ -75,54 +75,54 @@ migrants and refugees:
   labelnames: 
     - migrants
   permalink: /migranti-rifugiati/
-  markericon: hands
+  markericon: hospital-o
   markercolor: indigo
 women:
   displayname: Support to women
   labelnames: 
     - supportToWomen
   permalink: /supportToWomen/
-  markericon: hands
+  markericon: female
   markercolor: indigo
 disability services:
   displayname: Support to disabilities
   labelnames: 
     - disabilityServices
   permalink: /disabilityServices/
-  markericon: hands
-  markercolor: indigo
+  markericon: wheelchair
+  markercolor: grey
 translations:
   displayname: Translations
   labelnames: 
     - translation
   permalink: /translation/
-  markericon: hands
-  markercolor: indigo
+  markericon: language
+  markercolor: black
 legal:
   displayname: Legal Support
   labelnames: 
     - legal
   permalink: /legal/
-  markericon: hands
+  markericon: book
   markercolor: indigo
 healthcare:
   displayname: healthcare
   labelnames: 
     - healthcare
   permalink: /healthcare/
-  markericon: hands
-  markercolor: indigo
+  markericon: ambulance
+  markercolor: brown
 travelTransport:
   displayname: Travel and Transport
   labelnames: 
     - travelTransport
   permalink: /travelTransport/
-  markericon: hands
-  markercolor: indigo
+  markericon: car
+  markercolor: red
 hospitality:
   displayname: Hospitality
   labelnames: 
     - hospitality
   permalink: /hospitality/
-  markericon: hands
-  markercolor: indigo
+  markericon: bed
+  markercolor: blue
