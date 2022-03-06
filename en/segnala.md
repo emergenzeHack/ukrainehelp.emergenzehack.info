@@ -10,7 +10,7 @@ permalink: /en/recommend/
   <a class="btn btn-success btn-lg btn-block btn-form" href="/segnala/en/chiedi-aiuto">Ask for help</a>
   <a class="btn btn-success btn-lg btn-block btn-form" href="/segnala/dona-beni-servizi">Donate goods or services</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/segnala/iniziative-servizi">Recommend Initiatives and Services</a>
-  <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/segnala/raccolta-fondi">Recommend Fundraising</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/forms/segnala_fund_page">Recommend Fundraising</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/segnala/contatto-utile">Add Helpful Contact</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_fakenews_page">Upload Fake News</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/segnala/documenti-dati">Upload Documents/Data</a>
