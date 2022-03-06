@@ -1,0 +1,140 @@
+---
+layout: form_page
+title: Useful Contacts
+lang: en
+---
+{
+
+    "components": [
+    {
+        "label": "Name",
+        "tableView": true,
+        "validate": {
+            "required": true
+        },
+        "key": "name",
+        "type": "textfield",
+        "input": true
+    },
+    {
+        "label": "Phone Number",
+        "tableView": true,
+        "key": "phoneNumber",
+        "type": "phoneNumber",
+        "input": true
+    },
+    {
+        "label": "Email",
+        "tableView": true,
+        "key": "email",
+        "type": "email",
+        "input": true
+    },
+    {
+        "label": "Aim",
+        "placeholder": "for what can be useful?",
+        "autoExpand": false,
+        "tableView": true,
+        "key": "aim",
+        "type": "textarea",
+        "input": true
+    },
+    {
+        "label": "Url",
+        "tableView": true,
+        "key": "url",
+        "type": "url",
+        "input": true
+    },
+    {
+        "label": "Address",
+        "enableManualMode": true,
+        "tableView": false,
+        "provider": "nominatim",
+        "key": "address",
+        "type": "address",
+        "providerOptions": {
+            "params": {
+                "autocompleteOptions": {}
+            }
+        },
+        "input": true,
+        "components": [
+            {
+                "label": "Address 1",
+                "tableView": false,
+                "key": "address1",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "Address 2",
+                "tableView": false,
+                "key": "address2",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "City",
+                "tableView": false,
+                "key": "city",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "State",
+                "tableView": false,
+                "key": "state",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "Country",
+                "tableView": false,
+                "key": "country",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "Zip Code",
+                "tableView": false,
+                "key": "zip",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            }
+        ]
+    },
+    {
+        "label": "I confirm to have read and accepted informative to threat personal data",
+        "tableView": false,
+        "key": "iConfirmToHaveReadAndAcceptedInformativeToThreatPersonalData",
+        "type": "checkbox",
+        "input": true,
+        "defaultValue": false
+    },
+    {
+        "label": "Label",
+        "hidden": true,
+        "tableView": true,
+        "clearOnHide": false,
+        "key": "label",
+        "type": "textfield",
+        "input": true,
+        "defaultValue": "contact"
+    },
+    {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+    }
+]
+}
