@@ -6,32 +6,15 @@ subtitle: Chiedi aiuto o segnala iniziative
 permalink: /segnala/
 ---
 
-<div class="offset-md-1 col-md-10">
-  <a class="btn btn-success btn-block btn-form" href="/segnala/chiedi-aiuto">Chiedi aiuto</a>
-  <a class="btn btn-success btn-block btn-form" href="/segnala/dona-beni-servizi">Dona beni o servizi</a>
-
-  <br>
-  
-  <a class="btn btn-outline-dark btn-block btn-form " href="/segnala/consegna-domicilio">Segnala Consegna a domicilio</a>
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/iniziative-servizi">
-    Segnala Iniziative e Servizi<br>
-    <small>Supporto Lavoro/Imprese, Iniziative culturali, ricreative e solidali</small>
-  </a>
-
-  <a class="btn btn-outline-dark btn-block btn-form " href="/segnala/raccolta-fondi">Segnala Raccolta Fondi</a>
-  <!--<a class="btn btn-outline-dark btn-block btn-form" href="/segnala/contatto-utile">Segnala Contatto utile</a>-->
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/bufala">Segnala Bufala</a>
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/documenti-dati">Segnala Documenti/Dati</a>
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/notizia">Segnala Notizia</a>
+<div class="offset-md-3 col-md-6">
+  <a class="btn btn-success btn-lg btn-block btn-form" href="/forms/segnala_help_page">Chiedi Aiuto</a>
+  <a class="btn btn-success btn-lg btn-block btn-form" href="/segnala/dona-beni-servizi">Dona beni o servizi</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/segnala/iniziative-servizi">Segnala Iniziative</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/forms/segnala_fund_page">Segnala raccolta fondi</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_contact_page">Segnala Contatto Utile</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_fakenews_page">Segnala Bufala</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_document_data_page">Segnala Documento o Dati</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_news_page">Segnala Notizia</a>
 </div>
 
-<br><br>
-
-Per inserire i form sul tuo sito o pagina web puoi usare questo frammento di codice HTML:
-
-<pre><code>
-&lt;iframe src="https://covid19italia.help/segnala-base/" frameborder="0"&gt;
-&lt;a href="https://covid19italia.help/segnala-base/"&gt;Segnalazioni Covid19Italia.help&lt;/a&gt;
-&lt;/iframe&gt;
-</code></pre>
 
