@@ -85,7 +85,7 @@ women:
   markericon: hands
   markercolor: indigo
 disability services:
-  displayname: Suppurt to disabilities
+  displayname: Support to disabilities
   labelnames: 
     - disabilityServices
   permalink: /disabilityServices/
@@ -113,14 +113,14 @@ healthcare:
   markericon: hands
   markercolor: indigo
 travelTransport:
-  displayname: travel and transport
+  displayname: Travel and Transport
   labelnames: 
     - travelTransport
   permalink: /travelTransport/
   markericon: hands
   markercolor: indigo
 hospitality:
-  displayname: hospitality
+  displayname: Hospitality
   labelnames: 
     - hospitality
   permalink: /hospitality/
