@@ -52,6 +52,6 @@ Be part of our community on [Github Issues](https://github.com/emergenzeHack/eur
 - [Glyphicons](http://glyphicons.com)
 - [Jekyll](https://jekyllrb.com/)
 - [Github](http://www.github.com)
-- [Kobotoolbox](https://www.kobotoolbox.org/)
+- [Formio](https://formio.github.io/formio.js/#)
 - [TerremotoCentroItalia](http://www.terremotocentroitalia.info)
 
