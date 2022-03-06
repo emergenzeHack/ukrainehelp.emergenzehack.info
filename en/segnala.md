@@ -14,6 +14,6 @@ permalink: /en/recommend/
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/segnala/contatto-utile">Add Helpful Contact</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/segnala/bufala">Upload Fake News</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/segnala/documenti-dati">Upload Documents/Data</a>
-  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="forms/segnala_news">Share News</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_news_page">Share News</a>
 </div>
 
