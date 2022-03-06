@@ -13,7 +13,7 @@ permalink: /en/recommend/
   <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/forms/segnala_fund_page">Recommend Fundraising</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_contact_page">Add Helpful Contact</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_fakenews_page">Upload Fake News</a>
-  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/segnala/documenti-dati">Upload Documents/Data</a>
+  <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_document_data_page">Upload Documents/Data</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_news_page">Share News</a>
 </div>
 
