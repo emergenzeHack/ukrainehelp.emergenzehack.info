@@ -1,100 +1,128 @@
 fundraising:
-  displayname: Raccolte fondi
+  displayname: Fundaraising
   labelnames: 
-    - Raccolte fondi
+    - fundaraising
   subcategories:
-    RF Università e scuole:
-      displayname: Università e scuole
-    RF Ospedali e aziende sanitarie:
-      displayname: Ospedali e aziende sanitarie
-    RF Comuni Regioni enti pubblici:
-      displayname: Comuni, Regioni, enti pubblici
-    RF Associazioni ed enti non profit:
-      displayname: Associazioni ed enti non-profit
+    RF Universities and Schools:
+      displayname: Universities and Schools
+    RF Hospitals:
+      displayname: Hospitals
+    RF Public Administrations:
+      displayname: Public Administrations
+    RF No profit:
+      displayname: No-profit organization
   permalink: /raccolte-fondi/
   markericon: eur
   markercolor: purple
 games and activities for children:
-  displayname: Giochi/intrattenimento bambini
+  displayname: Children
   labelnames: 
-    - Giochi/intrattenimento bambini
+    - children
   permalink: /giochi-intrattenimento-bambini/
   markericon: puzzle-piece
   markercolor: darkslateblue
 solidarity services and initiatives:
-  displayname: Servizi e iniziative solidali di enti pubblici
+  displayname: solidarity services and initiatives
   labelnames:
-    - Servizi e iniziative solidali pubbliche
+    - services
   permalink: /servizi-e-iniziative-solidali/
   markericon: handshake-o
   markercolor: blue
-cultural activities and leisure:
-  displayname: Iniziative culturali e ricreative
-  labelnames: 
-    - Attivita culturali e ricreative
-  permalink: /iniziative-culturali-e-ricreative/
-  markericon: icons
-  markercolor: saddlebrown
-deliveries and services:
-  displayname: Consegne e commissioni
-  labelnames: 
-    - Consegne e commissioni
-  permalink: /consegne-e-commissioni/
-  markericon: truck
-  markercolor: orange
 psychological support:
-  displayname: Supporto psicologico
+  displayname: psychological support
   labelnames: 
-    - Supporto psicologico
+    - psychologicalSupport
   permalink: /supporto-psicologico/
   markericon: people-arrows
   markercolor: green
 work and business support:
-  displayname: Sostegno lavoro e imprese
+  displayname: Work and Business Support
   labelnames: 
-    - Sostegno lavoro e imprese
+    - jobOffer
   permalink: /sostegno-lavoro-e-imprese/
   markericon: industry
   markercolor: brown
 goods donations and services offering:
-  displayname: Donazioni beni e Offerte servizi
+  displayname: Goods donations and services offering
   labelnames: 
-    - Donazioni beni e offerte servizi
+    - materialGoods
   permalink: /donazioni-beni-e-offerte-servizi/
   markericon: hand-holding-heart
   markercolor: purple
-e-learning:
-  displayname: Didattica a distanza e-learning
-  labelnames: 
-    - Didattica a distanza e-learning
-  permalink: /didattica-a-distanza-e-learning/
-  markericon: chalkboard-teacher
-  markercolor: black
 useful news:
-  displayname: Notizie Utili
+  displayname: News
   labelnames: 
-    - Notizie Utili
+    - news
   permalink: /notizie-utili/
   markericon: newspaper
   markercolor: grey
 help requests:
-  displayname: Richieste di aiuto
+  displayname: Help requests
   labelnames: 
-    - Richiesta aiuto
+    - help
   permalink: /richiesta/
   markericon: child
   markercolor: magenta
 fake news:
   displayname: Fake News
   labelnames: 
-    - Fake News
+    - fakenews
   permalink: /fake-news/
   markericon: exclamation-circle
   markercolor: red
 migrants and refugees:
-  displayname: Servizi e iniziative solidali per migranti e rifugiati
+  displayname: Migrants and refugees
   labelnames: 
-    - Stranieri
+    - migrants
   permalink: /migranti-rifugiati/
+  markericon: hands
+  markercolor: indigo
+women:
+  displayname: Support to women
+  labelnames: 
+    - supportToWomen
+  permalink: /supportToWomen/
+  markericon: hands
+  markercolor: indigo
+disability services:
+  displayname: Suppurt to disabilities
+  labelnames: 
+    - disabilityServices
+  permalink: /disabilityServices/
+  markericon: hands
+  markercolor: indigo
+translations:
+  displayname: Translations
+  labelnames: 
+    - translation
+  permalink: /translation/
+  markericon: hands
+  markercolor: indigo
+legal:
+  displayname: Legal Support
+  labelnames: 
+    - legal
+  permalink: /legal/
+  markericon: hands
+  markercolor: indigo
+healthcare:
+  displayname: healthcare
+  labelnames: 
+    - healthcare
+  permalink: /healthcare/
+  markericon: hands
+  markercolor: indigo
+travelTransport:
+  displayname: travel and transport
+  labelnames: 
+    - travelTransport
+  permalink: /travelTransport/
+  markericon: hands
+  markercolor: indigo
+hospitality:
+  displayname: hospitality
+  labelnames: 
+    - hospitality
+  permalink: /hospitality/
   markericon: hands
   markercolor: indigo
