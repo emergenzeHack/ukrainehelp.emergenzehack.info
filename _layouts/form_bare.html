@@ -15,8 +15,7 @@ Formio.icons = 'fontawesome';
     // Triggered when they click the submit button.
     form.on('submit', function(submission) {
       console.log(submission);
-      alert('Submission sent to custom endpoint. See developer console.');
-      return Formio.fetch('http://europehelp.info:5000/report', {
+      return Formio.fetch('http://www.europehelp.info:5000/report', {
           body: JSON.stringify(submission),
           headers: {
             'content-type': 'application/json'
