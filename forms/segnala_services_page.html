@@ -1,0 +1,217 @@
+---
+layout: form_page
+title: Initiatives and Services
+lang: en
+---
+{
+
+    "components": [
+        {
+            "label": "Type",
+            "optionsLabelPosition": "right",
+            "inline": false,
+            "tableView": false,
+            "values": [
+                {
+                    "label": "material goods",
+                    "value": "materialGoods",
+                    "shortcut": ""
+                },
+                {
+                    "label": "hospitality",
+                    "value": "hospitality",
+                    "shortcut": ""
+                },
+                {
+                    "label": "travel/transport",
+                    "value": "travelTransport",
+                    "shortcut": ""
+                },
+                {
+                    "label": "healthcare",
+                    "value": "healthcare",
+                    "shortcut": ""
+                },
+                {
+                    "label": "legal",
+                    "value": "legal",
+                    "shortcut": ""
+                },
+                {
+                    "label": "translation",
+                    "value": "translation",
+                    "shortcut": ""
+                },
+                {
+                    "label": "job offer",
+                    "value": "jobOffer",
+                    "shortcut": ""
+                },
+                {
+                    "label": "psychological support",
+                    "value": "psychologicalSupport",
+                    "shortcut": ""
+                },
+                {
+                    "label": "children",
+                    "value": "children",
+                    "shortcut": ""
+                },
+                {
+                    "label": "disability services",
+                    "value": "disabilityServices",
+                    "shortcut": ""
+                },
+                {
+                    "label": "support to women",
+                    "value": "supportToWomen",
+                    "shortcut": ""
+                }
+            ],
+            "validate": {
+                "required": true
+            },
+            "key": "type",
+            "type": "radio",
+            "input": true
+        },
+        {
+            "label": "Offer from who?",
+            "tableView": true,
+            "validate": {
+                "required": true
+            },
+            "key": "offerFromWho",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Title",
+            "tableView": true,
+            "validate": {
+                "required": true
+            },
+            "key": "title",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Recipients",
+            "tableView": true,
+            "key": "recipients",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Description",
+            "autoExpand": false,
+            "tableView": true,
+            "key": "description",
+            "type": "textarea",
+            "input": true
+        },
+        {
+            "label": "Url",
+            "tableView": true,
+            "key": "url",
+            "type": "url",
+            "input": true
+        },
+        {
+            "label": "Address",
+            "enableManualMode": true,
+            "tableView": false,
+            "provider": "nominatim",
+            "key": "address",
+            "type": "address",
+            "providerOptions": {
+                "params": {
+                    "autocompleteOptions": {}
+                }
+            },
+            "input": true,
+            "components": [
+                {
+                    "label": "Address 1",
+                    "tableView": false,
+                    "key": "address1",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "Address 2",
+                    "tableView": false,
+                    "key": "address2",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "City",
+                    "tableView": false,
+                    "key": "city",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "State",
+                    "tableView": false,
+                    "key": "state",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "Country",
+                    "tableView": false,
+                    "key": "country",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "Zip Code",
+                    "tableView": false,
+                    "key": "zip",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                }
+            ]
+        },
+        {
+            "label": "I confirm to have read and accepted informative to threat personal data",
+            "tableView": false,
+            "defaultValue": false,
+            "validate": {
+                "required": true
+            },
+            "key": "iConfirmToHaveReadAndAcceptedInformativeToThreatPersonalData",
+            "type": "checkbox",
+            "input": true
+        },
+        {
+            "label": "Label",
+            "hidden": true,
+            "tableView": true,
+            "clearOnHide": false,
+            "validate": {
+                "required": true
+            },
+            "key": "label",
+            "type": "textfield",
+            "input": true,
+            "defaultValue": "services"
+        },
+        {
+            "type": "button",
+            "label": "Submit",
+            "key": "submit",
+            "disableOnInvalid": true,
+            "input": true,
+            "tableView": false
+        }
+    ]
+}
