@@ -43,40 +43,40 @@ work and business support:
   markericon: industry
   markercolor: brown
 goods donations and services offering:
-  displayname: Goods donations and services offering
+  displayname: Goods donations
   labelnames: 
     - materialGoods
   permalink: /donazioni-beni-e-offerte-servizi/
   markericon: hand-holding-heart
-  markercolor: purple
+  markercolor: teal
 useful news:
   displayname: News
   labelnames: 
     - News
   permalink: /notizie-utili/
   markericon: newspaper
-  markercolor: grey
+  markercolor: lightskyblue
 help requests:
   displayname: Help requests
   labelnames: 
     - help
   permalink: /richiesta/
   markericon: child
-  markercolor: magenta
+  markercolor: crimson
 fake news:
   displayname: Fake News
   labelnames: 
     - fakenews
   permalink: /fake-news/
   markericon: exclamation-circle
-  markercolor: red
+  markercolor: blueviolet
 women:
   displayname: Support to women
   labelnames: 
-    - supportToWomen
+    - women
   permalink: /supportToWomen/
   markericon: female
-  markercolor: indigo
+  markercolor: indianred
 disability services:
   displayname: Support to disabilities
   labelnames: 
@@ -90,28 +90,28 @@ translations:
     - translation
   permalink: /translation/
   markericon: language
-  markercolor: black
+  markercolor: darkviolet
 legal:
   displayname: Legal Support
   labelnames: 
     - legal
   permalink: /legal/
   markericon: book
-  markercolor: indigo
+  markercolor: gold
 healthcare:
   displayname: healthcare
   labelnames: 
     - healthcare
   permalink: /healthcare/
   markericon: ambulance
-  markercolor: brown
+  markercolor: lawngreen
 travelTransport:
   displayname: Travel and Transport
   labelnames: 
-    - travelTransport
+    - transport
   permalink: /travelTransport/
   markericon: car
-  markercolor: red
+  markercolor: yellowgreen
 hospitality:
   displayname: Hospitality
   labelnames: 
