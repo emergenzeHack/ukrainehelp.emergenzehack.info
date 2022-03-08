@@ -80,10 +80,10 @@ women:
 disability services:
   displayname: Support to disabilities
   labelnames: 
-    - disabilityServices
+    - disability
   permalink: /disabilityServices/
   markericon: wheelchair
-  markercolor: grey
+  markercolor: orange
 translations:
   displayname: Translations
   labelnames: 
