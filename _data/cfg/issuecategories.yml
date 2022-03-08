@@ -70,13 +70,6 @@ fake news:
   permalink: /fake-news/
   markericon: exclamation-circle
   markercolor: red
-migrants and refugees:
-  displayname: Migrants and refugees
-  labelnames: 
-    - migrants
-  permalink: /migranti-rifugiati/
-  markericon: hospital-o
-  markercolor: indigo
 women:
   displayname: Support to women
   labelnames: 
