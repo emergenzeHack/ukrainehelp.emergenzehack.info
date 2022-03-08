@@ -38,81 +38,12 @@ lang: it
 <img class="img-fluid col-md-6 col-sm-9 col-9" src="/images/issues/{{page.number}}.png" />
     </div>
 {%- endif -%}
-<div class="row">
-    <div class="card w-100 my-1">
-        <div class="card-body">
-            <div class="row">
-                {%- if page.state == "closed" -%}
-                {%- if issue.labels contains "Risolta" -%}<h2 style="color:red;" class="display-2">RISOLTA!</h2>{%- endif -%}
-                {% capture htmltitle %}<strike>{{page.title}}</strike>{% endcapture %}
-                {% else %}
-                {% assign htmltitle = page.title %}
-                {%- endif -%}
-                {% if issue.labels contains "Validato INP" %}
-                <div class="row">
-                    <div class="col-10"><h4 class="card-title">{{htmltitle}}</h4></div>
-                    <div class="col-2"><img width="128" src="/images/validato_inp_logo.png" class="img-fluid" alt="logo Validato da Italia No Profit" /></div>
-                </div>
-                {% elsif  issue.labels contains "CSV Milano" %}
-                <div class="row">
-                    <div class="col-10"><h4 class="card-title">{{htmltitle}}</h4></div>
-                    <div class="col-2"><img width="128" src="/images/Logo_CSV_Milano.png" class="img-fluid" alt="logo Validato da CSV Milano" /></div>
-                </div>
-                {% elsif  issue.labels contains "CSV Monza Lecco Sondrio" %}
-                <div class="row">
-                    <div class="col-10"><h4 class="card-title">{{htmltitle}}</h4></div>
-                    <div class="col-2"><img width="128" src="/images/Logo_CSV_MLS.png" class="img-fluid" alt="logo Validato da CSV Monza Lecco Sondrio" /></div>
-                </div>
-                {% else %}<h4 class="card-title">{{htmltitle}}</h4>
-                {% endif %}
-
-            <dl class="row card-text">
-                {%- for item in issue.data -%}
-                {%- if item[1] != blank  -%}
-                {% assign itemDescription = item[0] | replace: "_", " " | capitalize_all %}
-                {% if site.data.cfg.issueFieldsBlacklist contains itemDescription %}
-                {% else %}
-                <dt class="col-sm-3">{{itemDescription}}</dt>
-                <dd class="col-sm-9">
-                {%- if itemDescription == "Telefono" -%}
-                <a href="tel:{{item[1] | remove: " "}}" target="_blank">{{item[1]}}</a>
-                {%- else -%}
-                {{item[1] | strip | auto_link | markdownify | newline_to_br | remove: '<p>' | remove: '</p>' }}
-                {%- endif -%}
-                </dd>
-                {%- endif -%}
-                {%- endif -%}
-                {%- endfor -%}
-            {%- if issue.lat != blank and issue.lon != blank -%}
-                <dt class="col-sm-3">{{site.data.i18n.translations["map"]}}:</dt>
-                <dd class="col-sm-9">
-                    <div id="map" style="height: 150px;"></div>
-                </dd>
-            {%- endif -%}
-            {%- if issue.comune != blank -%}
-                <dt class="col-sm-3">{{site.data.i18n.translations["municipality"]}}:</dt>
-                <dd class="col-sm-9"> {{issue.comune}} </dd>
-            {%- endif -%}
-            {%- if issue.provincia != blank -%}
-                <dt class="col-sm-3">{{site.data.i18n.translations["province"]}}:</dt>
-                <dd class="col-sm-9"> {{issue.provincia}} </dd>
-            {%- endif -%}
-            {%- if issue.regione != blank -%}
-                <dt class="col-sm-3">{{site.data.i18n.translations["region"]}}:</dt>
-                <dd class="col-sm-9"> {{issue.regione}} </dd>
-            {%- endif -%}
-                <dt class="col-sm-3">Link GitHub:</dt>
-                <dd class="col-sm-9"> <a href="{{issue.url}}">{{issue.url}}</a></dd>
-                <dt class="col-sm-3">{{site.data.i18n.translations["created_at"]}}:</dt>
-                <dd class="col-sm-9"> {{issue.created_at | italianDate}} </dd>
-                <dt class="col-sm-3">{{site.data.i18n.translations["updated_at"]}}:</dt>
-                <dd class="col-sm-9"> {{issue.updated_at | italianDate}} </dd>
-            </dl>
-        </div>
-        <div class="card-footer">
-            Condividi: {%- include social-share.html -%}
-        </div>
-    </div>
+{%- if page.issue != blank -%}
+{%- assign member = page -%}
+{%- else -%}
+{%- assign member = site.data.machgen.issuesjson[200] -%}
+{%- endif -%}
+{%- include issuelist_cards.html -%}
     {% assign categorylist = "" | split: "" %}
     {% for categorytuple in site.data.cfg.issuecategories %}
     {% assign categorylabels = categorytuple[1].labelnames %}

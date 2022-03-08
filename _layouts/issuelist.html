@@ -127,12 +127,16 @@ layout: base
                         {% if filteredissues.size > 0 %}
                         <h3 id="{{subcategory | slugify}}">{{subcategoryname}} <span class="badge badge-pill badge-primary">{{filteredissues.size}}</span></h3>
 
+                        {% for member in filteredissues %}
                         {% include issuelist_cards.html %}
+                        {% endfor %}
 
                         {%- endif -%}
                         {%- endfor -%}
                         {% else %}
+                        {% for member in filteredissues %}
                         {% include issuelist_cards.html %}
+                        {% endfor %}
                         {%- endif -%}
 
                     </div>

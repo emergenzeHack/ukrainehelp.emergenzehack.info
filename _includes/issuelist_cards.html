@@ -1,4 +1,3 @@
-                        {%- for member in filteredissues -%}
                         <div  class="col-md-12 col-sm-12 col-12 mb-15">
                             <div class="card" id="issue{{member.number}}">
                                 <div class="card-body issuepanel">
@@ -31,6 +30,29 @@
                                                         <dd class="col-sm-9">
                                                         {{itemrepr}}
                                                         </dd>
+                                                    {%- elsif itemDescription == "Address" -%}
+                                                        <dd class="col-sm-9">
+                                                        {%- if item[1]["address"] != blank %}
+                                                            {%- assign addressfield = item[1]["address"] -%}
+                                                            {%- if addressfield["address"] != blank -%}
+                                                                {%- assign address = addressfield["address"] -%}
+                                                                <dl class="row">
+                                                                    {%- if address["city"] != blank -%}
+                                                                        <dt class="col-sm-3">City</dt>
+                                                                        <dd class="col-sm-9">{{address["city"]}}</dd>
+                                                                    {%- endif -%}
+                                                                    {%- if address["country"] != blank -%}
+                                                                        <dt class="col-sm-3">Country</dt>
+                                                                        <dd class="col-sm-9">{{address["country"]}}</dd>
+                                                                    {%- endif -%}
+                                                                </dl>
+                                                            {%- endif -%}
+                                                            {%- if (addressfield["lat"] != blank) and (addressfield["lon"] != blank) -%}
+                                                                            <dt class="col-sm-3">Coordinates</dt>
+                                                                            <dd class="col-sm-9">{{addressfield["lat"]}} {{addressfield["lon"]}}</dd>
+                                                            {%- endif -%}
+                                                        {%- endif -%}
+                                                        </dd>
                                                     {%- else -%}
                                                         <dd class="col-sm-9">{{item[1] | newline_to_br | auto_link | truncatewords: 100}}</dd>
                                                     {%- endif -%}
@@ -42,4 +64,3 @@
                                 </div>
                             </div>
                         </div>
-                        {%- endfor -%}
