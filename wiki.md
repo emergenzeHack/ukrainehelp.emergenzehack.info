@@ -334,8 +334,8 @@ Esempio:
 
 #### Come sapere quale regione/provincia/comune ha individuato il sistema?
 
-Guardando sul sito nella pagina www.covid19italia.help/issues/<numero issue>
-(ad esempio https://www.covid19italia.help/issues/748/) se la segnalazione ha una posizione già inserita, i valori Provincia e Regione sono quelli riconosciuti in base ai dati geografici. **In questo caso, se ci sono errori, sarebbe più utile sistemare la posizione**.
+Guardando sul sito nella pagina www.europehelp.info/issues/<numero issue>
+(ad esempio https://www.europehelp.info/issues/748/) se la segnalazione ha una posizione già inserita, i valori Provincia e Regione sono quelli riconosciuti in base ai dati geografici. **In questo caso, se ci sono errori, sarebbe più utile sistemare la posizione**.
 
 Ci possono essere delle segnalazioni che hanno una regione o provincia o un Comune di riferimento, ma per le quali non ha senso inserire una coppia di coordinate. Perché queste segnalazioni vengano comunque elencate nella pagina per regione o per provincia, si può inserire un campo nei dati del tipo
 
