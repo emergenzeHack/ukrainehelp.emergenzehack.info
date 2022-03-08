@@ -225,13 +225,13 @@ Per molti altri tutorial su Github consulta [questa pagina](https://guides.githu
 
 Premessa:
 
-> Questo documento è destinato al team che lavora sulle Segnalazioni. Gli altri utenti non hanno i permessi per effettuare le operazioni descritte qui, ma possono liberamente lasciare un commento su qualsiasi Issue contribuendo alla stessa. Ad esempio, a [questo link](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) si possono vedere tutte le segnalazioni a cui ancora manca una posizione. Si possono suggerire in un commento le coordinate. Un moderatore la prenderà in carico e applicherà i vostri suggerimenti il prima possibile.
+> Questo documento è destinato al team che lavora sulle Segnalazioni. Gli altri utenti non hanno i permessi per effettuare le operazioni descritte qui, ma possono liberamente lasciare un commento su qualsiasi Issue contribuendo alla stessa. Ad esempio, a [questo link](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) si possono vedere tutte le segnalazioni a cui ancora manca una posizione. Si possono suggerire in un commento le coordinate. Un moderatore la prenderà in carico e applicherà i vostri suggerimenti il prima possibile.
 >
 > Per entrare a far parte del team di Moderatori, assicurati di essere un membro attivo della community, di aver contribuito precedentemente ed entra nella chat di gruppo dei collaboratori.
 
 # Meccanismo
 
-Ogni compilazione di un modulo di europehelp genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues). 
+Ogni compilazione di un modulo di europehelp genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues). 
 
 A queste Issue vengono applicate diverse etichette per descriverne la natura e lo stato di approvazione (che ne determina la pubblicazione finale sul sito, sui bollettini, su Twitter, sui canali e bot Telegram,..).
 
@@ -438,7 +438,7 @@ Contro:
 
 # Convertire un documento Google Docs in Markdown
 
-Sotto qualche semplice passaggio per convertire un documento fatto in Google Docs in un formato compatibile con questo WIKI o come post del blog di questo sito così da poter continuare ad usare Google Docs se lo si usa normalmente per scrivere e poi pubblicare contenuti su covid19italia.help
+Sotto qualche semplice passaggio per convertire un documento fatto in Google Docs in un formato compatibile con questo WIKI o come post del blog di questo sito così da poter continuare ad usare Google Docs se lo si usa normalmente per scrivere e poi pubblicare contenuti su europehelp.info
 
 - Installare nei Componenti aggiuntivi il plugin "Docs to markdown" (dal menu Componenti Aggiuntivi -> Installa componenti aggiuntivi cercate "Docs to markdown". 
 - una volta che il documento in Google Doc è pronto aprire il menu Componenti Aggiuntivi selezionate la voce "Docs to Markdown" e poi "Convert"

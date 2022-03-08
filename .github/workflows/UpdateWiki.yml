@@ -11,24 +11,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout emergenzeHack/covid19italia
+    - name: Checkout emergenzeHack/europehelp.info
       uses: actions/checkout@v2
       with:
-        repository: emergenzeHack/covid19italia
-        path: covid19italia
+        repository: emergenzeHack/europehelp.info
+        path: europehelp.info
 
     - uses: actions/setup-python@v1
       with:
         python-version: '3.x'
 
-    - working-directory: covid19italia/
+    - working-directory: europehelp.info/
       run: |
         mkdir -m 700 ~/.ssh
         echo "${{ secrets.SSH_KEY_A_SECRET }}" > ~/.ssh/id_ed25519
         chmod 0600 ~/.ssh/id_ed25519
-        git config remote.origin.pushurl git@github.com:emergenzeHack/covid19italia.git
+        git config remote.origin.pushurl git@github.com:emergenzeHack/europehelp.info.git
         cd wiki
-        git clone git@github.com:emergenzeHack/covid19italia.wiki.git
+        git clone git@github.com:emergenzeHack/europehelp.info.wiki.git
         pip install MarkdownPP
         markdown-pp templateWiki.mdpp -o ../wiki.md
         git config --local user.name "ehack-italy"

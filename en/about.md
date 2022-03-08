@@ -30,7 +30,6 @@ Where deemed useful, the entire infrastructure is reusable by organizations, ass
 The project is described through our [[wiki](https://www.europehelp.info/en/wiki/)].
 
 The idea and also a large part of the project is from the same team that developed the [Terremoto Centro Italia](https://www.terremotocentroitalia.info/)
-and [Covid19Italia.Help](www.covid19italia.help) projects.
 
 [Here](https://www.europehelp.info/about/) is the team of volunteers working on this project in Italy but we wait the help of other many civic hackers in world that want to help people in difficult periods!
 

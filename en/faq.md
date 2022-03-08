@@ -26,7 +26,7 @@ All people involved in the Coronavirus emergency looking for news on initiatives
 
 **What can you do?**
 
-On Covid19Italia.help you can :
+On europehelp.info you can :
 
 
 - Feel as a part of a community

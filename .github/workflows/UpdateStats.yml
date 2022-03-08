@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout emergenzeHack/covid19italia
+    - name: Checkout emergenzeHack/europehelp.info
       uses: actions/checkout@v2
 
     - run: rm -rf data/
-    - name: Checkout emergenzeHack/covid19italia_data
+    - name: Checkout emergenzeHack/europehelp.info_data
       uses: actions/checkout@v2
       with:
-        repository: emergenzeHack/covid19italia_data
+        repository: emergenzeHack/europehelp.info_data
         path: _data
 
     - uses: actions/cache@v1
