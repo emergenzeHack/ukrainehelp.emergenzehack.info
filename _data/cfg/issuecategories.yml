@@ -1,7 +1,7 @@
 fundraising:
-  displayname: Fundaraising
+  displayname: Fundraising
   labelnames: 
-    - fundaraising
+    - fundraising
   subcategories:
     RF Universities and Schools:
       displayname: Universities and Schools
