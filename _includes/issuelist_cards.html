@@ -30,7 +30,7 @@
                                                         <dd class="col-sm-9">
                                                         {{itemrepr}}
                                                         </dd>
-                                                    {%- elsif itemDescription == "Address" -%}
+                                                    {%- elsif (itemDescription == "Address") or (itemDescription == "Location") -%}
                                                         <dd class="col-sm-9">
                                                         {%- if item[1]["address"] != blank %}
                                                             {%- assign addressfield = item[1]["address"] -%}
