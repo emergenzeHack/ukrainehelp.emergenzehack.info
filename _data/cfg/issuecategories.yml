@@ -123,6 +123,7 @@ hospitality:
   displayname: Hospitality
   labelnames: 
     - hospitality
+    - Ospitalità
   permalink: /hospitality/
   markericon: bed
   markercolor: blue
