@@ -1,4 +1,4 @@
-Benvenuto nel wiki di Covid19Italia, una community basata sui *social media*, nata per condividere informazioni utili e verificate sul corona virus in Italia.
+Benvenuto nel wiki di EuropeHelp, una community basata sui *social media*, nata per condividere informazioni utili e verificate sul corona virus in Italia.
 
 Il progetto è completamente aperto e chiunque può dare il suo contributo seguendo queste linea guida.
 
@@ -11,21 +11,18 @@ Per essere aggiunto alla lista degli sviluppatori del repository apri un issue [
 
 ##  Aiutaci a migliorare
 
-*Covid19Italia è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/covid19italia/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
+*EuropeHelp è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/covid19italia/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
 
 
 I repository Github che usiamo sono
-* [QUESTO](https://github.com/emergenzeHack/covid19italia) per lo sviluppo del sito web
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_segnalazioni) per la raccolta e la moderazione delle segnalazioni
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_data) per l'archiviazione dei dati aperti da noi prodotti
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_form) per lo sviluppo del form di inserimento segnalazioni
-* [QUESTO](https://github.com/emergenzeHack/covid19italia_app) per lo sviluppo di una APP mobile
-
+* [QUESTO](https://github.com/emergenzeHack/europehelp.info) per lo sviluppo del sito web
+* [QUESTO](https://github.com/emergenzeHack/europehelp.info_segnalazioni) per la raccolta e la moderazione delle segnalazioni
+* [QUESTO](https://github.com/emergenzeHack/europehelp.info_data) per l'archiviazione dei dati aperti da noi prodotti
 
 Grazie, aspettiamo il tuo aiuto!
 
 ## Riuso
-Covid19Italia è un progetto opensource composto da varie applicazioni integrate. Questo WIKI consente di capire come è strutturato il progetto e come poterlo riusare. TerremotoCentroItalia è concesso con licenza Creative Commons Attribuzione 3.0 (CC BY) il cui testo è disponibile [a questo indirizzo](https://creativecommons.org/licenses/by/3.0/it/). Ove non diversamente specificato (ad esempio nei repository del codice sorgente) ti chiediamo se riusi parte del nostro progetto di rispettare i criteri di questa licenza.
+europehelp.info è un progetto opensource composto da varie applicazioni integrate. Questo WIKI consente di capire come è strutturato il progetto e come poterlo riusare. TerremotoCentroItalia è concesso con licenza Creative Commons Attribuzione 3.0 (CC BY) il cui testo è disponibile [a questo indirizzo](https://creativecommons.org/licenses/by/3.0/it/). Ove non diversamente specificato (ad esempio nei repository del codice sorgente) ti chiediamo se riusi parte del nostro progetto di rispettare i criteri di questa licenza.
 
 
 <!-- commento per innescare la GitHub Action "gollum" -->

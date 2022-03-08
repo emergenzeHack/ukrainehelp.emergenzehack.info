@@ -8,11 +8,11 @@ permalink: /en/faq/
 
 **Frequently asked questions**
 
-**What’s, precisely, covid19italia.help ?**
+**What’s, precisely, europehelp.info ?**
 
 Most likely it’s easier to try and use it rather than to explain it !
 
-However, first of all, Covid19Italia.help is an useful platform for everyone interested in the Coronavirus emergency and willing to be active to provide support to others.
+However, first of all, europehelp.info is an useful platform for everyone interested in the Coronavirus emergency and willing to be active to provide support to others.
 
 It’s an information service on what is important to know during these days.
 

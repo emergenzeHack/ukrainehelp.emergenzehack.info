@@ -18,7 +18,7 @@ Per essere aggiunto alla lista degli sviluppatori del repository apri un issue [
 
 ##  Aiutaci a migliorare
 
-*Covid19Italia è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/europehelp.info/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
+*EuropeHelp è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/europehelp.info/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
 
 
 I repository Github che usiamo sono
@@ -231,7 +231,7 @@ Premessa:
 
 # Meccanismo
 
-Ogni compilazione di un modulo di Covid19Italia genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues). 
+Ogni compilazione di un modulo di europehelp genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues). 
 
 A queste Issue vengono applicate diverse etichette per descriverne la natura e lo stato di approvazione (che ne determina la pubblicazione finale sul sito, sui bollettini, su Twitter, sui canali e bot Telegram,..).
 

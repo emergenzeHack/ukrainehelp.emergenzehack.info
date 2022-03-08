@@ -6,11 +6,11 @@ subtitle: Come funziona la risposta partecipata in emergenza?
 permalink: /faq/
 ---
 
-## Cos'è, esattamente, covid19italia.help?
+## Cos'è, esattamente, EuropeHelp.info?
 
 Probabilmente è più facile provare a usarlo che spiegarlo!
 
-Comunque, prima di tutto Covid19Italia.help è un posto utile a tutte le persone interessate dall’emergenza e che vogliono attivarsi per dare una mano.
+Comunque, prima di tutto EuropeHelp.info è un posto utile a tutte le persone interessate dall’emergenza e che vogliono attivarsi per dare una mano.
 
 È un servizio informazioni su quello che è importante sapere in questi giorni.
 
@@ -111,7 +111,7 @@ I nomi di chi partecipa li trovi qui: https://www.europehelp.info/about/ (è una
 
 Certo. C’è un problema che interessa la collettività. Un pezzetto di questa collettività si mette a cercare e proporre e offrire soluzioni. Lo fa in maniera volontaria e aperta. E lo fa usando le possibilità offerte da internet. Questo è civic hacking in breve. È l’intelligenza collettiva al lavoro.
 In un’emergenza, ad esempio, il problema è che siamo travolti dalle informazioni e non sappiamo bene dove trovarle, come segnalarle.
-Covid19Italia.help è una possibile soluzione. 
+EuropeHelp.info è una possibile soluzione. 
 
 L’approccio che si applica a un progetto come questo si chiama **AGOPENDI**: **AGgregate**, **OPEN**, **DI**stribute. Cioè:
 

@@ -2,7 +2,7 @@
 lang: it
 layout: page
 title: Canali di comunicazione e social
-subtitle: Contatta Covid19Italia.help e segui i canali social
+subtitle: Contatta EuropeHelp.info e segui i canali social
 permalink: /canali/
 ---
 

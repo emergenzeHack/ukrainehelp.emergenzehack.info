@@ -19,7 +19,7 @@ In order to be added at the list of the repository developers open an issue here
 
 **Help us in improving it**
 
-Covid19Italia is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzeHack/europehelp.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
+EuropeHelp is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzeHack/europehelp.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
 
 Github repositories we are using are the following ones :
 
@@ -33,12 +33,12 @@ Thank you, we're waiting for your help!
 
 # Help us to improve
 
-Covid19Italia is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/covid19italia/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
+EuropeHelp is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/covid19italia/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
 
 
 # Reuse
 
-Covid19Italia is an opensource project composed of various integrated applications. This WIKI allows you to understand how the project is structured and how to reuse it. TerremotoCentroItalia is licensed under Creative Commons Attribution 3.0 (CC BY) whose text is available at [this address](https://creativecommons.org/licenses/by/3.0/it/). Unless otherwise specified (e.g. in the source code repositories) we ask you to comply with the criteria of this license if you reuse part of our project.
+EuropeHelp is an opensource project composed of various integrated applications. This WIKI allows you to understand how the project is structured and how to reuse it. TerremotoCentroItalia is licensed under Creative Commons Attribution 3.0 (CC BY) whose text is available at [this address](https://creativecommons.org/licenses/by/3.0/it/). Unless otherwise specified (e.g. in the source code repositories) we ask you to comply with the criteria of this license if you reuse part of our project.
 
 
 ## Index of contents
@@ -352,7 +352,7 @@ Against:
 
 ## Convert a Google Docs document to Markdown
 
-Here are some simple steps to convert a document made in Google Docs into a format compatible with this WIKI or as a blog post of this site so you can continue to use Google Docs if you use it normally to write and then publish content on covid19italia.help.
+Here are some simple steps to convert a document made in Google Docs into a format compatible with this WIKI or as a blog post of this site so you can continue to use Google Docs if you use it normally to write and then publish content on EuropeHelp.info.
 
 
 
@@ -449,13 +449,13 @@ git clone https://github.com/username/europehelp.info.git
 
 ```
 
-If you work on data (_data/) you will need to fork and work on covid19italia_data instead of covid19italia.
+If you work on data (_data/) you will need to fork and work on europeinfo.help_data instead of EuropeHelp.
 
 Let's go inside the new folder:
 
 ```sh
 
-cd covid19italia
+cd europehelp.info
 
 ```
 
