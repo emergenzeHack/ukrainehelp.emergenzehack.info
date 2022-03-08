@@ -1,8 +1,8 @@
 <script>
 var markerList=[];
 
-{%- for member in filteredissues | where_exp: 'm', 'm.issue.lat != blank and m.issue.lon != blank' -%} 
-        markerList.push([{{member.issue.lat}}, {{member.issue.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+{%- for member in filteredissues | where_exp: 'm', 'm.issue.data.address.address.lat != blank and m.issue.data.address.address.lon != blank' -%} 
+        markerList.push([{{member.issue.data.address.address.lat}}, {{member.issue.data.address.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
 {%- endfor -%} 
 
 // define icons
