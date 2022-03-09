@@ -110,7 +110,7 @@ hospitality:
     - Ospitalit\u00e0
   permalink: /hospitality/
   markericon: bed
-  markercolor: blue
+  markercolor: royalblue
 document_data:
   displayname: Document and Data
   labelnames: document_data
