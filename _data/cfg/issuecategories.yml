@@ -29,10 +29,10 @@ psychological support:
 work and business support:
   displayname: Work and Business Support
   labelnames: 
-    - jobOffer
+    - job
   permalink: /sostegno-lavoro-e-imprese/
   markericon: industry
-  markercolor: brown
+  markercolor: fucsia
 goods donations and services offering:
   displayname: Goods donations
   labelnames: 
@@ -110,7 +110,7 @@ hospitality:
     - Ospitalit\u00e0
   permalink: /hospitality/
   markericon: bed
-  markercolor: blue
+  markercolor: royalblue
 document_data:
   displayname: Document and Data
   labelnames: document_data
