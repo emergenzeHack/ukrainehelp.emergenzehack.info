@@ -2,16 +2,7 @@ fundraising:
   displayname: Fundraising
   labelnames: 
     - fundraising
-  subcategories:
-    RF Universities and Schools:
-      displayname: Universities and Schools
-    RF Hospitals:
-      displayname: Hospitals
-    RF Public Administrations:
-      displayname: Public Administrations
-    RF No profit:
-      displayname: No-profit organization
-  permalink: /raccolte-fondi/
+  permalink: /fundraising/
   markericon: eur
   markercolor: yellow
 games and activities for children:
