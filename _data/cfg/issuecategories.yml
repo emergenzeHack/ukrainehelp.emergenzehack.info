@@ -29,10 +29,10 @@ psychological support:
 work and business support:
   displayname: Work and Business Support
   labelnames: 
-    - jobOffer
+    - job
   permalink: /sostegno-lavoro-e-imprese/
   markericon: industry
-  markercolor: brown
+  markercolor: fucsia
 goods donations and services offering:
   displayname: Goods donations
   labelnames: 
