@@ -17,8 +17,8 @@ fundraising:
 games and activities for children:
   displayname: Children
   labelnames: 
-    - children
-  permalink: /giochi-intrattenimento-bambini/
+    - Children
+  permalink: /children/
   markericon: puzzle-piece
   markercolor: turquoise
 solidarity services and initiatives:
