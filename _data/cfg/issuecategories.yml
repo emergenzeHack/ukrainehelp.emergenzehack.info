@@ -120,3 +120,9 @@ hospitality:
   permalink: /hospitality/
   markericon: bed
   markercolor: blue
+document_data:
+  displayname: Document and Data
+  labelnames: document_data
+  permalink: /documentdata/
+  markericon: fa-file-text
+  markercolor: lightsteelblue
