@@ -1,3 +1,10 @@
+help requests:
+  displayname: Help requests
+  labelnames: 
+    - Help
+  permalink: /help/
+  markericon: child
+  markercolor: crimson
 fundraising:
   displayname: Fundraising
   labelnames: 
@@ -47,13 +54,6 @@ useful news:
   permalink: /notizie-utili/
   markericon: newspaper
   markercolor: lightskyblue
-help requests:
-  displayname: Help requests
-  labelnames: 
-    - Help
-  permalink: /richiesta/
-  markericon: child
-  markercolor: crimson
 fake news:
   displayname: Fake News
   labelnames: 
