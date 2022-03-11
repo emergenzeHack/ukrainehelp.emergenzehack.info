@@ -1,0 +1,323 @@
+---
+layout: base
+---
+
+{%- assign openissues = site.data.machgen.issuesjson | where: "state","open" -%}
+
+{%- if page.nome_provincia != blank -%}
+    {%- assign geofilteredissues = openissues | where_exp: "member", "member.issue.provincia == page.nome_provincia" -%}
+{%- else -%}
+    {%- if page.nome_regione != blank -%}
+        {%- assign geofilteredissues = openissues |  where_exp: "member", "member.issue.regione == page.nome_regione or member.issue.regione == 'tutte'" -%}
+    {%- else -%}
+        {%- assign geofilteredissues = openissues  -%}
+    {%- endif -%}
+{%- endif -%}
+
+{%- if page.issuecategory != blank -%}
+
+    {% assign issuecategories = "" | split: "," %}
+    {% assign tmpcategory = "" | split: "," %}
+    {%- assign tmpcategory = tmpcategory | push: page.issuecategory -%}
+    {%- assign tmpcategory = tmpcategory | push: site.data.cfg.issuecategories[page.issuecategory] -%}
+    {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
+
+{%- elsif page.issuecategories != blank -%}
+
+    {% assign issuecategories = "" | split: "," %}
+    {% for category in page.issuecategories %}
+    {% assign tmpcategory = "" | split: "," %}
+    {%- assign tmpcategory = tmpcategory | push: category -%}
+    {%- assign tmpcategory = tmpcategory | push: site.data.cfg.issuecategories[category] -%}
+    {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
+    {% endfor %}
+
+{%- elsif page.displayname != blank and page.markericon != blank -%}
+
+    {% assign issuecategories = "" | split: "," %}
+    {% assign tmpcategory = "" | split: "," %}
+    {%- assign tmpcategory = tmpcategory | push: "page" -%}
+    {%- assign tmpcategory = tmpcategory | push: page -%}
+    {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
+
+{%- else -%}
+
+    {%- assign issuecategories = site.data.cfg.issuecategories -%}
+
+{%- endif -%}
+
+        {%- if page.displayname -%}
+{% include header.html type="page" pagetitle=page.displayname %}
+        {%- else -%}
+{% include header.html type="page" %}
+        {%- endif -%}
+<div class="container-fluid" role="main">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+
+{{content}}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+
+   <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+   crossorigin=""></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
+   crossorigin=""/>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
+   crossorigin=""/>
+
+ <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"
+   crossorigin=""></script>
+
+<style>
+#map{ height: 600px; }
+</style>
+
+<div class="row">
+
+<div class="col-md-12 col-sm-12 col-12"> <div id="map" class="w-100" style="height: 600px;"></div> </div>
+
+<div class="row">
+    <div class="col-md-12" id="issue-card">
+    </div>
+</div>
+
+
+<script type="text/babel">
+
+    const maxIssuesForCategory=5;
+    const filteredissues={{geofilteredissues|jsonify}};
+    const issueFieldsBlacklist={{site.data.cfg.issueFieldsBlacklist|jsonify}};
+    const issueCategories={{issuecategories|jsonify}};
+
+    function capitalize_all(mySentence) {
+        const words = mySentence.split(" ");
+
+        return words.map((word) => { 
+            return word[0].toUpperCase() + word.substring(1).toLowerCase(); 
+        }).join(" ");
+    }
+
+
+    function IssueData(props) {
+        var issuedata=props.issue.issue.data;
+        var ret=[]
+        for (var key in issuedata) {
+              var val;
+              val=issuedata[key];
+              key=capitalize_all(key);
+              if (!issueFieldsBlacklist.includes(key)) {
+                  ret.push(<dt className="col-sm-3">{key}</dt>);
+                  if (key == "Address") {
+                        var addressRender=[];
+                        if (val.hasOwnProperty('address')) {
+                                var addressField = val['address'];
+                                if (addressField.hasOwnProperty('address')) {
+                                        var address=addressField['address'];
+                                        if (address.hasOwnProperty('city')) {
+                                            addressRender.push(
+                                                <><dt className="col-sm-3">City</dt>
+                                                <dd className="col-sm-9">{address["city"]}</dd></>);
+                                        }
+                                        if (address.hasOwnProperty('country')) {
+                                            addressRender.push(
+                                                <><dt className="col-sm-3">Country</dt>
+                                                <dd className="col-sm-9">{address["country"]}</dd></>);
+                                        }
+                                }
+                        }
+                        ret.push(<dd className="col-sm-9"><dl className="row">{addressRender}</dl></dd>);
+                  } else if (key == "Location") {
+                        var addressRender=[];
+                        if (val.hasOwnProperty('address')) {
+                                var addressField = val['address'];
+                                if (addressField.hasOwnProperty('address')) {
+                                        var address=addressField['address'];
+                                        if (address.hasOwnProperty('city')) {
+                                            addressRender.push(
+                                                <><dt className="col-sm-3">City</dt>
+                                                <dd className="col-sm-9">{address["city"]}</dd></>);
+                                        }
+                                        if (address.hasOwnProperty('country')) {
+                                            addressRender.push(
+                                                <><dt className="col-sm-3">Country</dt>
+                                                <dd className="col-sm-9">{address["country"]}</dd></>);
+                                        }
+                                }
+                        }
+                        ret.push(<dd className="col-sm-9"><dl className="row">{addressRender}</dl></dd>);
+                  } else {
+                      ret.push(<dd className="col-sm-9">{val}</dd>);
+                  }
+              }
+        }
+
+
+        return <>{ret}</>;
+    }
+
+    function shuffleArray(array) {
+        return array.sort(() => Math.random() - 0.5);
+    }
+    
+    function intersects(array1,array2) {
+        return array1.filter(item => array2.includes(item)).length > 0;
+    }
+
+    class IssueSocialShare extends React.Component {
+    render () {
+    var issue=this.props.issue;
+
+    var shareurl="{{ site.url }}/issues/"+issue.number+"&title="+issue.title.slice(0,70)+"%20%7C%20{{ site.title | cgi_escape}}";
+
+return (<>
+{% assign any-share-links = false %}
+{% for links in site.share-links-active %}
+  {% if links[1] == true %}
+    {% assign any-share-links = true %}
+  {% endif %}
+{% endfor %}
+
+{% if any-share-links %}
+
+    {% if site.share-links-active.link %}
+        <a className="card-link fa-stack" href={"{{ site.url }}/issues/"+issue.number}
+          title="Copia link">
+          <i className="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <span className="fas fa-link fa-stack-1x fa-inverse" aria-hidden="true"></span>
+        </a>
+    {% endif %}
+
+    {% if site.share-links-active.facebook %}
+        <a className="card-link fa-stack" href={"https://www.facebook.com/sharer/sharer.php?u="+shareurl}
+          title="{{site.data.i18n.translations.share}} Facebook" target="_blank">
+          <i className="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <i className="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </a>
+    {% endif %}
+
+    {% if site.share-links-active.twitter %}
+        <a className="card-link fa-stack" href={"https://twitter.com/intent/tweet?text="+shareurl+"&via=europehelp&hashtags=europehelp"}
+          title="{{site.data.i18n.translations.share}} Twitter" target="_blank">
+          <i className="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <i className="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </a>
+    {% endif %}
+
+    {% if site.share-links-active.linkedin %}
+        <a className="card-link fa-stack" href={"https://www.linkedin.com/shareArticle?mini=true&url="+shareurl}
+          title="{{site.data.i18n.translations.share}} LinkedIn" target="_blank">
+          <i className="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <i className="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </a>
+    {% endif %}
+
+
+
+{% endif %}
+</>);
+    }
+    }
+
+    class IssueCard extends React.Component {
+    render() {
+    var issue=this.props.issue;
+            var issuelist =
+                <div className="card" id={"issue"+issue.number}>
+                    <div className="card-body issuepanel">
+                        <a href={"/issues/"+issue.number}><h4 className="card-title">{issue.title}</h4></a>
+                        <dl className="row">
+                            <IssueData issue={issue}/>
+                        </dl>
+                        <div className="card-footer">
+                    Share: <IssueSocialShare issue={issue} />
+                    </div>
+                    </div>
+                </div>
+                ;
+
+            return <div className="col-md-12 col-sm-12 col-12 mb-15">{issuelist} </div>;
+
+        }
+        }
+
+    class IssueCardList extends React.Component {
+    render() {
+        var issues=this.props.issues;
+
+        var issuelist = issues.map(function(issue){
+                    return (
+                    <IssueCard issue={issue} />
+                        );
+
+                  });
+
+            return <div className="col-md-12 col-sm-12 col-12 mb-15">{issuelist} </div>;
+
+        }
+    }
+
+    class IssueCategoriesList extends React.Component {
+    render() {
+        var categories=this.props.categories;
+        console.log("categories",categories);
+
+        var ret=[];
+
+        for (var categoryname in categories) {
+                var category=categories[categoryname];
+                var issues=filteredissues.filter(issue => intersects(JSON.parse(issue.issue.labels), category.labelnames));
+                var issuesLength=issues.length;
+                var issues=shuffleArray(issues);
+                var issues=issues.slice(0,maxIssuesForCategory);
+                if (issues.length > 0) {
+                    ret.push (<><h2 id={""+category.permalink}>{category.displayname}<span className="badge badge-pill badge-primary">{issuesLength}</span></h2><IssueCardList issues={issues} />
+        <div className="row">
+            <div className="col-12 col-lg-12 col-md-12"><a href={""+category.permalink} title="Vedi tutte le segnalazioni della categoria {category.displayname}" className="btn btn-primary btn-lg">{{site.data.i18n.translations["see_all"]}} {category.displayname}</a></div>
+            <hr className="col-12 col-lg-12 col-md-12" />
+        </div>
+                    </>);
+                }
+        };
+
+        return <div>{ret}</div>;
+    }
+    }
+
+    ReactDOM.render(
+            <IssueCategoriesList categories={issueCategories} />,
+            document.getElementById('issue-card')
+        );
+
+
+</script>
+
+
+
+{%- if page.categorieMapAll -%}
+{%- assign filteredissues = geofilteredissues -%}
+{%- else -%}
+{%- assign filteredissues = allcatfilteredissues -%}
+{%- endif -%}
+</div>
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	    {% endif %}
+    </div>
+  </div>
+</div>
+
+{%- include issuemap.html -%}
+
+

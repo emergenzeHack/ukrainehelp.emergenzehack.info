@@ -1,9 +1,9 @@
 ---
 lang: it
-layout: issuelist_new
+layout: issuelist_react
 title: "Tutte le segnalazioni"
 subtitle: Scopri tutte le segnalazioni fatte sulla piattaforma
-permalink: /issues_new/
+permalink: /issues_react/
 categorieMapAll: true
 justLatestIssues: true
 ---
