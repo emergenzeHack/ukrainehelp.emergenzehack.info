@@ -42,15 +42,15 @@
   link_en: notizie-utili
   name_pt: Notícias
   link_pt: pt/fake-news
-- name: FAKE NEWS
-  logo-alt: le fake news
-  logo: /img/icone/bufala-tci-1.png              #       SERVE ICONA NUOVA??
+- name: SERVICES & INITIATIVES
+  logo-alt: services & initiatives
+  logo: /img/icone/05-segnalazioni.png              #       SERVE ICONA NUOVA??
   map: false
-  link: fake-news/
-  name_en: FAKE NEWS
-  link_en: fake-news
-  name_pt: Notícias Falsas
-  link_pt: pt/fake-news
+  link: services/
+  name_en: SERVICES & INITIATIVES
+  link_en: services
+  name_pt: SERVICES & INITIATIVES
+  link_pt: pt/services
 - name: TUTTE LE SEGNALAZIONI
   logo-alt: Elenco delle segnalazioni ricevute
   logo: /img/icone/12-aiuta-a.png
