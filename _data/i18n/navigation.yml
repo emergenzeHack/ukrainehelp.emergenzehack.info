@@ -5,9 +5,7 @@ languages:
       SCOPRI:
         - SEGNALAZIONI : "issues/"
         - SEGNALAZIONI PER REGIONE: "issues/regione/"
-      SEGUI:
-        - CONTATTI: "canali/"
-        - BUONE NOTIZIE: "storie/"
+      CONTATTI: "canali/"
       COS'È?:
         - ABOUT: "about/"
         - PRESS: "press/"
@@ -24,9 +22,7 @@ languages:
       RECOMMEND: "en/recommend/"
       DISCOVER:
         - INITIATIVES : "en/issues/"
-      FOLLOW:
-        - NEWS: "en/notizie-utili/"
-        - CONTACTS: "en/channels/"
+      CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
         - FAQ: "en/faq/"
