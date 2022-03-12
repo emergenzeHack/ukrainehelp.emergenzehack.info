@@ -19,9 +19,9 @@
   logo-alt: richieste di aiuto
   logo: /img/icone/alloggi2-tci.png              #       SERVE ICONA NUOVA??
   map: false
-  link: richiesta/
+  link: help/
   name_en: HELP REQUESTS
-  link_en: richiesta/
+  link_en: help/
   name_pt: Pedidos de Ajuda
   link_pt: pt/ajuda
 - name: RACCOLTE FONDI
