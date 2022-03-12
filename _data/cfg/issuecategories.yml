@@ -1,17 +1,15 @@
+help requests:
+  displayname: Help requests
+  labelnames: 
+    - Help
+  permalink: /help/
+  markericon: child
+  markercolor: crimson
 fundraising:
   displayname: Fundraising
   labelnames: 
     - fundraising
-  subcategories:
-    RF Universities and Schools:
-      displayname: Universities and Schools
-    RF Hospitals:
-      displayname: Hospitals
-    RF Public Administrations:
-      displayname: Public Administrations
-    RF No profit:
-      displayname: No-profit organization
-  permalink: /raccolte-fondi/
+  permalink: /fundraising/
   markericon: eur
   markercolor: yellow
 games and activities for children:
@@ -24,8 +22,8 @@ games and activities for children:
 solidarity services and initiatives:
   displayname: solidarity services and initiatives
   labelnames:
-    - services
-  permalink: /servizi-e-iniziative-solidali/
+    - Services
+  permalink: /services/
   markericon: handshake-o
   markercolor: lightcoral
 psychological support:
@@ -34,14 +32,14 @@ psychological support:
     - psychologicalSupport
   permalink: /supporto-psicologico/
   markericon: people-arrows
-  markercolor: tistle 
+  markercolor: thistle 
 work and business support:
   displayname: Work and Business Support
   labelnames: 
-    - jobOffer
+    - job
   permalink: /sostegno-lavoro-e-imprese/
   markericon: industry
-  markercolor: brown
+  markercolor: fuchsia
 goods donations and services offering:
   displayname: Goods donations
   labelnames: 
@@ -56,13 +54,6 @@ useful news:
   permalink: /notizie-utili/
   markericon: newspaper
   markercolor: lightskyblue
-help requests:
-  displayname: Help requests
-  labelnames: 
-    - help
-  permalink: /richiesta/
-  markericon: child
-  markercolor: crimson
 fake news:
   displayname: Fake News
   labelnames: 
@@ -119,7 +110,7 @@ hospitality:
     - Ospitalit\u00e0
   permalink: /hospitality/
   markericon: bed
-  markercolor: blue
+  markercolor: royalblue
 document_data:
   displayname: Document and Data
   labelnames: document_data

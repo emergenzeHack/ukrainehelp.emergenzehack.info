@@ -1,8 +1,15 @@
 <script>
 var markerList=[];
 
-{%- for member in filteredissues | where_exp: 'm', 'm.issue.data.address.address.lat != blank and m.issue.data.address.address.lon != blank' -%} 
+{%- for member in filteredissues | where_exp: 'm', 'm.issue.data.Posizione != blank or (m.issue.data.address.address.lat != blank and m.issue.data.address.address.lon != blank) or (m.issue.data.location.address.lat != blank and m.issue.data.location.address.lon != blank)' -%} 
+    {%- if member.issue.Posizione != blank -%}
+        {%- assign coords = member.issue.data.Posizione | split:  " " -%}
+        markerList.push([{{coords[0]}}, {{coords[1]}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+    {%- elsif member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank -%}
+        markerList.push([{{member.issue.data.location.address.lat}}, {{member.issue.data.location.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+    {%- else -%}
         markerList.push([{{member.issue.data.address.address.lat}}, {{member.issue.data.address.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+    {%- endif -%}
 {%- endfor -%} 
 
 // define icons
