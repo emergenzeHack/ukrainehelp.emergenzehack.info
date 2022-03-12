@@ -8,15 +8,16 @@ lang: it
   
 ## Il Progetto
 
-Questo è un progetto no profit, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate sull'emergenza.
+Questo è un progetto non profit di civic hacking, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate a supporto della popolazione dell’Ucraina sottoposta nel febbraio 2022 ad un attacco militare da parte della Russia.
 
-Lo scopo è quello di verificare, aggregare ed etichettare segnalazioni di varia natura, al fine di mettere in contatto richieste di aiuto e offerte di beni e servizi.
+Lo scopo del progetto è raccogliere, verificare, aggregare e diffondere informazioni utili che possano essere di aiuto agli e alle ucraine in difficoltà per la guerra, in particolare alle persone costrette a lasciare il proprio Paese. 
 
-Vengono inoltre raccolte e pubblicate iniziative solidali, culturali e dirette a promuovere ed implementare telelavoro e didattica a distanza.
+La piattaforma raccoglie richieste di aiuto e segnalazioni di vario tipo, dalle iniziative solidali di enti e associazioni ai servizi di supporto e assistenza per i rifugiati, dalle raccolte di beni di prima necessità alle offerte di ospitalità e trasporto. E poi informazioni istituzionali, raccolte fondi (solo se finanziano iniziative civili e non operazioni belliche o acquisto di forniture militari) e fake news prodotte dalla propaganda militare o relative a false azioni di solidarietà (ad esempio truffe ai danni di rifugiati, false raccolte fondi, ecc.).  
 
-Infine, raccogliamo normative, direttive istituzionali e dati.
+Il progetto non intende in alcun modo sostituirsi a fonti istituzionali di informazione e supporto.
 
-Non si intende in alcun modo sostituirsi a fonti istituzionali di informazione a cui rimandiamo caldamente per l'attendibilità.
+Il progetto si rivolge a tutte le persone che sono interessate a ciò che sta accadendo in Ucraina e che vogliono attivarsi (anche da casa), in modo pacifico e solidale, per dare una mano al popolo ucraino.
+
 
 ## Statistiche
 
@@ -33,11 +34,11 @@ Ogni componente software che sviluppiamo è rilasciato con una licenza Open Sour
 
 I dati che raccogliamo e produciamo vengono pubblicati e tenuti aggiornati come [Open Data]({{ site.url }}/opendata/).
 
-Laddove lo si ritenga utile, tutta l'infrastruttura è ri-usabile da organizzazioni, associazioni, gruppi informali ed anche pubbliche amministrazioni che avessero bisogno di un servizio per informare e attivarsi per rispondere all’emergenza covid19.
+Laddove lo si ritenga utile, tutta l’infrastruttura è ri-usabile da organizzazioni, associazioni, gruppi informali ed anche governi e pubbliche amministrazioni che avessero bisogno di un servizio per informare e promuovere la partecipazione dei cittadini per rispondere ad una emergenza di qualsiasi tipo e in qualsiasi parte dell’Europa e del mondo.
 
 Il progetto è descritto tramite il nostro [wiki](https://github.com/emergenzeHack/europehelp.info/wiki).
 
-L'idea e buona parte del progetto è del gruppo [emergenzeHack](https://emergenzehack.github.io), la stessa squadra che ha sviluppato il progetto [TerremotoCentroItalia](https://www.terremotocentroitalia.info).
+L'idea e buona parte del progetto è del gruppo di civic hacker [emergenzeHack](https://emergenzehack.github.io), la stessa squadra che ha sviluppato nel 2016 il progetto [TerremotoCentroItalia](https://www.terremotocentroitalia.info) e nel 2020 [Covid19Italia.help](https://www.covid19italia.help)
 
 ## Chi siamo
 
