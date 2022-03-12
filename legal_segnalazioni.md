@@ -1,7 +1,7 @@
 ---
 lang: it
 layout: page
-title: Note Legali - Informativa per Segnalazioni
+title: Privacy e Note Legali
 permalink: /legal_segnalazioni/
 ---
 

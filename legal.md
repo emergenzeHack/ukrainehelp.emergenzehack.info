@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Note Legali e Privacy Policy
+title: Privacy e Note Legali
 permalink: /legal/
 ---
 

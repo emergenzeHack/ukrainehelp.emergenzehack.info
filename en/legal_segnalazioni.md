@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: page
-title: Legal Notes - Information for Reports
+title: Privacy and legal info
 permalink: /legal_reporting/
 ---
 

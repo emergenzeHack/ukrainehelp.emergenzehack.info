@@ -7,4 +7,4 @@ permalink: /credit_form/
 ---
 
 
-Scrivi negli issue del progetto il tuo possibile contributo [cliccando qui](https://github.com/emergenzeHack/europehelp.info/issues)
+Scrivi negli issue del progetto il tuo possibile contributo [cliccando qui](https://github.com/emergenzeHack/europehelp.info/issues) oppure inviaci una mail [qui](mailto:europehelp.info@gmail.com)

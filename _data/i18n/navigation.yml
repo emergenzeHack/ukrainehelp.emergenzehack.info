@@ -15,7 +15,7 @@ languages:
         - COME PARTECIPARE: "contribuisci/"
         - DIVENTA CONTRIBUTOR: "credit_form"
         - WIKI: "wiki/"
-      PRIVACY: "legal"
+      PRIVACY E NOTE LEGALI: "legal"
     other-links:
   - language: en
     navbar-links:
@@ -30,7 +30,7 @@ languages:
       CONTRIBUTE:
         - ACTIVATE YOUR COMMUNITY: "en/contribute/"
         - WIKI: "en/wiki/"
-      PRIVACY: "legal_reporting"
+      PRIVACY AND LEGAL INFO: "legal_reporting"
     other-links:
   - language: pt
     navbar-links:
