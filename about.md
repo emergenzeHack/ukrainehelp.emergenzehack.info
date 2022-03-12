@@ -40,63 +40,6 @@ Il progetto è descritto tramite il nostro [wiki](https://github.com/emergenzeHa
 
 L'idea e buona parte del progetto è del gruppo di civic hacker [emergenzeHack](https://emergenzehack.github.io), la stessa squadra che ha sviluppato nel 2016 il progetto [TerremotoCentroItalia](https://www.terremotocentroitalia.info) e nel 2020 [Covid19Italia.help](https://www.covid19italia.help)
 
-## Chi siamo
-
-Ecco la squadra di volontari che lavora a questo progetto:
-
-### Sviluppo
-
-<div class="row contributorRow">
-	{% for contributore in site.data.contributorsCore %}
-		<div class="col-md-2 col-sm-2 col-xs-3" style="text-align: center">
-			<img src="{{ contributore.avatarUrl }}" alt="Avatar" class="contributorImage img-circle">
-			<br>
-			<p class="contributorName">{{ contributore.name }}</p>
-		</div>
-	{% endfor %}
-</div>
-
-### Editors
-
-<div class="row contributorRow">
-	{% for contributore in site.data.contributorsEditors %}
-		<div class="col-md-2 col-sm-2 col-xs-3" style="text-align: center">
-			<img src="{{ contributore.avatarUrl }}" alt="Avatar" class="contributorImage img-circle">
-			<br>
-			<p class="contributorName">{{ contributore.name }}</p>
-		</div>
-	{% endfor %}
-</div>
-
-### Media e comunicazione
-
-<div class="row contributorRow">
-	{% for contributore in site.data.contributorsMedia %}
-		<div class="col-md-2 col-sm-2 col-xs-3" style="text-align: center">
-			<img src="{{ contributore.avatarUrl }}" alt="Avatar" class="contributorImage img-circle">
-			<br>
-			<p class="contributorName">{{ contributore.name }}</p>
-		</div>
-	{% endfor %}
-</div>
-
-### Partners
-
-<div>
-	{% for partner in site.data.partners %}
-		<img height="80px" src="{{ partner.Logo }}"> <br>
-		<a href="{{ partner.Link }}"> {{ partner.Nome }} </a> {{ partner.Descrizione }} <br> <br>
-
-	{% endfor %}
-</div>
-
-### Network
-
-<div>
-	{% for network in site.data.network %}
-		<a href="{{ network.Link }}"> {{ network.Nome }} </a> {{ network.Descrizione }} <br> <br>
-	{% endfor %}
-</div>
 
 ### Contatti
 

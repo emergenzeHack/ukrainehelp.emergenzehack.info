@@ -78,7 +78,7 @@ Eccoti le istruzioni, passo dopo passo:
 
 Come posso rendermi utile attraverso i miei social? 
 
-Parla del progetto. In questo [post](2020-03-11-come-postare-sui-social/) spieghiamo come utilizzare i social in modo utile per far fronte ad emergenze.
+Parla del progetto sui tuoi profili social e poi: 
 
 Se hai un profilo **Facebook**:
 
@@ -88,15 +88,19 @@ Se hai un profilo **Facebook**:
 
 Usi **Twitter**? 
 
-Twitter è un ottimo strumento per raccogliere e diffondere segnalazioni. Puoi parlare di noi e ritwittare le segnalazioni. 
+Se usi **Twitter** sai che Twitter è un ottimo strumento per raccogliere e diffondere informazioni utili. Puoi seguire il [nostro account](https://twitter.com/ukraineinfohelp), parlare di noi e ritwittare le segnalazioni che pubblichiamo.
 
 Sei su **Telegram**? 
 
-Segui il nostro canale o gruppo telegram, è un canale su cui troverai le principali segnalazioni che riceviamo e tutte le informazioni necessarie per supportare il progetto. 
+Se sei su **Telegram** segui la nostra [chat operativa](https://t.me/ukraineinfohelp) e partecipa alle attività del progetto.
+ 
 
-## Vorrei fare di più. Come posso dare una mano operativamente al team? 
+## Vorrei fare di più. Come posso dare una mano operative al team? 
 
-Grandioso! Alla pagina [Contribuisci](https://europehelp.info/contribuisci/) trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
+Grandioso! Alla pagina _[Contribuisci](https://europehelp.info/contribuisci/)_ trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
+
+Il gruppo di lavoro eredita e mette a frutto quel che c’era a disposizione nel passato (ad esempio: il codice, le procedure per organizzarsi, la metodologia di sviluppo e di comunicazione) ed elabora altre idee. Il risultato è quello che vedi: il lavoro di un’intelligenza collettiva, che se vuoi puoi chiamare anche civic hacking.
+
 
 ## Posso sapere qualcosa in più su di voi?
 
@@ -107,17 +111,17 @@ Il gruppo di lavoro eredita quel che c’era a disposizione nel passato (ad esem
 
 I nomi di chi partecipa li trovi qui: https://www.europehelp.info/about/ (è una pagina in continuo aggiornamento). 
 
-## Bello! Mi dite qualcosa in più sul civic hacking, sul metodo, sull’approccio?
+## Mi dite qualcosa in più sul civic hacking, sul metodo, sull’approccio?
 
-Certo. C’è un problema che interessa la collettività. Un pezzetto di questa collettività si mette a cercare e proporre e offrire soluzioni. Lo fa in maniera volontaria e aperta. E lo fa usando le possibilità offerte da internet. Questo è civic hacking in breve. È l’intelligenza collettiva al lavoro.
-In un’emergenza, ad esempio, il problema è che siamo travolti dalle informazioni e non sappiamo bene dove trovarle, come segnalarle.
-EuropeHelp.info è una possibile soluzione. 
+C’è un problema che interessa la collettività. Un pezzetto di questa collettività si mette a cercare e proporre e offrire soluzioni. Lo fa in maniera volontaria e aperta. E lo fa usando le possibilità offerte da internet e dalle tecnologie digitali open source. Questo è civic hacking in breve. È l’intelligenza collettiva al lavoro. In un’emergenza, ad esempio, il problema è che siamo travolti dalle informazioni e non sappiamo bene dove trovarle, come segnalarle. Il nostro progetto è una possibile soluzione.
 
-L’approccio che si applica a un progetto come questo si chiama **AGOPENDI**: **AGgregate**, **OPEN**, **DI**stribute. Cioè:
+L’approccio che usiamo lo abbiamo chiamato **AGOPENDI: AG**gregate, **OPEN**, **D**Istribute. Cioè:
 
-- **Aggrega** i contenuti. I contenuti non sono strutturati e provengono da varie fonti (social media, mail, contatti etc…). La piattaforma li aggrega tramite un gran lavoro manuale di moderazione e di strutturazione in modo tale da dare loro una struttura “standard” e farne dei dati effettivamente riusabili.
-- **Apre** i dati. Tutti i dati ricavati sono publici e accessibili con licenze libere. Dovendo aggregare e strutturare, aprire i dati consente sviluppo di ulteriore informazione e servizio. E’ valore che si libera in modo piuttosto agevole. 
-- **Distrubuisce** le informazioni. Ciò che è dato aperto può essere facilmente reso una nuova informazioni utile. Come? Con un servizio. Quale? Si può dare libero sfogo alla fantasia ma sempre senza esagerare e cercando strumenti utilizzati o comunque semplicemente divulgabili. Per esempio, questo progetto ha un sito, un profilo Twitter, una pagina Facebook, un gruppo Facebook, un canale Telegram da cui chiunque può ricondividere le singole segnalazioni.
+
+
+* **Aggrega i contenuti**. I contenuti non sono strutturati e provengono da varie fonti (social media, mail, contatti etc…). La piattaforma li aggrega tramite un gran lavoro manuale di moderazione e di strutturazione in modo tale da dare loro una struttura “standard” e farne dei dati effettivamente riusabili.
+* **Apre i dati.** Tutti i dati ricavati sono pubblici e accessibili con licenze libere. Dovendo aggregare e strutturare, aprire i dati consente sviluppo di ulteriore informazione e servizio. E’ valore che si libera in modo piuttosto agevole.
+* **Distribuisce le informazioni**. Ciò che è dato aperto può essere facilmente reso una nuova informazione utile. Come? Con un servizio. Quale? Si può dare libero sfogo alla fantasia ma sempre senza esagerare e cercando strumenti utilizzati o comunque semplicemente divulgabili. Per esempio, questo progetto ha un sito, un profilo Twitter, un gruppo Facebook, un gruppo Telegram da cui chiunque può ricondividere le singole segnalazioni.
 
 Tutto questo può essere riutilizzato in futuro e migliorato.
 
