@@ -15,15 +15,6 @@
   link_en: en/recommend
   name_pt: Relatórios
   link_pt: pt/relatórios
-- name: RACCOLTE FONDI
-  logo-alt: raccolte fondi
-  logo: /img/icone/01-fabbisogni.png
-  map: false
-  link: raccolte-fondi/
-  name_en: FUNDRAISING
-  link_en: raccolte-fondi/
-  name_pt: Coleções de fundos
-  link_pt: pt/fundos
 - name: RICHIESTE DI AIUTO
   logo-alt: richieste di aiuto
   logo: /img/icone/alloggi2-tci.png              #       SERVE ICONA NUOVA??
@@ -33,6 +24,15 @@
   link_en: richiesta/
   name_pt: Pedidos de Ajuda
   link_pt: pt/ajuda
+- name: RACCOLTE FONDI
+  logo-alt: raccolte fondi
+  logo: /img/icone/01-fabbisogni.png
+  map: false
+  link: raccolte-fondi/
+  name_en: FUNDRAISING
+  link_en: raccolte-fondi/
+  name_pt: Coleções de fundos
+  link_pt: pt/fundos
 - name: NEWS
   logo-alt: news
   logo: /img/icone/news2-tci.png              #       SERVE ICONA NUOVA??
