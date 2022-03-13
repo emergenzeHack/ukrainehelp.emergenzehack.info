@@ -26,7 +26,7 @@ Laddove lo si ritenga utile, tutta l’infrastruttura è ri-usabile da organizza
 
 Il progetto è descritto tramite il nostro [wiki](https://github.com/emergenzeHack/europehelp.info/wiki).
 
-L’idea e buona parte del progetto è del gruppo di civic hacker [EmergenzeHack](https://emergenzehack.github.io/), la stessa squadra che ha sviluppato nel 2016 il progetto [TerremotoCentroItalia.info](https://www.terremotocentroitalia.info/) e nel 2020 [Covid19Italia.help](https://covid19italia.help/).
+L’idea e buona parte del progetto è del gruppo di civic hacker [EmergenzeHack](https://emergenzehack.info/), la stessa squadra che ha sviluppato nel 2016 il progetto [TerremotoCentroItalia.info](https://www.terremotocentroitalia.info/) e nel 2020 [Covid19Italia.help](https://covid19italia.help/).
 
 
 ### Contatti
