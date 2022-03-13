@@ -26,4 +26,4 @@ permalink: /segnala-base/
   <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/notizia">Segnala Notizia</a>
 </div>
 
-[Maggiori informazioni su europehelp.info](https://europehelp.info)
+[Maggiori informazioni su ukrainehelp.emergenzehack.info](https://ukrainehelp.emergenzehack.info)

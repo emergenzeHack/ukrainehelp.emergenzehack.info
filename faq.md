@@ -18,7 +18,7 @@ Ecco le istruzioni, passo dopo passo:
 4. La tua segnalazione è stata fatta!
 5. Un team di volontari se ne farà carico per verificarla e pubblicarla. A quel punto sarà online nell’archivio e sulla mappa;
 
-Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra quelli che trovi qui: europehelp.info/canali/
+Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra quelli che trovi qui: https://ukrainehelp.emergenzehack.info/canali/
 
 **Come posso rendermi utile attraverso i social?**
 
@@ -37,7 +37,7 @@ Se sei su **Telegram** segui la nostra [chat operativa](https://t.me/ukraineinfo
 
 **Vorrei fare di più. Come posso dare una mano operativa al team?**
 
-Grandioso! Alla pagina _[Contribuisci](https://europehelp.info/contribuisci/)_ trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
+Grandioso! Alla pagina _[Contribuisci](https://ukrainehelp.emergenzehack.info/contribuisci/)_ trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
 
 Il gruppo di lavoro eredita e mette a frutto quel che c’era a disposizione nel passato (ad esempio: il codice, le procedure per organizzarsi, la metodologia di sviluppo e di comunicazione) ed elabora altre idee. Il risultato è quello che vedi: il lavoro di un’intelligenza collettiva, che se vuoi puoi chiamare anche civic hacking.
 

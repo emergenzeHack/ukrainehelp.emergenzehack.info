@@ -31,7 +31,7 @@ The project is described through our [[wiki](https://www.europehelp.info/en/wiki
 
 The idea and also a large part of the project is from the same team that developed the [Terremoto Centro Italia](https://www.terremotocentroitalia.info/)
 
-[Here](https://www.europehelp.info/about/) is the team of volunteers working on this project in Italy but we wait the help of other many civic hackers in world that want to help people in difficult periods!
+[Here](/about/) is the team of volunteers working on this project in Italy but we wait the help of other many civic hackers in world that want to help people in difficult periods!
 
 Be part of our community on [Github Issues](https://github.com/emergenzeHack/europehelp.info/issues) or on our channels and make possible that this project can help people of all the world!
 

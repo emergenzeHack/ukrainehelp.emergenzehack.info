@@ -1,4 +1,4 @@
-Per inserire un elemento nella tabella [PRESS](https://www.europehelp.info/about/#press) procedere come segue:
+Per inserire un elemento nella tabella [PRESS](https://ukrainehelp.emergenzehack.info/about/#press) procedere come segue:
 
 * Andare su [questo file](https://github.com/emergenzeHack/europehelp.info/blob/master/press.csv) dei PRESS
 * Cliccare sull'icona matita per editare il file su Github

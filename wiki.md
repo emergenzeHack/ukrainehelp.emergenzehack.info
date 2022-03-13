@@ -289,7 +289,7 @@ L\'altro
 
 Ci sono alcune issue che hanno un campo "Posizione", come [questa](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/332)
 
-E finiscono nella mappa che c'è [qui](https://www.europehelp.info/issues/)
+E finiscono nella mappa che c'è [qui](https://ukrainehelp.emergenzehack.info/issues/)
 
 ## Verificare geolocalizzazione
 
