@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Emergenza: partecipa al progetto di civic hacking"
-subtitle: "Partecipa: siamo aperti a tutte le volontarie e tutti i volontari che desiderano collaborare."
+title: "Partecipa!"
+subtitle: "Siamo aperti a tutte le volontarie e tutti i volontari che desiderano collaborare."
 permalink: /contribuisci/
 lang: it
 ---
@@ -19,3 +19,4 @@ Anche solo un commento, un contatto, un’idea è molto importante!
 Per istruzioni visualizza la pagina Wiki, [clicca qui](https://www.europehelp.info/wiki/)!
 
 Grazie!
+
