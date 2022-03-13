@@ -15,18 +15,18 @@ Our site has been created with [Github](http://www.github.com/).
 
 **Get involved**
 
-In order to be added at the list of the repository developers open an issue here ([qui](https://github.com/emergenzehack/europehelp.info/issues/new?title=%5Brichiesta%20iscrizione%5D)), ask to get the access sharing your [Telegram](https://web.telegram.org/) username.
+In order to be added at the list of the repository developers open an issue here ([qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new?title=%5Brichiesta%20iscrizione%5D)), ask to get the access sharing your [Telegram](https://web.telegram.org/) username.
 
 **Help us in improving it**
 
-EuropeHelp is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzeHack/europehelp.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
+EuropeHelp is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
 
 Github repositories we are using are the following ones :
 
 
-*   [Here](https://github.com/emergenzeHack/europehelp.info) This one for the website development
-*   [Here](https://github.com/emergenzeHack/europehelp.info_segnalazioni) This one for collecting and controlling the reports.
-*   [Here](https://github.com/emergenzeHack/europehelp.info_data) This one in order to archive the open data we created
+*   [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info) This one for the website development
+*   [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni) This one for collecting and controlling the reports.
+*   [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data) This one in order to archive the open data we created
 
 Thank you, we're waiting for your help!
 
@@ -87,14 +87,14 @@ This page is a mirror of [this simple tutorial](https://guides.github.com/activi
 
 Preamble:
 
-This document is intended for the team working on Reports. Other users do not have permission to perform the operations described here, but they can freely leave a comment on any Issue contributing to it. For example, at [this link](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) you can see all the Reports that are still missing a position. You can suggest coordinates in a comment. A moderator will take over and apply your suggestions as soon as possible.
+This document is intended for the team working on Reports. Other users do not have permission to perform the operations described here, but they can freely leave a comment on any Issue contributing to it. For example, at [this link](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) you can see all the Reports that are still missing a position. You can suggest coordinates in a comment. A moderator will take over and apply your suggestions as soon as possible.
 
 To join the team of Moderators, make sure you are an active member of the community, that you have contributed previously and that you enter the group chat of contributors.
 
 
 ## Mechanism
 
-Each compilation of a form generates - after about 30 seconds - a new Issue [here](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues).
+Each compilation of a form generates - after about 30 seconds - a new Issue [here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues).
 
 Different labels are applied to these Issues to describe their nature and approval status (which determines their final publication on the site, on bulletins, on Twitter, on Telegram channel and bot,...).
 
@@ -161,7 +161,7 @@ L\'altro
 
 1. The title of the Issue becomes the title of the report on the front end.
 2. Changes (including publication/de-publication) appear on the final site after a maximum of 15 minutes. Use CTRL+F5 or anonymous navigation mode if you do not see any changes. If things still don't come back to you after this, proceed to open Issue and report the problem.
-3. If you need to change the Labels that are already assingned to the Issue (the ones you see already automatically assigned) please report it [here]([https://github.com/emergenzeHack/europehelp.info/issues/new](https://github.com/emergenzeHack/europehelp.info/issues/new))
+3. If you need to change the Labels that are already assingned to the Issue (the ones you see already automatically assigned) please report it [here]([https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new))
 4. Do not remove the Label "form", it helps us to investigate the origin of the reports.
 
 
@@ -291,7 +291,7 @@ TCI (terremotocentroitalia.info) is a "dynamic" site based on:
 
 ### Backend
 
-The backend is directly represented by a github repo of which only the reporting part is used (you can see it [here](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues)).
+The backend is directly represented by a github repo of which only the reporting part is used (you can see it [here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues)).
 
 Pros:
 
@@ -308,7 +308,7 @@ Against:
 
 ### Conversion Script
 
-Every 5 minutes, a [script](https://github.com/emergenzeHack/europehelp.info/blob/master/scripts/csvupdate.sh):
+Every 5 minutes, a [script](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/blob/master/scripts/csvupdate.sh):
 
 
 *   download all the reports from github
@@ -375,7 +375,7 @@ To insert an item in the [PRESS](https://www.europehelp.info/about/#press) table
 
 
 
-*   Go to this PRESS [file](https://github.com/emergenzeHack/europehelp.info_data/blob/master/press.csv)
+*   Go to this PRESS [file](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data/blob/master/press.csv)
 *   Click the pencil icon to edit the file on Github
 *   Add a line to the file and insert in sequence date,source,title,comma separated links. Note: there must be no additional commas except those separating the 4 fields.
 *   Click on the "Commit changes" or "Propose changes" button at the bottom of the page.

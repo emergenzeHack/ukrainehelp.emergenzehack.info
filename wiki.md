@@ -14,17 +14,17 @@ Il progetto è completamente aperto e chiunque può dare il suo contributo segue
 Il nostro sito è creato con [Github](http://www.github.com).
 
 ## Contribuisci
-Per essere aggiunto alla lista degli sviluppatori del repository apri un issue [qui](https://github.com/emergenzehack/europehelp.info/issues/new?title=%5Brichiesta%20iscrizione%5D).
+Per essere aggiunto alla lista degli sviluppatori del repository apri un issue [qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new?title=%5Brichiesta%20iscrizione%5D).
 
 ##  Aiutaci a migliorare
 
-*EuropeHelp è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzeHack/europehelp.info/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
+*EuropeHelp è un progetto in divenire*, per suggerire miglioramenti apri un [issue qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues). Alla stessa pagina puoi vedere le segnalazioni aperte dagli altri utenti; da lì puoi vedere quello che c'è ancora da fare e da sistemare.
 
 
 I repository Github che usiamo sono
-* [QUESTO](https://github.com/emergenzeHack/europehelp.info) per lo sviluppo del sito web
-* [QUESTO](https://github.com/emergenzeHack/europehelp.info_segnalazioni) per la raccolta e la moderazione delle segnalazioni
-* [QUESTO](https://github.com/emergenzeHack/europehelp.info_data) per l'archiviazione dei dati aperti da noi prodotti
+* [QUESTO](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info) per lo sviluppo del sito web
+* [QUESTO](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni) per la raccolta e la moderazione delle segnalazioni
+* [QUESTO](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data) per l'archiviazione dei dati aperti da noi prodotti
 
 
 
@@ -225,13 +225,13 @@ Per molti altri tutorial su Github consulta [questa pagina](https://guides.githu
 
 Premessa:
 
-> Questo documento è destinato al team che lavora sulle Segnalazioni. Gli altri utenti non hanno i permessi per effettuare le operazioni descritte qui, ma possono liberamente lasciare un commento su qualsiasi Issue contribuendo alla stessa. Ad esempio, a [questo link](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) si possono vedere tutte le segnalazioni a cui ancora manca una posizione. Si possono suggerire in un commento le coordinate. Un moderatore la prenderà in carico e applicherà i vostri suggerimenti il prima possibile.
+> Questo documento è destinato al team che lavora sulle Segnalazioni. Gli altri utenti non hanno i permessi per effettuare le operazioni descritte qui, ma possono liberamente lasciare un commento su qualsiasi Issue contribuendo alla stessa. Ad esempio, a [questo link](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) si possono vedere tutte le segnalazioni a cui ancora manca una posizione. Si possono suggerire in un commento le coordinate. Un moderatore la prenderà in carico e applicherà i vostri suggerimenti il prima possibile.
 >
 > Per entrare a far parte del team di Moderatori, assicurati di essere un membro attivo della community, di aver contribuito precedentemente ed entra nella chat di gruppo dei collaboratori.
 
 # Meccanismo
 
-Ogni compilazione di un modulo di europehelp genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues). 
+Ogni compilazione di un modulo di europehelp genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues). 
 
 A queste Issue vengono applicate diverse etichette per descriverne la natura e lo stato di approvazione (che ne determina la pubblicazione finale sul sito, sui bollettini, su Twitter, sui canali e bot Telegram,..).
 
@@ -281,7 +281,7 @@ L\'altro
 
 3. Le modifiche (inclusa la pubblicazione/depubblicazione) appaiono sul sito finale dopo massimo 15 minuti. Usate <kbd>CTRL</kbd>+<kbd>F5</kbd> oppure la modalità navigazione in anonimo se non vedete cambiamenti. 
 
-4. Se avete bisogno di cambiare le Label che vengono preassegnate alle Issue (quelle che vedete già assegnate automaticamente) segnalatecelo [qui](https://github.com/emergenzeHack/europehelp.info/issues/new)
+4. Se avete bisogno di cambiare le Label che vengono preassegnate alle Issue (quelle che vedete già assegnate automaticamente) segnalatecelo [qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new)
 
 5. Non rimuovete la Label "form", ci aiuta ad investigare l'origine delle segnalazioni.
 
@@ -304,7 +304,7 @@ Quindi, le issue segnalate con la label <kbd>Posizione mancante</kbd> hanno biso
 
 ### Come trovare le coordinate di un luogo?
 
-Prendiamo ad esempio [questa](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues/) segnalazione su Milano) 
+Prendiamo ad esempio [questa](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues/) segnalazione su Milano) 
 
 Si può usare questo sito: [Nominatim](https://nominatim.openstreetmap.org/).
 
@@ -392,7 +392,7 @@ TCI (terremotocentroitalia.info) è un sito "dinamico" basato su:
 
 ## Backend
 
-Il backend è direttamente rappresentato da un repo github del quale viene utilizzata solo la parte di segnalazioni (lo potete vedere qui https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues).
+Il backend è direttamente rappresentato da un repo github del quale viene utilizzata solo la parte di segnalazioni (lo potete vedere qui https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues).
 
 Pro:
 * il sistema è robusto, funzionale, gestito da altri
@@ -406,7 +406,7 @@ Contro:
 
 ### Script di conversione
 
-Ogni 5 minuti, uno script (https://github.com/emergenzeHack/europehelp.info/blob/master/scripts/csvupdate.sh):
+Ogni 5 minuti, uno script (https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/blob/master/scripts/csvupdate.sh):
 * scarica tutte le segnalazioni da github
 * decodifica lo YAML
 * crea un array JSON che contiene le segnalazioni e lo YAML convertito in JSON
@@ -459,7 +459,7 @@ Facile no?
 
 Per inserire un elemento nella tabella [PRESS](https://www.europehelp.info/about/#press) procedere come segue:
 
-* Andare su [questo file](https://github.com/emergenzeHack/europehelp.info_data/blob/master/press.csv) dei PRESS
+* Andare su [questo file](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data/blob/master/press.csv) dei PRESS
 * Cliccare sull'icona matita per editare il file su Github
 ![cliccare l'icona per modificare il file PRESS](https://d186loudes4jlv.cloudfront.net/git/images/github_my_first_repo_readme.png)
 * Aggiungere una riga al file ed inserire in sequenza data,fonte,titolo,link separati da virgola. Nota: non devono esserci virgole ulteriori eccetto quelle che separano i 4 campi.
