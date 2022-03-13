@@ -24,6 +24,9 @@
                                             {% assign itemDescription = item[0] | replace: "_", " " | capitalize_all %}
                                                 {% if site.data.cfg.issueFieldsBlacklist contains itemDescription %}
                                                 {% else %}
+                                                {%- if itemDescription == "Namesurname" -%}
+                                                    {% assign itemDescription = "Name" %}
+                                                {%- endif -%}
                                                 <dt class="col-sm-3">{{itemDescription}}</dt>
                                                     {%- if itemDescription == "Descrizione" -%}
                                                         {%- assign itemrepr = item[1] | newline_to_br | auto_link -%}
