@@ -2,7 +2,7 @@
 lang: it
 layout: page
 title: Canali di comunicazione e social
-subtitle: Contatta EuropeHelp.info e segui i canali social
+subtitle: Contattaci e segui i canali social
 permalink: /canali/
 ---
 

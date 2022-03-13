@@ -1,4 +1,4 @@
-Sotto qualche semplice passaggio per convertire un documento fatto in Google Docs in un formato compatibile con questo WIKI o come post del blog di questo sito così da poter continuare ad usare Google Docs se lo si usa normalmente per scrivere e poi pubblicare contenuti su europehelp.info
+Sotto qualche semplice passaggio per convertire un documento fatto in Google Docs in un formato compatibile con questo WIKI o come post del blog di questo sito così da poter continuare ad usare Google Docs se lo si usa normalmente per scrivere e poi pubblicare contenuti
 
 - Installare nei Componenti aggiuntivi il plugin "Docs to markdown" (dal menu Componenti Aggiuntivi -> Installa componenti aggiuntivi cercate "Docs to markdown". 
 - una volta che il documento in Google Doc è pronto aprire il menu Componenti Aggiuntivi selezionate la voce "Docs to Markdown" e poi "Convert"
