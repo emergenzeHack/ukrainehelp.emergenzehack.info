@@ -1,117 +1,47 @@
 ---
 lang: it
 layout: page
-title: Domande Frequenti su civic hacking per emergenza 
+title: Domande Frequenti 
 subtitle: Come funziona la risposta partecipata in emergenza?
 permalink: /faq/
 ---
 
-## Cos'è, esattamente, EuropeHelp.info?
+**Come posso fare una segnalazione?**
 
-Probabilmente è più facile provare a usarlo che spiegarlo!
-
-Comunque, prima di tutto EuropeHelp.info è un posto utile a tutte le persone interessate dall’emergenza e che vogliono attivarsi per dare una mano.
-
-È un servizio informazioni su quello che è importante sapere in questi giorni.
-
-È un progetto non profit, diretto e gestito da volontarie e volontari.
-
-È una comunità. Anche tu puoi attivarti (da casa) e partecipare.
+Ecco le istruzioni, passo dopo passo:
 
 
-## A chi serve?
 
-A tutte le persone coinvolte dall’emergenza, che vogliono informazioni sulle iniziative, sulle fonti ufficiali da consultare, su notizie verificate, sulle raccolte fondi e molto altro. Quindi, probabilmente, anche a te.
-
-## Cosa si può fare?
-
-Qui puoi:
-
-- Sentirti parte di una comunità;
-- Aiutare, collaborare, renderti utile alla comunità;
-- Consultare e scoprire fonti, notizie, iniziative, raccolte fondi e molto altro (anche grazie a una mappa, dove puoi cercare quelle più vicine a te) che riguarda questa emergenza;
-- Segnalare iniziative a tema;
-- Conversare sul tema.
-
-## Perchè?
-
-In un momento di emergenza siamo tutti disorientati. Spesso è difficile trovare le informazioni utili e più rilevanti. Ci sono così tante iniziative a supporto delle persone che si rischia di perdersi nel marasma delle informazioni. Si rischia anche di disperdere di valore di queste iniziative. Il nostro progetto le aggrega, verifica e le rende facilmente consultabili, dividendole per tipo e per posizione geografica.
-
-La cosa più bella è che anche tu puoi collaborare in prima persona, con le tue segnalazioni.
-
-## A cosa serve fare una segnalazione?
-
-In questo momento una persona potrebbe avere bisogno di un bene o servizio o un’iniziativa che tu conosci e altri no. 
-Fare una segnalazione serve a rendere pubblica e facilmente fruibile un’informazione che potrebbe servire alla comunità.
-Per questo è importante mettere in rete la conoscenza. L’informazione è un bene comune.
-
-## Che tipo di informazioni posso trovare e segnalare?
-
-- **Fonti istituzionali** informazioni e notizie ufficiali sull’emergenza dalle fonti ufficiali 
-- **Richieste d’aiuto** mettiamo in rete le richieste di aiuto per farle circolare di più e meglio 
-- **Offerte di aiuto** realtà o singoli cittadini che offrono aiuto di qualsiasi natura 
-- **Raccolte fondi** segnalaci le raccolte di fondi che circolano in rete, le organizzeremo per categoria e territorio 
-- **Fake News / Bufale** hai visto circolare una notizia falsa? Segnalacelo! 
-- **Informazioni utili** verifichiamo e categorizziamo tutto quello che ti può venire in mente per aiutare gli altri: in questo modo sarà più semplice trovarlo
-- **Donazioni materiali/strumenti** segnalaci le offerte di beni con le quali vieni in contatto
-- **Servizi e iniziative solidali pubbliche o private**: segnalaci chi propone iniziative per la collettività 
-- **Consegne e commissioni** consegne a domicilio di beni di prima necessità, farmaci, commissioni. Se conosci chi si rende disponibile a farne, segnalacelo.
-- **Didattica a distanza** aiutaci a raccogliere tutte le iniziative pubbliche o private di didattica online
-- **Sostegno al lavoro** segnalaci le iniziative di sostegno ai lavoratori in questo momento 
-- **Contatti utili** segnalaci i contatti che ritieni più utili, li organizzeremo per territorio
-- **Giochi/intrattenimento bambini** conosci attività o iniziative per far passare il tempo in casa ai bambini? Condividile con la comunità 
-- **Intrattenimento adulti/attività culturale** condividi le attività di intrattenimento che conosci o realtà che ne propongono 
-- **Supporto psicologico** segnalaci i servizi di supporto psicologico che operano in questo momento di emergenza
-
-## Come posso fare una segnalazione?
-
-Eccoti le istruzioni, passo dopo passo:
-
-1. Accedi alla pagina delle segnalazioni: [europehelp.info/segnala/](https://europehelp.info/segnala/);
+1. Accedi alla pagina delle segnalazioni: europehelp.info/segnala/;
 2. Scegli a che categoria appartiene la tua segnalazione;
 3. Compila il form con i dati richiesti;
 4. La tua segnalazione è stata fatta!
-5. Un team di volontari se ne farà carico per verificarla e pubblicarla. A quel punto sarà nell’archivio e sulla mappa;
-6. Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra questi qui: [europehelp.info/canali/](https://europehelp.info/canali/)
+5. Un team di volontari se ne farà carico per verificarla e pubblicarla. A quel punto sarà online nell’archivio e sulla mappa;
 
-## Come posso rendermi utile utilizzando i miei social?
+Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra quelli che trovi qui: europehelp.info/canali/
 
-Come posso rendermi utile attraverso i miei social? 
+**Come posso rendermi utile attraverso i social?**
 
 Parla del progetto sui tuoi profili social e poi: 
 
 Se hai un profilo **Facebook**:
 
-1. Iscriviti al gruppo e segnalaci le iniziative che ritieni più utili (https://www.facebook.com/groups/ukraineinfo.help/)
-2. Se fai parte di gruppi o community: condividi e spiega il progetto di europehelp.info. Più siamo più le informazioni circolano.  
 
 
-Usi **Twitter**? 
+1. Iscriviti al nostro gruppo Facebook  ([https://www.facebook.com/groups/ukraineinfo.help/](https://www.facebook.com/groups/ukraineinfo.help/)) e segnalaci le iniziative che ritieni più utili.
+2. Se fai parte di gruppi o community: condividi e spiega il progetto. Più siamo, più le informazioni circolano.
 
 Se usi **Twitter** sai che Twitter è un ottimo strumento per raccogliere e diffondere informazioni utili. Puoi seguire il [nostro account](https://twitter.com/ukraineinfohelp), parlare di noi e ritwittare le segnalazioni che pubblichiamo.
 
-Sei su **Telegram**? 
-
 Se sei su **Telegram** segui la nostra [chat operativa](https://t.me/ukraineinfohelp) e partecipa alle attività del progetto.
- 
 
-## Vorrei fare di più. Come posso dare una mano operative al team? 
+**Vorrei fare di più. Come posso dare una mano operativa al team?**
 
 Grandioso! Alla pagina _[Contribuisci](https://europehelp.info/contribuisci/)_ trovi tutte le informazioni per unirti ai nostri sforzi, che tu sia un tecnico o no.
 
 Il gruppo di lavoro eredita e mette a frutto quel che c’era a disposizione nel passato (ad esempio: il codice, le procedure per organizzarsi, la metodologia di sviluppo e di comunicazione) ed elabora altre idee. Il risultato è quello che vedi: il lavoro di un’intelligenza collettiva, che se vuoi puoi chiamare anche civic hacking.
 
-
-## Posso sapere qualcosa in più su di voi?
-
-Grazie per averlo chiesto! Ci fa piacere poterci presentare. Nel backstage di progetti come questo, a lavorare dietro le quinte, ci sono volontarie e volontari. Persone, insomma, con un volto, nomi, competenze, passioni e voglia di mettere un po’ del loro tempo (a volte proprio tanto tempo!) e delle loro capacità per fare qualcosa di utile.
-L’esperienza di questo progetto, in particolare, deriva, fra l’altro, da un progetto analogo che seguiva informazioni, iniziative, notizie legate al terremoto in centro Italia del 2016. Lo puoi vedere qui: https://terremotocentroitalia.info/
-
-Il gruppo di lavoro eredita quel che c’era a disposizione nel passato (ad esempio: il codice, le procedure per organizzarsi, la metodologia di sviluppo e di comunicazione) ed elabora altre idee. Il risultato è quello che vedi: il lavoro di un’intelligenza collettiva, che se vuoi puoi chiamare anche civic hacking.
-
-I nomi di chi partecipa li trovi qui: https://www.europehelp.info/about/ (è una pagina in continuo aggiornamento). 
-
-## Mi dite qualcosa in più sul civic hacking, sul metodo, sull’approccio?
+**Cosa è il civic hacking? Quale metodo e approccio usate?**
 
 C’è un problema che interessa la collettività. Un pezzetto di questa collettività si mette a cercare e proporre e offrire soluzioni. Lo fa in maniera volontaria e aperta. E lo fa usando le possibilità offerte da internet e dalle tecnologie digitali open source. Questo è civic hacking in breve. È l’intelligenza collettiva al lavoro. In un’emergenza, ad esempio, il problema è che siamo travolti dalle informazioni e non sappiamo bene dove trovarle, come segnalarle. Il nostro progetto è una possibile soluzione.
 
