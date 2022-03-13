@@ -100,8 +100,8 @@
     {%- endif -%}
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@ItaliaCovid19">
-    <meta name="twitter:creator" content="@ItaliaCovid19">
+    <meta name="twitter:site" content="{{site.author.twitter}}">
+    <meta name="twitter:creator" content="{{site.author.twitter}}">
     {%- if page.url == '/' -%}
     <meta name="twitter:title" content="{{ page.title }}">
     {%- else -%}
@@ -115,7 +115,7 @@
     {%- else -%}
     <meta name="twitter:description" content="{{ site.description }}">
     {%- endif -%}
-    <meta name="twitter:image" content="https://www.covid19italia.help/images/covid19italia.png">
+    <meta name="twitter:image" content="/apple-touch-icon.png">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
