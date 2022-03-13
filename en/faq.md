@@ -118,13 +118,7 @@ Here below the instructions, step by step:
 Talk and discuss about the project. In this [post](https://www.covid19italia.info/faq/2020-03-11-come-postare-sui-social/) we explain how to effectively use social networks to tackle the emergency.
 
 If you have a **Facebook** profile:
-
-
-
-1. Share Covid19 page (you can find it here : [https://www.facebook.com/covid19italia.help/](https://www.facebook.com/covid19italia.help/)) and invite your contacts to join and to put “like” on the page
-2. Join the group and report the initiatives that you consider useful
-
-    https://www.facebook.com/groups/covid19italia/?source_id=105297061095370 )
+Join the [group]({{site.author.facebook}}) and report the initiatives that you consider useful
 
 1. If you are part of groups and communities, share and explain COVID19Italia.help project. More we are, more information is spread.
 

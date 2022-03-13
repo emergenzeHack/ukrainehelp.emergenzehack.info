@@ -22,7 +22,7 @@ title: UkraineHelp
 logo-description: 
 
 # Short description of your site
-description: Un progetto per condividere informazioni durante la guerra in Ucraina
+description: Un progetto per condividere informazioni sulla guerra in Ucraina
 
 # --- Navigation bar options --- #
 # List of links in the navigation bar -> NOT MORE USED! see in navigation.yml in Data folder.
@@ -41,7 +41,7 @@ author:
   name: UkraineHelp
   email: "mailto:europehelp@gmail.com"
     #facebook: covid19italia.help  # eg. daattali
-  facebook_group: 449673436901610
+  facebook_group: ukrainehelpit
   github: emergenzeHack/europehelp.info    # eg. daattali
   twitter: ukraineinfohelp
   #feed: #eg http://feeds.feedburner.com/covid19ita_segnalazioni

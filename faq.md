@@ -28,7 +28,7 @@ Se hai un profilo **Facebook**:
 
 
 
-1. Iscriviti al nostro gruppo Facebook  ([https://www.facebook.com/groups/ukraineinfo.help/](https://www.facebook.com/groups/ukraineinfo.help/)) e segnalaci le iniziative che ritieni più utili.
+1. Iscriviti al nostro [gruppo Facebook]({{site.author.facebook}}) e segnalaci le iniziative che ritieni più utili.
 2. Se fai parte di gruppi o community: condividi e spiega il progetto. Più siamo, più le informazioni circolano.
 
 Se usi **Twitter** sai che Twitter è un ottimo strumento per raccogliere e diffondere informazioni utili. Puoi seguire il [nostro account](https://twitter.com/ukraineinfohelp), parlare di noi e ritwittare le segnalazioni che pubblichiamo.
