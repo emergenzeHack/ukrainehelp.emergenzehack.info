@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Che cos'è EmergenzaHelp? La risposta all'emergenza del civic hacking
+title: Il Progetto
 subtitle: Scopri come funziona la piattaforma, come e da chi viene sviluppata
 permalink: /about/
 lang: it
 ---
   
-## Il Progetto
-
 Questo è un progetto non profit di civic hacking, organizzato e diretto interamente da volontarie e volontari. È nato per condividere informazioni utili e verificate a supporto della popolazione dell’Ucraina sottoposta nel febbraio 2022 ad un attacco militare da parte della Russia.
 
 Lo scopo del progetto è raccogliere, verificare, aggregare e diffondere informazioni utili che possano essere di aiuto agli e alle ucraine in difficoltà per la guerra, in particolare alle persone costrette a lasciare il proprio Paese. 
@@ -18,27 +16,17 @@ Il progetto non intende in alcun modo sostituirsi a fonti istituzionali di infor
 
 Il progetto si rivolge a tutte le persone che sono interessate a ciò che sta accadendo in Ucraina e che vogliono attivarsi (anche da casa), in modo pacifico e solidale, per dare una mano al popolo ucraino.
 
-
-## Statistiche
-
-{% assign labels = "Servizi e iniziative solidali private,Servizi e iniziative solidali pubbliche,Consegne e commissioni,Fake News,Donne,Raccolte fondi,Supporto psicologico,Didattica a distanza e-learning,Fonti istituzionali,Informazioni utili,Notizie" | split: ',' %}
-
-Fino ad ora, abbiamo gestito
-{% for valore in site.data.statisticheSegnalazioni %} {% if valore.Tipo == "Segnalazioni totali" %} <b>{{valore.Valore}}</b> {% endif %} {% endfor %} segnalazioni, accettandone e verificandone {% for valore in site.data.statisticheSegnalazioni %} {% if valore.Tipo == "Accettate" %} <b>{{valore.Valore}}</b>{% endif %}{% endfor %}, così distribuite:
-{% for valore in site.data.statisticheSegnalazioni %} {% if labels contains valore.Tipo %}
-- {{ valore.Valore }} {{ valore.Tipo }} {% endif %} {% endfor %}
-
-## Riuso
+**Riuso**
 
 Ogni componente software che sviluppiamo è rilasciato con una licenza Open Source che ne permette il riuso e ne promuove lo sviluppo pubblicamente.
 
-I dati che raccogliamo e produciamo vengono pubblicati e tenuti aggiornati come [Open Data]({{ site.url }}/opendata/).
+I dati che raccogliamo e produciamo vengono pubblicati e tenuti aggiornati come [Open Data](https://europehelp.info/opendata/).
 
 Laddove lo si ritenga utile, tutta l’infrastruttura è ri-usabile da organizzazioni, associazioni, gruppi informali ed anche governi e pubbliche amministrazioni che avessero bisogno di un servizio per informare e promuovere la partecipazione dei cittadini per rispondere ad una emergenza di qualsiasi tipo e in qualsiasi parte dell’Europa e del mondo.
 
 Il progetto è descritto tramite il nostro [wiki](https://github.com/emergenzeHack/europehelp.info/wiki).
 
-L'idea e buona parte del progetto è del gruppo di civic hacker [emergenzeHack](https://emergenzehack.github.io), la stessa squadra che ha sviluppato nel 2016 il progetto [TerremotoCentroItalia](https://www.terremotocentroitalia.info) e nel 2020 [Covid19Italia.help](https://www.covid19italia.help)
+L’idea e buona parte del progetto è del gruppo di civic hacker [EmergenzeHack](https://emergenzehack.github.io/), la stessa squadra che ha sviluppato nel 2016 il progetto [TerremotoCentroItalia.info](https://www.terremotocentroitalia.info/) e nel 2020 [Covid19Italia.help](https://covid19italia.help/).
 
 
 ### Contatti
