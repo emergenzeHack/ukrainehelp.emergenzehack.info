@@ -6,7 +6,7 @@ Share info of the emergency in Europe
 
 ### Social
 
-- [Facebook]({{site.author.facebook}})
+- [Facebook](https://www.facebook.com/groups/ukrainehelpit/)
 - Telegram: https://t.me/ukraineinfohelp
 
 ### GitHub
