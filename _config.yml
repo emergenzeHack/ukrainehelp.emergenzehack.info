@@ -22,10 +22,8 @@ title: UkraineHelp
 logo-description: 
 
 # Short description of your site
-description: Un progetto per condividere informazioni sulla guerra in Ucraina
+description: To crowdsource and share useful info and services to support Ukraine Emergency
 
-# --- Navigation bar options --- #
-# List of links in the navigation bar -> NOT MORE USED! see in navigation.yml in Data folder.
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
