@@ -12,7 +12,7 @@ Ecco le istruzioni, passo dopo passo:
 
 
 
-1. Accedi alla pagina delle segnalazioni: europehelp.info/segnala/;
+1. Accedi alla pagina delle segnalazioni: https://ukrainehelp.emergenzehack.info/segnala/;
 2. Scegli a che categoria appartiene la tua segnalazione;
 3. Compila il form con i dati richiesti;
 4. La tua segnalazione è stata fatta!

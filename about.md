@@ -20,7 +20,7 @@ Il progetto si rivolge a tutte le persone che sono interessate a ciò che sta ac
 
 Ogni componente software che sviluppiamo è rilasciato con una licenza Open Source che ne permette il riuso e ne promuove lo sviluppo pubblicamente.
 
-I dati che raccogliamo e produciamo vengono pubblicati e tenuti aggiornati come [Open Data](https://europehelp.info/opendata/).
+I dati che raccogliamo e produciamo vengono pubblicati e tenuti aggiornati come [Open Data](https://ukrainehelp.emergenzehack.info//opendata/).
 
 Laddove lo si ritenga utile, tutta l’infrastruttura è ri-usabile da organizzazioni, associazioni, gruppi informali ed anche governi e pubbliche amministrazioni che avessero bisogno di un servizio per informare e promuovere la partecipazione dei cittadini per rispondere ad una emergenza di qualsiasi tipo e in qualsiasi parte dell’Europa e del mondo.
 
