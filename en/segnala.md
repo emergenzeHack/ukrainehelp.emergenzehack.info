@@ -8,7 +8,6 @@ permalink: /en/recommend/
 
 <div class="offset-md-3 col-md-6">
   <a class="btn btn-success btn-lg btn-block btn-form" href="/forms/segnala_help_page">Ask for help</a>
-  <a class="btn btn-success btn-lg btn-block btn-form" href="/forms/segnala_houses_page">Offer Houses</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/forms/segnala_services_page">Recommend Initiatives and Services</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form " href="/forms/segnala_fund_page">Recommend Fundraising</a>
   <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="/forms/segnala_contact_page">Add Helpful Contact</a>
