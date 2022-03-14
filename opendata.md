@@ -6,7 +6,7 @@ subtitle: Gli open data con le segnalazioni in emergenza da riutilizzare
 permalink: /opendata/
 ---
 
-Se usi i nostri dati non scordare di citarci come fonte (grazie!) e segnalacelo [scrivendoci una mail](mailto:europehelp.info@gmail.com) in modo che potremmo citarti tra gli utilizzatori di questo progetto!
+Se usi i nostri dati non scordare di citarci come fonte (grazie!) e segnalacelo [scrivendoci una mail](mailto:ukrainehelpit@gmail.com) in modo che potremmo citarti tra gli utilizzatori di questo progetto!
 
 ## DATASET 
 In tabella trovi tutti i riferimenti ai dati raccolti e ridistribuiti da questo progetto assieme alla loro licenza di riuso.
