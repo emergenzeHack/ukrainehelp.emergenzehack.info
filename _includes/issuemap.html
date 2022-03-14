@@ -2,7 +2,7 @@
 var markerList=[];
 
 {%- for member in filteredissues | where_exp: 'm', 'm.issue.data.Posizione != blank or (m.issue.data.address.address.lat != blank and m.issue.data.address.address.lon != blank) or (m.issue.data.location.address.lat != blank and m.issue.data.location.address.lon != blank)' -%} 
-    {%- if member.issue.Posizione != blank -%}
+    {%- if member.issue.data.Posizione != blank -%}
         {%- assign coords = member.issue.data.Posizione | split:  " " -%}
         markerList.push([{{coords[0]}}, {{coords[1]}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
     {%- elsif member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank -%}
@@ -51,7 +51,7 @@ for (var i=0; i<markerList.length; i++) {
 
     for (var il = 0; il < labels.length; il++) {
         if (labels[il] in markerIcons) {
-            iconaFinale = markerIcons[labels[il]]
+            iconaFinale = markerIcons[labels[il]];
             break;
         }
     }
