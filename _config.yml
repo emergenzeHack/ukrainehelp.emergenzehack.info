@@ -51,14 +51,14 @@ author:
   #instagram: covid19italia.help # eg. daattali
   #youtube: yourlink # eg. user/daattali or channel/daattali
   #rss: https://emergenzehack.github.io/covid19italia/feed.xml
-  telegram: https://t.me/ukraineinfohelp
+  #telegram: https://t.me/ukraineinfohelp
   #medium: https://medium.com/@covid19italia
   #archiveorg: https://archive.org/details/@covid19italia
   #messenger: messenger
   #telegram_bot: to do
   #androidapp: to do
   #messenger: to do
-  #telegram_group: https://t.me/COVID19I
+  telegram_group: https://t.me/ukraineinfohelp
   #slack: https://join.slack.com/t/covid19peoplehelp/shared_invite/zt-dbg7ctmp-ta7ZYJN5Lvvse1w0eCymMQ
 
 # Select which links to show in the footer

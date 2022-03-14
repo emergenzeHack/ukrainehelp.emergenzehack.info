@@ -7,7 +7,7 @@ permalink: en/channels/
 ---
 
 <div class="segnala">
-<p>Here channels to conctact, be informed, report info or needs: </p>
+<p>Where to find us</p>
      <ul>
          {% if site.author.facebook %}
           <li>
@@ -26,7 +26,7 @@ permalink: en/channels/
                 <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
                 <i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
               </span>&nbsp;&nbsp;Facebook Group
-            </a><span>to discuss on Facebook</span>
+            </a><span></span>
           </li>
          {% endif %}
          {% if site.author.androidapp %}
@@ -45,8 +45,8 @@ permalink: en/channels/
               <span class="fa-stack fa-lg" aria-label="Logo riferito al sito github, raffigura un gatto con i tentacoli." role="img">
                 <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
                 <i class="fa fa-github fa-stack-1x fa-inverse" aria-hidden="true"></i>
-              </span>&nbsp;&nbsp;Repo GitHub
-            </a><span>to collaborate for developments</span>
+              </span>&nbsp;&nbsp;Repository GitHub
+            </a><span>to see our code and contribute</span>
           </li>
           {% endif %}
           {% if site.author.twitter %}
@@ -56,7 +56,7 @@ permalink: en/channels/
                 <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
               </span>&nbsp;&nbsp;Twitter
-            </a><span>to follow on Twitter</span>
+            </a><span></span>
           </li>
           {% endif %}
            {% if site.author.instagram %}
@@ -136,7 +136,7 @@ permalink: en/channels/
                 <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
                 <i class="fa fa-paper-plane fa-stack-1x fa-inverse" aria-hidden="true"></i>
               </span>&nbsp;&nbsp;Telegram Group
-            </a><span>to coordinate on Telegram</span>
+            </a><span>to discuss and help on the development of the project</span>
           </li>
           {% endif %}
      </ul>
