@@ -1,3 +1,35 @@
+{%- if page.issuecategory != blank -%}
+
+    {% assign issuecategories = "" | split: "," %}
+    {% assign tmpcategory = "" | split: "," %}
+    {%- assign tmpcategory = tmpcategory | push: page.issuecategory -%}
+    {%- assign tmpcategory = tmpcategory | push: site.data.cfg.issuecategories[page.issuecategory] -%}
+    {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
+
+{%- elsif page.issuecategories != blank -%}
+
+    {% assign issuecategories = "" | split: "," %}
+    {% for category in page.issuecategories %}
+    {% assign tmpcategory = "" | split: "," %}
+    {%- assign tmpcategory = tmpcategory | push: category -%}
+    {%- assign tmpcategory = tmpcategory | push: site.data.cfg.issuecategories[category] -%}
+    {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
+    {% endfor %}
+
+{%- elsif page.displayname != blank and page.markericon != blank -%}
+
+    {% assign issuecategories = "" | split: "," %}
+    {% assign tmpcategory = "" | split: "," %}
+    {%- assign tmpcategory = tmpcategory | push: "page" -%}
+    {%- assign tmpcategory = tmpcategory | push: page -%}
+    {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
+
+{%- else -%}
+
+    {%- assign issuecategories = site.data.cfg.issuecategories -%}
+
+{%- endif -%}
+
                         <div  class="col-md-12 col-sm-12 col-12 mb-15">
                             <div class="card" id="issue{{member.number}}">
                                 <div class="card-body issuepanel">
@@ -62,6 +94,94 @@
                                                 {%- endif -%}
                                             {%- endif -%}
                                         {%- endfor -%}
+
+
+                                        {%- if member.issue.data.Posizione != blank or (member.issue.data.address.address.lat != blank and member.issue.data.address.address.lon != blank) or (member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank)' -%} 
+                                        <dt class="col-sm-3">Map</dt>
+                                        <dd class="col-sm-9"><div id="map{{member.number}}{{category['displayname']}}" class="w-100" style="height: 200px;"></div></dd>
+                                        <script>
+
+                                            var markerList=[];
+
+                                            {%- if member.issue.data.Posizione != blank -%}
+                                            {%- assign coords = member.issue.data.Posizione | split:  " " -%}
+                                            markerList.push([{{coords[0]}}, {{coords[1]}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+                                            {%- elsif member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank -%}
+                                            markerList.push([{{member.issue.data.location.address.lat}}, {{member.issue.data.location.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+                                            {%- else -%}
+                                            markerList.push([{{member.issue.data.address.address.lat}}, {{member.issue.data.address.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
+                                            {%- endif -%}
+                                            {%- if category["markericon"] == blank -%}
+                                                    var markerIcons = {};
+                                                    {% for categorytuple in issuecategories %}
+                                                    {% assign tmpcategory = categorytuple[1] %}
+                                                    var newMarker = L.AwesomeMarkers.icon({icon: "{{tmpcategory['markericon']}}", markerColor: "{{tmpcategory['markercolor']}}", prefix: 'fa'}); 
+                                                    {% for clabel in tmpcategory['labelnames'] %}
+                                                    markerIcons["{{clabel}}"]=newMarker;
+                                                    {% endfor %}
+                                                    {% endfor %}
+                                            {%- endif -%}
+                                            var iconaDefault = L.AwesomeMarkers.icon({icon: '', markerColor: 'darkpurple'});
+
+
+                                            // initialize the map
+                                            var map = L.map('map{{member.number}}{{category["displayname"]}}', {
+                                                                                            scrollWheelZoom: false
+                                                                                        });
+
+                                            // create the tile layer with correct attribution
+                                            var osmUrl='{{site.tile_map}}';
+                                            var osmAttrib='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>';
+                                            var osm = new L.TileLayer(osmUrl, {minZoom: {{site.issuemap.zoom}}>1?{{site.issuemap.zoom}}-1:{{site.issuemap.zoom}}, maxZoom: 19, attribution: osmAttrib});
+
+
+                                            var sumLat = 0.;
+                                            var sumLon = 0.;
+
+                                            markers = L.markerClusterGroup();
+
+                                            for (var i=0; i<markerList.length; i++) {
+                                                    var lat = markerList[i][0];
+                                                    var lon = markerList[i][1];
+                                                    var popupText = markerList[i][2];
+                                                    var popupURL = markerList[i][3];
+                                                    var labels = markerList[i][4];
+                                                    var iconaFinale = iconaDefault;
+
+                                                    {% if category["markericon"] == blank %}
+                                                            for (var il = 0; il < labels.length; il++) {
+                                                                if (labels[il] in markerIcons) {
+                                                                    iconaFinale = markerIcons[labels[il]];
+                                                                    break;
+                                                                }
+                                                            }
+                                                    {% else %}
+                                                    iconaFinale = L.AwesomeMarkers.icon({icon: "{{category['markericon']}}", markerColor: "{{category['markercolor']}}", prefix: 'fa'});
+                                                    {% endif %}
+
+                                                    if (!isNaN(lat) && !isNaN(lon)) {
+                                                        var markerLocation = new L.LatLng(lat, lon);
+                                                        var marker = new L.Marker(markerLocation, {icon: iconaFinale});
+
+                                                        markers.addLayer(marker);
+
+                                                        marker.bindPopup("<a href=\"/issues/" + popupURL + "\">" + decodeURI(popupText) + "</a>");
+
+                                                        sumLat += lat;
+                                                        sumLon += lon;
+                                                    }
+                                                }
+
+                                            map.addLayer(markers);
+
+                                            map.addLayer(osm).setView([{{site.issuemap.center}}], {{site.issuemap.zoom}});
+
+                                            map.fitBounds(markers.getBounds().pad(10.0));
+                                            map.setZoom(14);
+
+                                        </script>
+                                        {%- endif -%}
+
                                     </dl>
                                     {%- include social-share-issue.html -%}
                                 </div>
