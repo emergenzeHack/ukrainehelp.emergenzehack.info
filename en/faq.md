@@ -12,15 +12,13 @@ permalink: /en/faq/
 
 Here you find step-by-step instructions:
 
-
-
-1. Access the reporting page: europehelp.info/signal/;
+1. Access the reporting page: https://ukrainehelp.emergenzehack.info/signal/;
 2. Choose which category your report belongs to;
 3. Fill in the form with the required data;
 4. Your report has been made!
 5. A team of volunteers will verify and publish it. After that it will be online in the archive and on the map;
 
-If you have problems or doubts, contact us choosing the way you prefer among those you find here: europehelp.info/canali/
+If you have problems or doubts, contact us choosing the way you prefer among those you find here: https://ukrainehelp.emergenzehack.info/canali/
 
 **How can I contribute through social networks?**
 
@@ -38,7 +36,7 @@ If you use **Telegram** follow our [operational cha](https://t.me/ukraineinfohel
 
 **I'd like to do more. How can I lend an operational hand to the team?**
 
-Great! On the [Contribute](https://europehelp.info/contribuisci/) page you'll find all the information you need to join our efforts, whether you're a techie or not.
+Great! On the [Contribute](https://ukrainehelp.emergenzehack.info/contribuisci/) page you'll find all the information you need to join our efforts, whether you're a techie or not.
 
 The team builds on what has been created in the previous platforms implemented (for example: the code, the procedures for organizing, the methodology of development and communication) and elaborates other ideas. The result is what you see: the work of a collective intelligence, which you can also call **civic hacking**.
 
