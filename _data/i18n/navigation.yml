@@ -20,8 +20,7 @@ languages:
   - language: en
     navbar-links:
       RECOMMEND: "en/recommend/"
-      DISCOVER:
-        - INITIATIVES : "en/issues/"
+      DISCOVER : "en/issues/"
       CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
