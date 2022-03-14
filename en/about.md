@@ -37,7 +37,7 @@ Be part of our community on [Github Issues](https://github.com/emergenzeHack/eur
 
 ### Contacts
 
-- [Email](mailto:europehelp.info@gmail.com)
+- [Email](mailto:ukrainehelpit@gmail.com)
 - [Repository Github](https://github.com/emergenzeHack/europehelp.info)
 
 ### Tecnologies Reused

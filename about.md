@@ -31,7 +31,7 @@ L’idea e buona parte del progetto è del gruppo di civic hacker [EmergenzeHack
 
 ### Contatti
 
-- [Email](mailto:europehelp.info@gmail.com)
+- [Email](mailto:ukrainehelpit@gmail.com)
 - [Repository Github](https://github.com/emergenzeHack/europehelp.info)
 
 ### Tecnologie e Progetti Riusati
