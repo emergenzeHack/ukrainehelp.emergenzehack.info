@@ -6,171 +6,56 @@ subtitle: How it works?
 permalink: /en/faq/
 ---
 
-**Frequently asked questions**
+**Frequently Asked Questions**
 
-**What’s, precisely, europehelp.info ?**
+**How do I make a report?**
 
-Most likely it’s easier to try and use it rather than to explain it !
-
-However, first of all, europehelp.info is an useful platform for everyone interested in the Coronavirus emergency and willing to be active to provide support to others.
-
-It’s an information service on what is important to know during these days.
-
-It’s a no-profit project managed by volunteers.
-
-It’s a community. You too can be involved and participate.
-
-**Who are the beneficiaries interested in it ?**
-
-All people involved in the Coronavirus emergency looking for news on initiatives, on official consultable sources, verified information, fundraising and much more. So, most probably, this could be a matter of interest for you too.
-
-**What can you do?**
-
-On europehelp.info you can :
-
-
-- Feel as a part of a community
-
-
-- Help, participate, be useful to the community
-
-
-- look for sources, news, initiatives, fundraisings and much more regarding the emergency (thanks to a map where you can look for the activities close to you)
-
-
-- report initiatives on this issue
-
-
-- discuss about this issue
-
-**Why?**
-
-During this period of emergency everyone is confused. Often it’s difficult to find out useful and relevant information. There are so many initiatives supporting people that is it likely to get lost in the midst of the infos and there is a risk of having activities under-estimated. Covid19Italia.help aggregates, verifies and get them easier to be consulted. It divides them according to the type/category and geographical location.
-
-The most beautiful aspect of it is that you can directly participate with your reports.
-
-**What’s the purpose of reporting?**
-
-In this period, a person could be in need of goods, services, initiatives that you know, but other people don’t. Reporting leads to have information easily accessible and support the community. For this reason it is important to share infos and put them on the net. Information is a public good.
-
-**Which kind of information I can find and report?**
-
-
--          Institutional sources – official infos and news on the emergency
-
-
--          Requests for support – we put requests for help on the net to increase their visibility
-
-
--          Offers of help – entities or individuals offering any forms of support
-
-
--          Fundraising – report fundraising published on the net, we will organize them by category and location
-
-
--          Fake news – have you observed fake news on the net? Report it to us!
-
-
--          Useful news – we verify and categorize all that could be useful for other people : it will be easier to find it out afterwards
-
-
--          Donations of materials/tools - report the offers of goods that you find out
-
-
--          Public or private offer of services and initiatives – report and highlight initiatives benefitting the community
-
-
--          Deliveries – home deliveries for staple goods and drugs. If you know people willing to carry out these activities report it to us!
-
-
--          Teaching – help us gathering information about public and private initiative regarding online teaching
-
-
--          Employment support – report all initiatives regarding employment/labour support
-
-
--          Useful contacts – report all contacts that you consider useful, we will organize them by location
-
-
--          Entertainment for children – do you know activities and initiatives regarding leisure and entertainment at home for children? Share them with the rest of the community
-
-
--          Entertainment/cultural activities for adults – share activities that you know and entities organizing them
-
-
--          Psychological support – report all services related to psy support operating in this period of emergency
-
-**How can I provide a report?**
-
-Here below the instructions, step by step:
+Here you find step-by-step instructions:
 
 
 
-1. Access the page for reporting : [covid19italia.help/segnala/](https://covid19italia.help/segnala/);
-2. Choose the category for your report
-3. Fill the form and the requested infos
-4. Your report is completed!
-5. A Team of volunteer will take care of verifying and publishing the report. The details will be in the archives and displayed in the map
-6. If you observe any issues or you have doubts, feel free to get in contact with us through different methods, choose here :  [covid19italia.info/canali/](https://covid19italia.help/canali/)
+1. Access the reporting page: europehelp.info/signal/;
+2. Choose which category your report belongs to;
+3. Fill in the form with the required data;
+4. Your report has been made!
+5. A team of volunteers will verify and publish it. After that it will be online in the archive and on the map;
 
-**How can I participate using my social networks?**
+If you have problems or doubts, contact us choosing the way you prefer among those you find here: europehelp.info/canali/
 
-Talk and discuss about the project. In this [post](https://www.covid19italia.info/faq/2020-03-11-come-postare-sui-social/) we explain how to effectively use social networks to tackle the emergency.
+**How can I contribute through social networks?**
+
+Talk about the project on your social profiles.
 
 If you have a **Facebook** profile:
-Join the [group]({{site.author.facebook}}) and report the initiatives that you consider useful
 
-1. If you are part of groups and communities, share and explain COVID19Italia.help project. More we are, more information is spread.
+Join our [Facebook group](https://www.facebook.com/groups/{{site.author.facebook}}) and tell us about the initiatives you find most useful.
 
-If you have an **Instagram** profile
+If you are part of groups or communities: share and explain the project. The more of us participate, the more information circulates.
 
+If you use **Twitter**, you know that Twitter is a great tool to collect and disseminate information. You can follow [our account](https://https://twitter.com/{{site.author.twitter}}), talk about us and retweet the reports we publish.
 
+If you use **Telegram** follow our [operational cha](https://t.me/ukraineinfohelp)t and participate in project activities.
 
-1. Share the @covid19italia.help profile
-2. Discuss in your stories about @covid19italia.help and use the #covid19Italia hashtag
-3. Are you in contact with influencer or microinfluencer that you consider potentially interested by this project ? Inform them and share with them COVID19Italia.help mission and purposes.
+**I'd like to do more. How can I lend an operational hand to the team?**
 
-Do you use **Twitter**?
+Great! On the [Contribute](https://europehelp.info/contribuisci/) page you'll find all the information you need to join our efforts, whether you're a techie or not.
 
-Twitter is a powerful tool to gather and spread reports out. You can discuss about [@ItaliaCovid19](https://twitter.com/ItaliaCovid19) and re-tweet reports
+The team builds on what has been created in the previous platforms implemented (for example: the code, the procedures for organizing, the methodology of development and communication) and elaborates other ideas. The result is what you see: the work of a collective intelligence, which you can also call **civic hacking**.
 
-Are you on **Telegram**?
+**What is civic hacking? What method and approach do you use?**
 
-Follow [@COVID19I](https://twitter.com/COVID19I), it’s a channel where you can find the most important reports that we receive and all necessary information to support the project.
+There is a problem that affects the community. A small piece of this collectivity starts to find, propose and offer solutions, in a voluntary and open way and using the possibilities offered by the Internet and open source digital technologies. That's civic hacking in a nutshell. It is collective intelligence at work. In an emergency, for example, we are overwhelmed by information and we don't really know where to find it, how to report it. Our project is one possible solution.
 
-**I would like to get more involved. How can I operationally support COVID19Italia Team?**
+The approach we use we've called **AGOPENDI**: **AG**gregate, **OPEN**, **DI**stribute. 
 
-Great! On page [Contribuisci](https://covid19italia.help/contribuisci/) you will find all necessary details to join our efforts, no matter of your technical skills.
+Meaning:
 
-**Can I know more about who is working on Covid19.help?**
+**Aggregate **contents**.** Contents are unstructured and come from various sources (social media, email, contacts etc...). The platform aggregates them through manual work of moderation and structuring in order to give them a "standard" structure and make them effectively reusable data.
 
-Thanks for asking! We are glad to introduce ourselves. In this kind of projects, behind the scenes, there are many volunteers. People with a body, skills, passions and will to use part of their time (sometimes quite a lot!) and their abilities to do something useful.
+**Open **data**.** All data are public and accessible with free licenses. Open data allows the development of further information and service that is fairly easily released.
 
-Covid19.help experience, in particular, partly originates in a similar project following infos, initiatives, news related to the Central Italy earthquake of 2016.
+**Distribute** information. All open data can easily become new useful information. There are several ways to do it. You can give free rein to your imagination, but always looking for tools that are used or can be simply disseminated. For example, this project has a site, a Twitter profile, a Facebook group, a Telegram group from which anyone can share individual reports.
 
-You can have a look here : [https://terremotocentroitalia.info/](https://terremotocentroitalia.info/)
+All of this can be reused in the future and improved and everyone can help in doing that!
 
-As occurred for terremotocentroitalia, Covid19.help is suppored by ActionAid Italy through the activities of its staff, activists and partners on projects all over the Italian territory.
-
-Usually – and this is the case as well – later other people with different skills and experiences join the activities. The Team takes advantage of the past experience (for instance : the code/regulations, procedures, methodology for project development and communication) and develops new ideas. The result is what you can actually see : the activity of a collective intelligence, that could be named also civic hacking.
-
-The names of people working on this project can be found here : [https://www.covid19italia.info/about/](https://www.covid19italia.info/about/) (the page is regularly updated)
-
-**Great! Can you provide more details on the civic hacking method and approach?**
-
-Sure. There is an issue related to the community. Some people of the community start looking for, suggesting and offering solutions in a voluntary and open approach. This is achieved using the opportunities offered by Internet. This is, shortly, the civic hacking. It’s collective intelligence at work. In an emergency, for instance, the main problem is being overwhelmed by information and it is no easy how to find or to report them. Covid19Italia.help is a potential solution to this issue.
-
-The approach that we are using in this kind of project is called AGOPENDI : Aggregate, OPEN, Distribute :
-
-
-- Aggregate the contents. Contents are not necessarily structures and come from different sources (social media, mails, contact, ec.). The platform aggregates them through a manual work and structure them in order to have a standard model and get effective and usable data.
-
-
-- OPEN data. All details received are public and accessible with open licences. As we have to aggregate, structure the infos, giving access to data leads to further develop the service. There is an added value in it.
-
-
-- Distribute the infos. Oeìpen data can easily be transformed in new useful information. How? Through a service. Which one ? Use your fantasy and look for tools that could be easily be shared. For instance, Covid19Italia.help has a site, a Twitter profile, a Facebook page, a Facebook group, Instagram, a Telegram channel. From these sources everyone can share the reports.
-
-All of his can be reused in the future and improved.
-
-Thanks for reading !
+Thank you for reading this far!
