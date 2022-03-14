@@ -7,33 +7,30 @@ lang: en
 ---
 
 
-## The Project
+**Project**
 
-This is a non-profit project, organized and directed entirely by volunteers and volunteers. It was created to share useful and verified information about the emergencies.
+This is a non-profit civic hacking project, entirely organized and directed by volunteers. It has been created to share useful and verified information in support of people of Ukrania that is undergoing a military attack by Russia since February 2022.
 
-The aim is to verify, aggregate and label reports of various kinds, in order to put in contact requests for help and offers of goods and services.
+The aim of the project is to collect, verify, aggregate and disseminate useful information that can be of help to Ukrainian people in difficulty due to the war, especially to people that have been forced to leave their country.
 
-It also collects and publishes solidarity and cultural initiatives aimed at promoting and implementing telecommuting and distance education.
+The platform gathers help requests and different kinds of reports, from solidarity initiatives to support services and assistance for refugees, from collections of basic goods to hospitality and transport opportunities. In addition the platform gathers institutional information, fundraising initiatives (only if they finance civil initiatives and not war operations or purchase of military supplies) and warning on fake news or false solidarity actions (e.g. scams against refugees, false fundraising, etc.).  
 
-Finally, we collect regulations, institutional directives and data.
+The project does not intend in any way to replace institutional sources of information and support.
 
-We do not intend in any way to replace institutional sources of information to which we strongly refer for reliability.
+The project is addressed to all the people who are concerned about what is happening in Ukraine and who want to get active (even from home), in a peaceful and supportive way, to give a hand to the Ukrainian people.
 
-## Reuse
+**Reuse**
 
-Every software components we develop is released under an Open Source license that allows its reuse and promotes its development publicly.
+Every software component we develop is released under an Open Source license that allows reuse and promotes its development publicly.
 
-The data we collect and produce are published and kept updated as [[Open Data](https://europehelp.info/opendata/)].
+All data we collect and produce is published and kept up-to-date as [Open Data](https://europehelp.info/opendata/).
 
-Where deemed useful, the entire infrastructure is reusable by organizations, associations, informal groups and even public administrations that need a service to inform and respond to the emergencies.
+The whole infrastructure is re-usable by organizations, associations, informal groups and even governments and public administrations in order to inform and promote citizen participation to respond to an emergency of any kind and in any part of Europe and the world.
 
-The project is described through our [[wiki](https://www.europehelp.info/en/wiki/)].
+The project is described through our wiki.
 
-The idea and also a large part of the project is from the same team that developed the [Terremoto Centro Italia](https://www.terremotocentroitalia.info/)
+The idea and a good part of the project comes from the [EmergenzeHack](https://emergenzehack.github.io/) civic hacker group, the same team that developed in 2016 the [TerremotoCentroItalia.info](https://www.terremotocentroitalia.info/) project and in 2020 [Covid19Italia.help](https://covid19italia.help/).
 
-[Here](/about/) is the team of volunteers working on this project in Italy but we wait the help of other many civic hackers in world that want to help people in difficult periods!
-
-Be part of our community on [Github Issues](https://github.com/emergenzeHack/europehelp.info/issues) or on our channels and make possible that this project can help people of all the world!
 
 ### Contacts
 
