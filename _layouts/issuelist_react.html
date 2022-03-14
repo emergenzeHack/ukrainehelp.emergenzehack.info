@@ -155,6 +155,10 @@ layout: base
                                 }
                         }
                         ret.push(<dd className="col-sm-9"><dl className="row">{addressRender}</dl></dd>);
+                  } else if (key == "Description") {
+                      const options = { defaultProtocol: 'https' };
+                  
+                      ret.push(<dd className="col-sm-9"><Linkify>{val.trim()}</Linkify></dd>);
                   } else {
                       ret.push(<dd className="col-sm-9">{val.trim()}</dd>);
                   }
