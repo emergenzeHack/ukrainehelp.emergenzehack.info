@@ -78,18 +78,16 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}"/>
     {%- endif -%}
     {%- if page.no-share-img -%}
-        {%- capture image_url -%}/images/issues/{{page.number}}.png{%- endcapture -%}
+        {%- capture image_url -%}/_data/machgen/images/issues/{{page.number}}.png{%- endcapture -%}
         {%- assign static_image_file = site.static_files | where_exp: "member", "member.path == image_url" -%}
-        {%- if static_image_file.size > 0 -%}
         <meta property="og:image" content="{{ site.url }}{{ image_url }}"/>
         <meta property="og:image:width" content="1200"/>
         <meta property="og:image:height" content="630"/>
-        {%- else -%}
-        <meta property="og:image" content="{{ site.url }}/images/apple-touch-icon.png"/>
-        {%- endif -%}
     {%- else -%}
         {%- if page.share-img -%}
         <meta property="og:image" content="{{ page.share-img }}"/>
+        {%- elsif page.issue -%}
+        <meta property="og:image" content="{{ site.url }}/_machgen/images/issues/{{page.issue.number}}.png"/>
         {%- elsif site.avatar -%}
         <meta property="og:image" content="{{ site.url }}/images/apple-touch-icon.png"/>
         <meta property="og:image:width" content="310"/>
