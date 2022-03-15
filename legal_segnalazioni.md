@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Note Legali e Privacy Policy
-permalink: /legal/
+permalink: /legal_segnalazioni/
 ---
 
 **Note Legali** 
