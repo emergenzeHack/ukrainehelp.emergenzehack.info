@@ -80,7 +80,7 @@ map.addLayer(osm).setView([{{site.issuemap.center}}], {{site.issuemap.zoom}});
 //var group = new L.featureGroup([marker1, marker2, marker3]);
 
 {% if page.fitBounds %}
-map.fitBounds(markers.getBounds().pad(0.3));
+map.fitBounds(markers.getBounds().pad(0.1));
 {% endif %}
 
 function getFeaturesInView() {
