@@ -113,7 +113,8 @@ hospitality:
   markercolor: royalblue
 document_data:
   displayname: Document and Data
-  labelnames: document_data
+  labelnames: 
+    - document_data
   permalink: /documentdata/
   markericon: file-text
   markercolor: lightsteelblue
