@@ -18,14 +18,14 @@ TMPTEMPLATE2=/tmp/${number}whtmpl_img.png
 trap 'rm -f ${TMPFILE} ${TMPTEMPLATE} ${TMPTEMPLATE2}' EXIT
 
 case "${labels}" in
-    *"Supporto psicologico"*) BACKCOLOR=blue;FRONTCOLOR=white;;
-    *"Servizi e iniziative solidali"*) BACKCOLOR=cyan;FRONTCOLOR=black;;
-    *"Raccolte fondi"*) BACKCOLOR=green;FRONTCOLOR=white;;
-    *"Notizie utili"*|*"Informazioni utili"*) BACKCOLOR=yellow;FRONTCOLOR=black;;
-    *"Attivita culturali e ricreative"*) BACKCOLOR="#FFC0CB";FRONTCOLOR=black;;
-    *"Fonti istituzionali"*) BACKCOLOR=grey;FRONTCOLOR=black;;
-    *"Fake News"*) BACKCOLOR=purple;FRONTCOLOR=white;;
-    *) BACKCOLOR=black;FRONTCOLOR=white
+  #  *"Supporto psicologico"*) BACKCOLOR=blue;FRONTCOLOR=white;;
+  #  *"Servizi e iniziative solidali"*) BACKCOLOR=cyan;FRONTCOLOR=black;;
+  #  *"Raccolte fondi"*) BACKCOLOR=green;FRONTCOLOR=white;;
+  #  *"Notizie utili"*|*"Informazioni utili"*) BACKCOLOR=yellow;FRONTCOLOR=black;;
+  #  *"Attivita culturali e ricreative"*) BACKCOLOR="#FFC0CB";FRONTCOLOR=black;;
+  #  *"Fonti istituzionali"*) BACKCOLOR=grey;FRONTCOLOR=black;;
+  #  *"Fake News"*) BACKCOLOR=purple;FRONTCOLOR=white;;
+    *) BACKCOLOR=white;FRONTCOLOR=black
 esac
 
 echo "Building image for n ${number} title ${title} labels ${labels} BACKCOLOR ${BACKCOLOR} FRONTCOLOR ${FRONTCOLOR}"
