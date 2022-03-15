@@ -109,9 +109,9 @@ permalink: /canali/
             </a><span>per leggere le nostre storie</span>
           </li>
           {% endif %}
-          {% if site.share-links-active.rss %}
+          {% if site.author.rss %}
           <li>
-          <a href="http://feeds.feedburner.com/covid19ita_segnalazioni" title="RSS">
+          <a href="{{ site.author.rss }}" title="RSS">
               <span class="fa-stack fa-lg" aria-label="Logo riferito a RSS, raffigura un cercio e due cerchi semi concentrici paralleli come a rappresentare un antenna che trasmette messaggi." role="img">
               <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
               <i class="fa fa-rss fa-stack-1x fa-inverse" aria-hidden="true"></i>
