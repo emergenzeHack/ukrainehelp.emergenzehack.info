@@ -112,6 +112,8 @@
     {%- endif -%}
     {%- if page.description -%}
     <meta name="twitter:description" content="{{ page.description }}">
+    {%- elsif page.issue.data["description"] -%}
+    <meta name="twitter:description" content="{{page.issue.data['description']}}">
     {%- else -%}
     <meta name="twitter:description" content="{{ site.description }}">
     {%- endif -%}
