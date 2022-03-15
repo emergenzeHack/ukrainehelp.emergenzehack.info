@@ -1,7 +1,7 @@
 ---
 lang: it
 layout: page
-title: Contati utili
+title: Contatti utili
 permalink: /contatti/
 ---
 
