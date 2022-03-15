@@ -12,13 +12,13 @@ Ecco le istruzioni, passo dopo passo:
 
 
 
-1. Accedi alla pagina delle segnalazioni: https://ukrainehelp.emergenzehack.info/segnala/;
+1. Accedi alla [pagina delle segnalazioni](https://ukrainehelp.emergenzehack.info/segnala/);
 2. Scegli a che categoria appartiene la tua segnalazione;
 3. Compila il form con i dati richiesti;
 4. La tua segnalazione è stata fatta!
 5. Un team di volontari se ne farà carico per verificarla e pubblicarla. A quel punto sarà online nell’archivio e sulla mappa;
 
-Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra quelli che trovi qui: https://ukrainehelp.emergenzehack.info/canali/
+Se hai problemi o dubbi di qualsiasi genere, contattaci scegliendo il modo che preferisci fra quelli che trovi [qui](https://ukrainehelp.emergenzehack.info/canali/)
 
 **Come posso rendermi utile attraverso i social?**
 
