@@ -1,5 +1,7 @@
 ---
 layout: base
+common-js:
+  - "/js/issuelist.production.min.js"
 ---
 
 
@@ -63,345 +65,11 @@ layout: base
 
 {%- endif -%}
 
-    $.getJSON("/_data/machgen/issuesjson.json", function (data) { console.log("data",data); renderissues(data.filter(issue => issue.state == "open"));});
-
-
-{% raw %}
-    function capitalize_all(mySentence) {
-        const words = mySentence.split(" ");
-
-        return words.map((word) => { 
-            return word[0].toUpperCase() + word.substring(1).toLowerCase(); 
-        }).join(" ");
-    }
-
-    function shuffleArray(array) {
-        return array.sort(() => Math.random() - 0.5);
-    }
-    
-    function intersects(array1,array2) {
-        return array1.filter(item => array2.includes(item)).length > 0;
-    }
-
-    class IssueCategoriesButtons extends React.Component {
-            render() {
-                    var categories=this.props.categories;
-                    var filteredissues=this.props.filteredissues;
-
-                    var ret=[];
-
-                    for (var categoryname in categories) {
-                            var category=categories[categoryname];
-                            var issues=filteredissues.filter(issue => intersects(JSON.parse(issue.issue.labels), category.labelnames));
-                            var issuesLength=issues.length;
-
-                            if (issues.length > 0) {
-                                    ret.push(<div className="col-12 col-sm-6 mb-15"><a href={""+category.permalink} className="btn btn-primary btn-block text-left h-100" title={"Vedi tutte le segnalazioni della categoria " + category.displayname}>
-                                            <span className="fa-stack text-left" aria-label="logo del marker della segnalazione" role="img">
-                                            <i className="fa fa-circle fa-stack-2x" aria-hidden="true" style={{color:category.markercolor}}></i>
-                                            <i className={"fa fa-"+category.markericon + " fa-stack-1x fa-inverse"} aria-hidden="true"></i>
-                                            </span>
-                                            <span className="text-center">{category.displayname} <span className="badge badge-pill badge-secondary">{issuesLength}</span></span></a>
-                                            </div>
-                                        );
-                                }
-                        }
-
-                    return (<>{ret}</>);
-                }
-        }
-
-{% endraw %}
-
-    function IssueData(props) {
-        var issuedata=props.issue.issue.data;
-        var ret=[]
-        for (var key in issuedata) {
-              var val;
-              val=issuedata[key];
-              key=capitalize_all(key);
-              if (!issueFieldsBlacklist.includes(key)) {
-                  ret.push(<dt className="col-sm-3">{key}</dt>);
-                  if (key == "Address") {
-                        var addressRender=[];
-                        if (val.hasOwnProperty('address')) {
-                                var addressField = val['address'];
-                                if (addressField.hasOwnProperty('address')) {
-                                        var address=addressField['address'];
-                                        if (address.hasOwnProperty('city')) {
-                                            addressRender.push(
-                                                <><dt className="col-sm-3">City</dt>
-                                                <dd className="col-sm-9">{address["city"]}</dd></>);
-                                        }
-                                        if (address.hasOwnProperty('country')) {
-                                            addressRender.push(
-                                                <><dt className="col-sm-3">Country</dt>
-                                                <dd className="col-sm-9">{address["country"]}</dd></>);
-                                        }
-                                }
-                        }
-                        ret.push(<dd className="col-sm-9"><dl className="row">{addressRender}</dl></dd>);
-                  } else if (key == "Location") {
-                        var addressRender=[];
-                        if (val.hasOwnProperty('address')) {
-                                var addressField = val['address'];
-                                if (addressField.hasOwnProperty('address')) {
-                                        var address=addressField['address'];
-                                        if (address.hasOwnProperty('city')) {
-                                            addressRender.push(
-                                                <><dt className="col-sm-3">City</dt>
-                                                <dd className="col-sm-9">{address["city"]}</dd></>);
-                                        }
-                                        if (address.hasOwnProperty('country')) {
-                                            addressRender.push(
-                                                <><dt className="col-sm-3">Country</dt>
-                                                <dd className="col-sm-9">{address["country"]}</dd></>);
-                                        }
-                                }
-                        }
-                        ret.push(<dd className="col-sm-9"><dl className="row">{addressRender}</dl></dd>);
-                  } else if (key == "Description") {
-                      const options = { defaultProtocol: 'https' };
-                  
-                      ret.push(<dd className="col-sm-9"><Linkify>{val.trim()}</Linkify></dd>);
-                  } else {
-                      ret.push(<dd className="col-sm-9">{val.trim()}</dd>);
-                  }
-              }
-        }
-
-
-        return <>{ret}</>;
-    }
-
-    class IssueSocialShare extends React.Component {
-    render () {
-    var issue=this.props.issue;
-
-    var shareurl="{{ site.url }}/issues/"+issue.number+"&title="+issue.title.slice(0,70)+"%20%7C%20{{ site.title | cgi_escape}}";
-
-return (<>
-{% assign any-share-links = false %}
-{% for links in site.share-links-active %}
-  {% if links[1] == true %}
-    {% assign any-share-links = true %}
-  {% endif %}
-{% endfor %}
-
-{% if any-share-links %}
-
-    {% if site.share-links-active.link %}
-        <a className="card-link fa-stack" href={"{{ site.url }}/issues/"+issue.number}
-          title="Copia link">
-          <i className="fas fa-circle fa-stack-2x" aria-hidden="true"></i>
-          <span className="fas fa-link fa-stack-1x fa-inverse" aria-hidden="true"></span>
-        </a>
-    {% endif %}
-
-    {% if site.share-links-active.facebook %}
-        <a className="card-link fa-stack" href={"https://www.facebook.com/sharer/sharer.php?u="+shareurl}
-          title="{{site.data.i18n.translations.share}} Facebook" target="_blank">
-          <i className="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-          <i className="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
-        </a>
-    {% endif %}
-
-    {% if site.share-links-active.twitter %}
-        <a className="card-link fa-stack" href={"https://twitter.com/intent/tweet?text="+shareurl+"&via=europehelp&hashtags=europehelp"}
-          title="{{site.data.i18n.translations.share}} Twitter" target="_blank">
-          <i className="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-          <i className="fa fa-twitter fa-stack-1x fa-inverse" aria-hidden="true"></i>
-        </a>
-    {% endif %}
-
-    {% if site.share-links-active.linkedin %}
-        <a className="card-link fa-stack" href={"https://www.linkedin.com/shareArticle?mini=true&url="+shareurl}
-          title="{{site.data.i18n.translations.share}} LinkedIn" target="_blank">
-          <i className="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-          <i className="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
-        </a>
-    {% endif %}
-
-
-
-{% endif %}
-</>);
-    }
-    }
-
-    class IssueMiniMap extends React.Component {
-    componentDidMount() {
-  //Runs only on the first render
-    var issue=this.props.issue;
-    var category=this.props.category;
-    var coords=this.coords;
-
-    if (coords.length > 0) {
-        var iconaDefault = L.AwesomeMarkers.icon({icon: '', markerColor: 'darkpurple'});
-
-
-        // initialize the map
-        var map = L.map("map"+issue.number+category.displayname, {
-                                                            scrollWheelZoom: false
-                                                        });
-
-        // create the tile layer with correct attribution
-        var osmUrl='{{site.tile_map}}';
-        var osmAttrib='&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>';
-        var osm = new L.TileLayer(osmUrl, {minZoom: 5, maxZoom: 19, attribution: osmAttrib});
-
-        markers = L.markerClusterGroup();
-
-        var lat = parseFloat(coords[0]);
-        var lon = parseFloat(coords[1]);
-        var popupText = issue.title;
-        var popupURL = issue.number;
-        var labels = issue.issue.labels;
-        var iconaFinale = iconaDefault;
-
-        iconaFinale = L.AwesomeMarkers.icon({icon: category.markericon, markerColor: category.markercolor, prefix: 'fa'});
-
-        if (!isNaN(lat) && !isNaN(lon)) {
-            var markerLocation = new L.LatLng(lat, lon);
-            var marker = new L.Marker(markerLocation, {icon: iconaFinale});
-
-            markers.addLayer(marker);
-
-            marker.bindPopup("<a href=\"/issues/" + popupURL + "\">" + decodeURI(popupText) + "</a>");
-        }
-
-        map.addLayer(markers);
-
-        map.addLayer(osm).setView([{{site.issuemap.center}}], {{site.issuemap.zoom}});
-
-        map.fitBounds(markers.getBounds().pad(10.0));
-        map.setZoom(12);
-    }
-}
-    render() {
-    var issue=this.props.issue;
-    var category=this.props.category;
-
-    var coords=[];
-    if (issue.issue.data.hasOwnProperty('Posizione')) {
-        coords = issue.issue.data.Posizione.split(" ").map((coord) =>  {return parseFloat(coord);});
-    } else if (issue.issue.data.hasOwnProperty('address')) {
-        if (issue.issue.data.address.hasOwnProperty('address')) {
-                if (issue.issue.data.address.address.hasOwnProperty('lat') && issue.issue.data.address.address.hasOwnProperty('lon')) {
-                        coords = [issue.issue.data.address.address.lat, issue.issue.data.address.address.lon];
-                }
-        }
-    } else if (issue.issue.data.hasOwnProperty('location')) {
-        if (issue.issue.data.location.hasOwnProperty('address')) {
-                if (issue.issue.data.location.address.hasOwnProperty('lat') && issue.issue.data.location.address.hasOwnProperty('lon')) {
-                        coords = [parseFloat(issue.issue.data.address.address.lat), parseFloat(issue.issue.data.address.address.lon)];
-                }
-        }
-    }
-
-    this.coords=coords;
-
-
-{% raw %}
-if (this.coords.length > 0) {
-    return (<> <dt className="col-sm-3">Map</dt> <dd className="col-sm-9"><div id={"map"+issue.number+category.displayname} className="w-100" style={{height: "200px"}}></div></dd> </>);
-    } else {
-    return null;
-    }
-{% endraw %}
-    }
-    }
-
-    class IssueCard extends React.Component {
-    render() {
-    var issue=this.props.issue;
-    var category=this.props.category;
-            var issuelist =
-                <div className="card" id={"issue"+issue.number}>
-                    <div className="card-body issuepanel">
-                        <a href={"/issues/"+issue.number}><h4 className="card-title">{issue.title}</h4></a>
-                        <dl className="row">
-                            <IssueData issue={issue}/>
-                            <IssueMiniMap issue={issue} category={category}/>
-                        </dl>
-                        <div className="card-footer">
-                    <b>Share:</b> <IssueSocialShare issue={issue} />
-                    </div>
-                    </div>
-                </div>
-                ;
-
-            return <div className="col-md-12 col-sm-12 col-12 mb-15">{issuelist} </div>;
-
-        }
-        }
-
-    class IssueCardList extends React.Component {
-    render() {
-        var issues=this.props.issues;
-        var category=this.props.category;
-
-        var issuelist = issues.map(function(issue){
-                    return (
-                    <IssueCard issue={issue} category={category} />
-                        );
-
-                  });
-
-            return <div className="col-md-12 col-sm-12 col-12 mb-15">{issuelist} </div>;
-
-        }
-    }
-
-    class IssueCategoriesList extends React.Component {
-    render() {
-        var categories=this.props.categories;
-        var filteredissues=this.props.filteredissues;
-        console.log("categories",categories);
-
-        var ret=[];
-
-        for (var categoryname in categories) {
-                var category=categories[categoryname];
-                var issues=filteredissues.filter(issue => intersects(JSON.parse(issue.issue.labels), category.labelnames));
-                var issuesLength=issues.length;
-                issues=shuffleArray(issues);
-                if (maxIssuesForCategory > 0) {
-                    issues=issues.slice(0,maxIssuesForCategory);
-                }
-                if (issues.length > 0) {
-                ret.push (<><h2 id={""+category.permalink}>{category.displayname}<span className="badge badge-pill badge-primary">{issuesLength}</span></h2><IssueCardList issues={issues} category={category} />
-                
-                    </>);
-                    if (maxIssuesForCategory > 0 && issuesLength > maxIssuesForCategory) {
-                        ret.push (<div className="row">
-                            <div className="col-12 col-lg-12 col-md-12"><a href={""+category.permalink} title={"Vedi tutte le segnalazioni della categoria" + category.displayname} className="btn btn-primary btn-lg">{{site.data.i18n.translations["see_all"]}} {category.displayname}</a></div>
-                            <hr className="col-12 col-lg-12 col-md-12" />
-                        </div>);
-                        }
-                }
-        };
-
-        return <div>{ret}</div>;
-    }
-    }
-
-
-function renderissues(filteredissues) {
-    console.log("filteredissues", filteredissues);
-
-    ReactDOM.render(
-            <IssueCategoriesButtons categories={issueCategories} filteredissues={filteredissues} />,
-            document.getElementById('issuebuttons')
-        );
-    ReactDOM.render(
-            <IssueCategoriesList categories={issueCategories} filteredissues={filteredissues} />,
-            document.getElementById('issue-card')
-        );
-
-    }
-
+    const siteurl = {{site.url | jsonify}};
+    const sitetitle = {{site.title | jsonify}};
+    const sitetilemap = {{site.tile_map | jsonify}};
 </script>
+
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -424,26 +92,19 @@ function renderissues(filteredissues) {
  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"
    crossorigin=""></script>
 
+
 <style>
 #map{ height: 600px; }
 </style>
 
 <div class="row">
-<div class="col-md-12 col-sm-12 col-12"> <div id="map" class="w-100" style="height: 600px;"></div> </div>
+<div class="col-md-12 col-sm-12 col-12"> <div id="issuemap" class="w-100" style="height: 600px;"></div> </div>
 </div>
 
 <div class="row">
     <div class="col-md-12" id="issue-card">
     </div>
 </div>
-
-
-<script type="text/babel">
-
-
-</script>
-
-
 
 </div>
 	    {% if page.comments %}
@@ -454,7 +115,5 @@ function renderissues(filteredissues) {
     </div>
   </div>
 </div>
-
-{%- include issuemap.html -%}
 
 
