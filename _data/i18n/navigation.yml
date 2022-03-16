@@ -6,6 +6,7 @@ languages:
       CONTATTI: "canali/"
       COS'È?:
         - ABOUT: "about/"
+        - PARTNER: "partners/"
         - PRESS: "press/"
         - DOMANDE FREQUENTI: "faq/"
         - USA I NOSTRI DATI: "opendata/"
@@ -21,6 +22,7 @@ languages:
       CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
+        - PARTNERS: "partners/"
         - FAQ: "en/faq/"
         - OPEN DATA: "en/opendata/"
       CONTRIBUTE:
