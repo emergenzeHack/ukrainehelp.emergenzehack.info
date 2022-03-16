@@ -22,7 +22,7 @@ languages:
       CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
-        - PARTNERS: "partners/"
+        - PARTNERS: "en/partners/"
         - FAQ: "en/faq/"
         - OPEN DATA: "en/opendata/"
       CONTRIBUTE:
