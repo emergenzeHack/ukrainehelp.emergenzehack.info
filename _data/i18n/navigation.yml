@@ -4,7 +4,6 @@ languages:
       SEGNALA: "segnala/"
       SCOPRI:
         - SEGNALAZIONI : "issues/"
-        - SEGNALAZIONI PER REGIONE: "issues/regione/"
       CONTATTI: "canali/"
       COS'È?:
         - ABOUT: "about/"
