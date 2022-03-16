@@ -3,7 +3,7 @@ lang: en
 layout: page
 title: Partners
 subtitle: 
-permalink: /partners/
+permalink: en/partners/
 ---
 
 
