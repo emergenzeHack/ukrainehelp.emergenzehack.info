@@ -8,6 +8,9 @@ categorieMapAll: true
 justLatestIssues: true
 ---
 
+<script src="/js/masonry.pkgd.min.js"></script>
+
+
 {%- if page.issuecategory -%}
 {% assign issuecategories = "" | split: "," %}
 {% assign tmpcategory = "" | split: "," %}
@@ -32,4 +35,7 @@ justLatestIssues: true
 {% endfor %}
 </div>
 
-
+<div class="grid">
+  <div class="grid-item">...</div>
+  <div class="grid-item grid-item--width2">...</div>
+</div>
