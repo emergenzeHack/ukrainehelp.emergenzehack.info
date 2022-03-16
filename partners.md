@@ -1,7 +1,7 @@
 ---
 lang: it
 layout: page
-title: Partners
+title: Partner
 subtitle: 
 permalink: /partners/
 ---
