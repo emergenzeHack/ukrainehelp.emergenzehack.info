@@ -6,7 +6,7 @@ Premessa:
 
 # Meccanismo
 
-Ogni compilazione di un modulo di europehelp.info genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues). 
+Ogni compilazione di un modulo genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues). 
 
 A queste Issue vengono applicate diverse etichette per descriverne la natura e lo stato di approvazione (che ne determina la pubblicazione finale sul sito, sui bollettini, su Twitter, sui canali e bot Telegram,..).
 

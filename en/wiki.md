@@ -19,7 +19,7 @@ In order to be added at the list of the repository developers open an issue here
 
 **Help us in improving it**
 
-EuropeHelp is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
+This project is an ongoing project. If you want to suggest improvements open an issue here ([issue qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues)). In the same page you will see the reports entered by other users. From there you can realize what it is still possible to implement and fix.
 
 Github repositories we are using are the following ones :
 
@@ -33,7 +33,7 @@ Thank you, we're waiting for your help!
 
 # Help us to improve
 
-EuropeHelp is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/covid19italia/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
+This is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/covid19italia/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
 
 
 # Reuse
