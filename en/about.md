@@ -19,7 +19,7 @@ The project does not intend in any way to replace institutional sources of infor
 
 The project is addressed to all the people who are concerned about what is happening in Ukraine and who want to get active (even from home), in a peaceful and supportive way, to give a hand to the Ukrainian people.
 
-[Here](https://docs.google.com/document/d/1XodHRBv12ADqYYzPGM42jRF9D-CONBjLoax7yXOyjGc/edit?usp=sharing) the official first press of the project
+[Here](https://docs.google.com/document/d/1XodHRBv12ADqYYzPGM42jRF9D-CONBjLoax7yXOyjGc/edit?usp=sharing) the official first press of the project.
 
 
 **Reuse**
