@@ -20,14 +20,14 @@ games and activities for children:
   markericon: puzzle-piece
   markercolor: turquoise
 solidarity services and initiatives:
-  displayname: solidarity services and initiatives
+  displayname: Solidarity services and initiatives
   labelnames:
     - Services
   permalink: /services/
   markericon: handshake-o
   markercolor: lightcoral
 psychological support:
-  displayname: psychological support
+  displayname: Psychological support
   labelnames: 
     - psychologicalSupport
   permalink: /supporto-psicologico/
@@ -69,14 +69,14 @@ women:
   markericon: female
   markercolor: indianred
 disability services:
-  displayname: Support to disabilities
+  displayname: Support to disabled
   labelnames: 
     - disability
   permalink: /disabilityServices/
   markericon: wheelchair
   markercolor: orange
 translations:
-  displayname: Translations
+  displayname: Language and translations
   labelnames: 
     - translation
   permalink: /translation/
@@ -90,7 +90,7 @@ legal:
   markericon: book
   markercolor: gold
 healthcare:
-  displayname: healthcare
+  displayname: Healthcare
   labelnames: 
     - healthcare
   permalink: /healthcare/
