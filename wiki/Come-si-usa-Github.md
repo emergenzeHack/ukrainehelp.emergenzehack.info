@@ -1,6 +1,6 @@
 Questa pagina è la traduzione di [questo semplice tutorial](https://guides.github.com/activities/hello-world/) in italiano e descrive i primi passi per iniziare ad usare Github come strumento di progettazione condivisa.
 
-**Cosa è Github?**
+### Cosa è Github?
 
 Github è una piattaforma di archiviazione di codice per controllo versione e collaborazione. Ti permette di lavorare assieme agli altri su progetti ovunque.
 
@@ -12,7 +12,7 @@ Per completare questo tutorial, hai bisogno di un account Github e un accesso in
 
 Trucco: apri questa guida in una pagina del browser separata cosi tu puoi vederla mentre completi i passi del tutorial.
 
-**1. Creare un repository**
+### 1. Creare un repository
 
 Un repository di solito è usato per organizzare un progetto. I repository possono contenere cartelle e file, immagini, video, fogli di calcolo ed insiemi di dati - ogni cosa che sia necessaria per il tuo progetto. Raccomandiamo di includere sempre un README o un file con informazioni sul progetto. GIthub rende facile crearne uno al momento in cui crei i repository. Ti offre altre opzioni come ad esempio quella di inserire un file di licenza.
 
@@ -29,7 +29,7 @@ Per creare un nuovo repository:
 
 - Fai click su "Create Repository"
 
-**2. Creare un branch**
+### 2. Creare un branch
 
 Fare un branch è un modo di lavorare su più versioni di un progetto alla volta.
 
@@ -66,7 +66,8 @@ Per creare un nuovo branch:
 
 Ora hai due branch. master e readme-edits. Essi sembrano proprio lo stesso ma non lo saranno per molto! Fra poco faremo delle modifiche al nuovo branch.
 
-**3. Fai e committa modifiche**
+### 3. Fai e committa modifiche
+
 Bravo! 
 Adesso sei sulla vista del codice per il branch readme-edits, che è una copia del master. Facciamo delle modifiche.
 
@@ -84,7 +85,7 @@ Fare e committare modifiche:
 
 Queste modifiche saranno fatte al README file solo nel tuo branch readme-edits, cosi che ora questo branch contiene contenuti diversi dal branch master.
 
-**4. Aprire una Pull Request**
+### 4. Aprire una Pull Request
 
 Ottime modifiche! 
 Ora che hai modificato un file in un branch, potrai aprire una pull request.
@@ -118,7 +119,7 @@ Quando hai scritto il tuo messaggio, fai click su Create pull request!
 
 Suggerimento: puoi usare emoji e fare drag and drop di immagini e gif nei commenti.
 
-**5. Fondere una Pull Request**
+### 5. Fondere una Pull Request
 
 In questo step finale, è tempo di portare le tue modifiche fondendole dal tuo branch readme-edits nel branch di produzione master.
 

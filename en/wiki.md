@@ -23,13 +23,11 @@ This project is an ongoing project. If you want to suggest improvements open an 
 
 Github repositories we are using are the following ones :
 
-
-*   [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info) This one for the website development
-*   [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni) This one for collecting and controlling the reports.
-*   [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data) This one in order to archive the open data we created
+* [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info) This one for the website development
+* [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni) This one for collecting and controlling the reports.
+* [Here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data) This one in order to archive the open data we created
 
 Thank you, we're waiting for your help!
-
 
 # Help us to improve
 
@@ -72,10 +70,8 @@ When you are done click on "Submit new issue".
 
 Note: project maintainers can
 
-
-
-*   Create a template for issues in a project. Templates include commands that the project maintainer chooses to display in the issue description.
-*   Disable issues for a project.
+* Create a template for issues in a project. Templates include commands that the project maintainer chooses to display in the issue description.
+* Disable issues for a project.
 
 
 # How do you use GitHub?
@@ -372,8 +368,6 @@ Done it! Easy, right?
 ## How to insert an element in Press
 
 To insert an item in the [PRESS](https://www.europehelp.info/about/#press) table proceed as follows:
-
-
 
 *   Go to this PRESS [file](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data/blob/master/press.csv)
 *   Click the pencil icon to edit the file on Github
