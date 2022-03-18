@@ -1,12 +1,12 @@
 Premessa:
 
-> Questo documento è destinato al team che lavora sulle Segnalazioni. Gli altri utenti non hanno i permessi per effettuare le operazioni descritte qui, ma possono liberamente lasciare un commento su qualsiasi Issue contribuendo alla stessa. Ad esempio, a [questo link](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) si possono vedere tutte le segnalazioni a cui ancora manca una posizione. Si possono suggerire in un commento le coordinate. Un moderatore la prenderà in carico e applicherà i vostri suggerimenti il prima possibile.
+> Questo documento è destinato al team che lavora sulle Segnalazioni. Gli altri utenti non hanno i permessi per effettuare le operazioni descritte qui, ma possono liberamente lasciare un commento su qualsiasi Issue contribuendo alla stessa. Ad esempio, a [questo link](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues?q=is%3Aissue+is%3Aopen+label%3A%22Posizione+mancante%22) si possono vedere tutte le segnalazioni a cui ancora manca una posizione. Si possono suggerire in un commento le coordinate. Un moderatore la prenderà in carico e applicherà i vostri suggerimenti il prima possibile.
 >
 > Per entrare a far parte del team di Moderatori, assicurati di essere un membro attivo della community, di aver contribuito precedentemente ed entra nella chat di gruppo dei collaboratori.
 
 # Meccanismo
 
-Ogni compilazione di un modulo genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzeHack/europehelp.info_segnalazioni/issues). 
+Ogni compilazione di un modulo genera - dopo circa 30 secondi - una nuova Issue [qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues). 
 
 A queste Issue vengono applicate diverse etichette per descriverne la natura e lo stato di approvazione (che ne determina la pubblicazione finale sul sito, sui bollettini, su Twitter, sui canali e bot Telegram,..).
 
@@ -56,7 +56,7 @@ L\'altro
 
 3. Le modifiche (inclusa la pubblicazione/depubblicazione) appaiono sul sito finale dopo massimo 15 minuti. Usate <kbd>CTRL</kbd>+<kbd>F5</kbd> oppure la modalità navigazione in anonimo se non vedete cambiamenti. Se dopo queste operazioni ancora le cose non vi tornano procedente ad aprire Issue riportando il problema. Le Issue sui moduli (campi, struttura, dati mancanti) vanno aperte su [covid19italia_forms](https://github.com/emergenzeHack/covid19italia_form/issues).
 
-4. Se avete bisogno di cambiare le Label che vengono preassegnate alle Issue (quelle che vedete già assegnate automaticamente) segnalatecelo [qui](https://github.com/emergenzeHack/covid19italia_form/issues/new)
+4. Se avete bisogno di cambiare le Label che vengono preassegnate alle Issue (quelle che vedete già assegnate automaticamente) segnalatecelo [qui](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new)
 
 5. Non rimuovete la Label "form", ci aiuta ad investigare l'origine delle segnalazioni.
 
@@ -64,7 +64,7 @@ L\'altro
 
 Ci sono alcune issue che hanno un campo "Posizione", come [questa](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/332)
 
-E finiscono nella mappa che c'è [qui](https://www.covid19italia.help/issues/)
+E finiscono nella mappa che c'è [qui](https://ukrainehelp.emergenzehack.info/issues/)
 
 ## Verificare geolocalizzazione
 
@@ -79,7 +79,7 @@ Quindi, le issue segnalate con la label <kbd>Posizione mancante</kbd> hanno biso
 
 ### Come trovare le coordinate di un luogo?
 
-Prendiamo ad esempio [questa](https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/334) segnalazione su Milano) 
+Prendiamo ad esempio [questa](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_segnalazioni/issues/) segnalazione su Milano) 
 
 Si può usare questo sito: [Nominatim](https://nominatim.openstreetmap.org/).
 
@@ -109,8 +109,8 @@ Esempio:
 
 #### Come sapere quale regione/provincia/comune ha individuato il sistema?
 
-Guardando sul sito nella pagina www.covid19italia.help/issues/<numero issue>
-(ad esempio https://www.covid19italia.help/issues/748/) se la segnalazione ha una posizione già inserita, i valori Provincia e Regione sono quelli riconosciuti in base ai dati geografici. **In questo caso, se ci sono errori, sarebbe più utile sistemare la posizione**.
+Guardando sul sito nella pagina www.europehelp.info/issues/<numero issue>
+(ad esempio https://www.europehelp.info/issues/748/) se la segnalazione ha una posizione già inserita, i valori Provincia e Regione sono quelli riconosciuti in base ai dati geografici. **In questo caso, se ci sono errori, sarebbe più utile sistemare la posizione**.
 
 Ci possono essere delle segnalazioni che hanno una regione o provincia o un Comune di riferimento, ma per le quali non ha senso inserire una coppia di coordinate. Perché queste segnalazioni vengano comunque elencate nella pagina per regione o per provincia, si può inserire un campo nei dati del tipo
 
@@ -157,5 +157,4 @@ Queste sono alcune delle politiche, linee guida e regole su cui è stato deciso:
 1. Non accettiamo segnalazioni riguardo ricerca scientifica (https://github.com/emergenzeHack/covid19italia_segnalazioni/issues/315#issuecomment-598456738)
 2. Se alcuni campi sembrano invalidi, provare a correggerli o cercare maggiori informazioni su Google a partire dal titolo, NON chiudere immediatamente la Issue se non va il link o problemi analoghi.
 
-Per discutere o fornire feedback, aprite un Issue
-
+Per discutere o fornire feedback, aprite un Issue.
