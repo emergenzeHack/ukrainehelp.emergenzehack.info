@@ -16,6 +16,8 @@ Il progetto non intende in alcun modo sostituirsi a fonti istituzionali di infor
 
 Il progetto si rivolge a tutte le persone che sono interessate a ciò che sta accadendo in Ucraina e che vogliono attivarsi (anche da casa), in modo pacifico e solidale, per dare una mano al popolo ucraino.
 
+[Qui](https://docs.google.com/document/d/1XodHRBv12ADqYYzPGM42jRF9D-CONBjLoax7yXOyjGc/edit?usp=sharing) il comunicato stampa definitivo del progetto.
+
 **Riuso**
 
 Ogni componente software che sviluppiamo è rilasciato con una licenza Open Source che ne permette il riuso e ne promuove lo sviluppo pubblicamente.
