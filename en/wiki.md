@@ -491,7 +491,7 @@ bundle exec jekyll build
 ## Develop locally using Docker
 
 Docker can be used to set up the development environment quickly.
-In the **Docker** folder, insided the root of the project, there a Dockerfile that is used to generate an image that is used to generate the container. The container can be start in order to start or to build the website.
+In the **Docker** folder, there is a Dockerfile that is used to generate the image of the container. The container builds and starts the website.
 
 To build the image, run the following command in the "Docker" folder:
 
@@ -501,7 +501,7 @@ docker build -t ukrainehelp_dev .
 
 The output of this command is the docker image tagged _ukrainehelp_dev_. The name can be customized.
 
-To execute the container with this image, from the root folder of the project run the follwing command:
+To execute the container with this image, from the root folder of the project run the following command:
 
 ```shell
 docker run --rm -v ${PWD}:/opt -p 4000:4000 --name ukrainehelp -it ukrainehelp_dev
@@ -510,16 +510,16 @@ docker run --rm -v ${PWD}:/opt -p 4000:4000 --name ukrainehelp -it ukrainehelp_d
 where:
 
 * `--rm` removes the container when the execution terminates
-* `-v ${PWD}:/opt` mount the root folder in the `/opt` container folder
-* `-p` forward the host port 4000 to port 4000 of the container
+* `-v ${PWD}:/opt` mounts the root folder in the `/opt` container folder
+* `-p` forwards the host port 4000 to port 4000 of the container
 * `--name` name of the container
-* `-it` start the container in a interactive shell
+* `-it` start the container in an interactive shell
 
-During the start of the container, the ruby dependencies are installed `vendor/bundle` and the command `bundle exec jekyll serve` is executed.
+During the start of the container, the ruby dependencies are installed in `vendor/bundle` and the command `bundle exec jekyll serve` is executed.
 
 Now you are ready to start, write <http://127.0.0.1:4000> in your browser to see the website.
 
-Further information are on the [Docker](https://www.docker.com/) website.
+Further information is on the [Docker](https://www.docker.com/) website.
 
 
 ### Troubleshooting errors
