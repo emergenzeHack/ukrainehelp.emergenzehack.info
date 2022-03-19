@@ -41,17 +41,33 @@ Su Ubuntu:
 sudo apt install build-essential git ruby-full ruby-bundler zlib1g-dev
 ```
 
-Facciamo su github il *fork* del repository, poi cloniamo il nostro fork in locale: `git clone https://github.com/nomeutente/ukrainehelp.emergenzehack.info.git` (ricordati di sostituire il tuo vero nome utente)
+Facciamo su github il *fork* del repository, poi cloniamo il nostro fork in locale (ricordati di sostituire `nomeutente` con il tuo vero nome utente):
 
-Se si lavora sui dati (_data/) bisognerà forkare e lavorare su ukrainehelp.emergenzehack.info_data invece che su ukrainehelp.emergenzehack.info.
+```shell
+git clone https://github.com/nomeutente/ukrainehelp.emergenzehack.info.git
+```
 
-Portiamoci all'interno della nuova cartella: `cd ukrainehelp.emergenzehack.info`
+Se si lavora sui dati (`_data/`) bisognerà fare il fork e lavorare sul repository ukrainehelp.emergenzehack.info_data invece che su ukrainehelp.emergenzehack.info.
 
-Installiamo tutte le dipendenze del progetto: `bundle install --path vendor/bundle`
+Portiamoci all'interno della nuova cartella:
+
+```shell
+cd ukrainehelp.emergenzehack.info
+```
+
+Installiamo tutte le dipendenze del progetto:
+
+```shell
+bundle install --path vendor/bundle
+```
 
 ## Facciamo partire il sito!
 
-Eseguiamo, sempre nella cartella covid19italia, `bundle exec jekyll serve`
+Eseguiamo, sempre nella cartella `ukrainehelp.emergenzehack.info`:
+
+```shell
+bundle exec jekyll serve
+```
 
 Il programma stamperà a video l'indirizzo da aprire nel browser, che sarà del tipo <http://127.0.0.1:4000/>.
 
@@ -90,17 +106,17 @@ docker run --rm -v ${PWD}:/opt -p 4000:4000 --name ukrainehelp -it ukrainehelp_d
 
 dove:
 
-- --rm richiede che il container venga eliminato dopo aver terminato l'esecuzione
-- -v $ {PWD}: / opt monta la radice del progetto nella cartella / opt del container
-- -p inoltra la porta 4000 della macchina host alla porta 4000 del container
-- --name dà un nome al container
-- -it permette di avviare il container in una shell interattiva
+- `--rm` richiede che il container venga eliminato dopo aver terminato l'esecuzione
+- `-v ${PWD}:/opt` monta la radice del progetto nella cartella / opt del container
+- `-p` inoltra la porta 4000 della macchina host alla porta 4000 del container
+- `--name` dà un nome al container
+- `-it` permette di avviare il container in una shell interattiva
 
-il container, all'avvio installa le dipendenze ruby nel percorso _vendor/bundle_ ed eseguirà il comando *serve*: _bundle exec jekyll serve_
+Il container, all'avvio installa le dipendenze ruby nel percorso `vendor/bundle` ed eseguirà il comando *serve*: `bundle exec jekyll serve`.
 
-ora sei pronto per iniziare, digita <http://127.0.0.1:4000> nel tuo browser per accedere al sito web.
+Ora sei pronto per iniziare, digita <http://127.0.0.1:4000> nel tuo browser per accedere al sito web.
 
-per maggiori informazioni, si rimanda al sito di [Docker](https://www.docker.com/)
+Per maggiori informazioni, si rimanda al sito di [Docker](https://www.docker.com/).
 
 ## Risoluzione di eventuali errori
 
