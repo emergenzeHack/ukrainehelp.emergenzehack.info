@@ -8,9 +8,14 @@ lang: en
 <link rel='stylesheet' href='/css/formio.full.min.css'/>
 <script src='/js/formio.full.min.js'></script>
 
+
 <div class="container-fluid" role="main">
   <div class="row">
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+        <div class="btn-group">
+                <button type="button" class="btn btn-primary" onclick="setLanguage('en')">English</button>
+                <button type="button" class="btn btn-primary" onclick="setLanguage('it')">Italian</button>
+        </div>        
       <div id="formio"></div>
     </div>
   </div>
@@ -23,6 +28,9 @@ lang: en
         .then(function(form) {
                 // Prevent the submission from going to the form.io server.
                 form.nosubmit = true;
+                window.setLanguage = function(lang) {
+          form.language = lang;
+        };
 
                 // Triggered when they click the submit button.
                 form.on('submit', function(submission) {
