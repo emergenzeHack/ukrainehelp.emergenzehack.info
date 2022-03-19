@@ -1,7 +1,7 @@
 ---
 lang: it
 layout: page
-title: Rassegna stampa emergenza
+title: Rassegna stampa del progetto
 subtitle: Tutte le pubblicazioni che parlano di noi
 permalink: /press/
 ---
