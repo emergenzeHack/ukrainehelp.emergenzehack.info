@@ -9,15 +9,15 @@ lang: en
 
 **Project**
 
-This is a non-profit civic hacking project, entirely organized and directed by volunteers. It has been created to share useful and verified information in support of people of Ukrania that is undergoing a military attack by Russia since February 2022.
+This is a non-profit civic hacking project, entirely organized and directed by volunteers. It has been created to share useful and verified information in support of people of Ukraine undergoing a military attack by Russia since February 2022.
 
-The aim of the project is to collect, verify, aggregate and disseminate useful information that can be of help to Ukrainian people in difficulty due to the war, especially to people that have been forced to leave their country.
+The aim of the project is to collect, verify, aggregate and disseminate useful information for Ukrainian people in difficulty due to the war, especially for those that have been forced to leave their country.
 
 The platform gathers help requests and different kinds of reports, from solidarity initiatives to support services and assistance for refugees, from collections of basic goods to hospitality and transport opportunities. In addition the platform gathers institutional information, fundraising initiatives (only if they finance civil initiatives and not war operations or purchase of military supplies) and warning on fake news or false solidarity actions (e.g. scams against refugees, false fundraising, etc.).  
 
 The project does not intend in any way to replace institutional sources of information and support.
 
-The project is addressed to all the people who are concerned about what is happening in Ukraine and who want to get active (even from home), in a peaceful and supportive way, to give a hand to the Ukrainian people.
+The project is aimed towards all the people who are concerned about what is happening in Ukraine and who want to get active (even from home), in a peaceful and supportive way, to give a hand to the Ukrainian people.
 
 [Here](https://docs.google.com/document/d/1XodHRBv12ADqYYzPGM42jRF9D-CONBjLoax7yXOyjGc/edit?usp=sharing) the official first press of the project.
 
@@ -53,4 +53,3 @@ The idea and a good part of the project comes from the [EmergenzeHack](https://e
 - [Github](http://www.github.com)
 - [Formio](https://formio.github.io/formio.js/#)
 - [TerremotoCentroItalia](http://www.terremotocentroitalia.info)
-
