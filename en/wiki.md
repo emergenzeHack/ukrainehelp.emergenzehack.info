@@ -38,17 +38,15 @@ This is a project in progress, to suggest improvements open an issue [here](http
 
 EuropeHelp is an opensource project composed of various integrated applications. This WIKI allows you to understand how the project is structured and how to reuse it. TerremotoCentroItalia is licensed under Creative Commons Attribution 3.0 (CC BY) whose text is available at [this address](https://creativecommons.org/licenses/by/3.0/it/). Unless otherwise specified (e.g. in the source code repositories) we ask you to comply with the criteria of this license if you reuse part of our project.
 
-
 ## Index of contents
 
-*   Open an Issue
-*   How to use GitHub
-*   Working on Reports
-*   How the TCI method works in brief
-*   Convert a Google Docs document to Markdown
-*   How to insert an element in Press
-*   Develop locally on site
-
+* [Open an Issue](#open-an-issue)
+* [How to use GitHub](#how-do-you-use-github)
+* [Working on Reports](#working-on-reports)
+* [How the TCI method works in brief](#how-the-tci-method-works-in-short)
+* [Convert a Google Docs document to Markdown](#convert-a-google-docs-document-to-markdown)
+* [How to insert an element in Press](#how-to-insert-an-element-in-press)
+* [Develop locally on site](#develop-locally-on-site)
 
 # Open an Issue
 
@@ -378,7 +376,7 @@ To insert an item in the [PRESS](https://www.europehelp.info/about/#press) table
 Done.
 
 
-## Develop locally on site
+# Develop locally on site
 
 This short guide will explain how to create a copy of the site on your computer. In this way the changes to the code will be immediately visible in your local copy, and you can test all the improvements you are planning. Let's get started!
 
@@ -490,9 +488,41 @@ bundle exec jekyll build
 
 ```
 
+## Develop locally using Docker
+
+Docker can be used to set up the development environment quickly.
+In the **Docker** folder, insided the root of the project, there a Dockerfile that is used to generate an image that is used to generate the container. The container can be start in order to start or to build the website.
+
+To build the image, run the following command in the "Docker" folder:
+
+```shell
+docker build -t ukrainehelp_dev .
+```
+
+The output of this command is the docker image tagged _ukrainehelp_dev_. The name can be customized.
+
+To execute the container with this image, from the root folder of the project run the follwing command:
+
+```shell
+docker run --rm -v ${PWD}:/opt -p 4000:4000 --name ukrainehelp -it ukrainehelp_dev
+```
+
+where:
+
+* `--rm` removes the container when the execution terminates
+* `-v ${PWD}:/opt` mount the root folder in the `/opt` container folder
+* `-p` forward the host port 4000 to port 4000 of the container
+* `--name` name of the container
+* `-it` start the container in a interactive shell
+
+During the start of the container, the ruby dependencies are installed `vendor/bundle` and the command `bundle exec jekyll serve` is executed.
+
+Now you are ready to start, write <http://127.0.0.1:4000> in your browser to see the website.
+
+Further information are on the [Docker](https://www.docker.com/) website.
+
 
 ### Troubleshooting errors
-
 
 #### To open the site from another computer on the network
 
