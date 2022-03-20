@@ -31,7 +31,7 @@ Thank you, we're waiting for your help!
 
 # Help us to improve
 
-This is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/covid19italia/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
+This is a project in progress, to suggest improvements open an issue [here](https://github.com/emergenzeHack/ukrainehelp.emergenzehack.info/issues). On the same page you can see the reports opened by other users; from there you can see what still needs to be done and fixed.
 
 
 # Reuse
@@ -205,7 +205,7 @@ Example:
 
 **How to know which region/province/commune has identified the system?**
 
-By looking on the site at www.covid19italia.help/issues/ (for example https://www.europehelp.info/issues/748/) if the report has a position already entered, the values ‘Provincia’ and ‘Region’ are those recognized based on geographical data. **In this case, if there are errors, it would be more useful to fix the position**.
+By looking on the site, if the report has a position already entered, the values ‘Provincia’ and ‘Region’ are those recognized based on geographical data. **In this case, if there are errors, it would be more useful to fix the position**.
 
 There may be reports that have a region or province or municipality of reference, but for which it makes no sense to enter a pair of coordinates. In order for these reports to be listed on the page by region or province anyway, you can enter a field in the data of type
 
