@@ -16,7 +16,7 @@ Se non sei uno sviluppatore/sviluppatrice non importa! La community ha comunque 
 
 Anche solo un commento, un contatto, un’idea è molto importante!
 
-Per istruzioni visualizza la pagina Wiki, [clicca qui](https://ukrainehelp.emergenzehack.info/wiki/)!
+Per istruzioni visualizza la pagina Wiki, [clicca qui](https://ukrainehelp.emergenzehack.info/it/wiki/)!
 
 Grazie!
 
