@@ -13,7 +13,7 @@ languages:
       PARTECIPA:
         - COME PARTECIPARE: "contribuisci/"
         - DIVENTA CONTRIBUTOR: "credit_form"
-        - WIKI: "wiki/"
+        - WIKI: "it/wiki/"
     other-links:
   - language: en
     navbar-links:

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documentazione Tecnica
-permalink: /wiki/
+permalink: /it/wiki/
 lang: it
 ---
 

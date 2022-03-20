@@ -18,6 +18,6 @@ If you're not a developer, it doesn't matter! The community needs you anyway, ch
 
 Even just a comment, a contact, an idea could be very important!
 
-For instructions, please have a look on the Wiki page, by clicking here[https://www.europehelp.info/wiki/](https://www.europehelp.info/wiki/)!
+For instructions, please have a look on the Wiki page, by clicking here [https://ukrainehelp.emergenzehack.info/en/wiki/](https://ukrainehelp.emergenzehack.info/en/wiki/)!
 
 Thanks!
