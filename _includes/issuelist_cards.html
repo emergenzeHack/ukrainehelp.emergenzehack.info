@@ -60,7 +60,7 @@
                                                     {% assign itemDescription = "Name" %}
                                                 {%- endif -%}
                                                 <dt class="col-sm-3">{{itemDescription}}</dt>
-                                                    {%- if itemDescription == "Descrizione" -%}
+                                                    {%- if itemDescription == "Descrizione" or itemDescription == "Description" -%}
                                                         {%- assign itemrepr = item[1] | newline_to_br | auto_link -%}
                                                         <dd class="col-sm-9">
                                                         {{itemrepr}}
