@@ -30,6 +30,7 @@ psychological support:
   displayname: Psychological support
   labelnames: 
     - psychologicalSupport
+    - psycologicalSupport
   permalink: /supporto-psicologico/
   markericon: people-arrows
   markercolor: thistle 
