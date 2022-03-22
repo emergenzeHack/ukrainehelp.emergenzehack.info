@@ -93,6 +93,7 @@ healthcare:
   displayname: Healthcare
   labelnames: 
     - healthcare
+    - healtcare
   permalink: /healthcare/
   markericon: ambulance
   markercolor: lawngreen
