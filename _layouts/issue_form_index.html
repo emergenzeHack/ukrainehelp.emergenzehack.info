@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<div class="offset-md-3 col-md-6">
+
+    {%- for type in site.data.i18n.issues.forms -%}
+      
+      {% if type.path == '/forms/segnala_help_page' %}
+    
+        <a class="btn btn-success btn-lg btn-block btn-form" href="{{type.path}}">{{type[page.lang]}}</a>
+    
+      {%- else -%}
+    
+        <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="{{type.path}}">{{type[page.lang]}}</a>
+    
+      {% endif %}
+    
+    {%- endfor -%}
+</div>
