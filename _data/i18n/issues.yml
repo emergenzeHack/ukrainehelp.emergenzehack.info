@@ -1,0 +1,29 @@
+forms:
+  - help:
+    path: /forms/segnala_help_page
+    en: Ask for help
+    it: Chiedi Aiuto
+  - services: 
+    path: /forms/segnala_services_page
+    en: Recommend Initiatives and Services
+    it: Segnala Iniziative e Servizi
+  - fund: 
+    path: /forms/segnala_fund_page
+    en: Recommend Fundraising
+    it: Segnala Raccolta Fondi
+  - contact: 
+    path: /forms/segnala_contact_page
+    en: Add Helpful Contact
+    it: Segnala Contatto Utile
+  - fakenews: 
+    path: /forms/segnala_fakenews_page
+    en: Report Fake News
+    it: Segnala Bufala
+  - document-data:
+    path: /forms/segnala_document_data_page
+    en: Upload Documents/Data
+    it: Segnala Documento o Dati
+  - news:
+    path: /forms/segnala_news_page
+    en: Share News
+    it: Segnala Notizia
