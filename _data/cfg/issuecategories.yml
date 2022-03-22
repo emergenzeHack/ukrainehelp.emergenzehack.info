@@ -85,7 +85,7 @@ translations:
 legal:
   displayname: Legal Support
   labelnames: 
-    - legal
+    - Legal
   permalink: /legal/
   markericon: book
   markercolor: gold
