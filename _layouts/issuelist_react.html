@@ -11,7 +11,7 @@ common-js:
 {% endif %}
 
 {%- if page.displayname -%}
-  {% displayname = page.displayname[lang] %}
+  {% assign displayname = page.displayname[lang] %}
   {% include header.html type="page" pagetitle=displayname %}
 {%- else -%}
   {% include header.html type="page" %}
