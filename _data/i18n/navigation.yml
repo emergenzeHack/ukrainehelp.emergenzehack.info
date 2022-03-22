@@ -2,7 +2,7 @@ languages:
   - language: it
     navbar-links:
       SEGNALA: "segnala/"
-      SCOPRI: 
+      SCOPRI:
         - TUTTE LE SEGNALAZIONI: "issues/"
         - SEGNALAZIONI PER REGIONE: "issues/regione/"
       CONTATTI: "canali/"
