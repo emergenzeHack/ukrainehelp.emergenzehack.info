@@ -35,7 +35,7 @@ class IssueCategoriesButtons extends React.Component {
                     <i className="fa fa-circle fa-stack-2x" aria-hidden="true" style={{color:category.markercolor}}></i>
                     <i className={"fa fa-"+category.markericon + " fa-stack-1x fa-inverse"} aria-hidden="true"></i>
                     </span>
-                    <span className="text-center">{category.displayname} <span className="badge badge-pill badge-secondary">{issuesLength}</span></span></a>
+                    <span className="text-center">{category.displayname[page.lang]} <span className="badge badge-pill badge-secondary">{issuesLength}</span></span></a>
                     </div>
                 );
             }
@@ -294,7 +294,7 @@ class IssueCategoriesList extends React.Component {
                 issues=issues.slice(0,maxIssuesForCategory);
             }
             if (issues.length > 0) {
-                ret.push (<><h2 id={""+category.permalink}>{category.displayname}<span className="badge badge-pill badge-primary">{issuesLength}</span></h2><IssueCardList issues={issues} category={category} />
+                ret.push (<><h2 id={""+category.permalink}>{category.displayname[page.lang]}<span className="badge badge-pill badge-primary">{issuesLength}</span></h2><IssueCardList issues={issues} category={category} />
 
                     </>);
                 if (maxIssuesForCategory > 0 && issuesLength > maxIssuesForCategory) {

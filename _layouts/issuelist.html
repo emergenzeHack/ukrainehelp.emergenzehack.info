@@ -3,6 +3,12 @@ layout: base
 fitBounds: true
 ---
 
+{% if page.lang != blank %}
+{% assign lang = page.lang %}
+{% else %}
+{% assign lang = site.lang %}
+{% endif %}
+
 {%- assign openissues = site.data.machgen.issuesjson | where: "state","open" -%}
 
 {%- if page.nome_provincia != blank -%}
@@ -47,11 +53,13 @@ fitBounds: true
 
 {%- endif -%}
 
-        {%- if page.displayname -%}
-{% include header.html type="page" pagetitle=page.displayname %}
-        {%- else -%}
-{% include header.html type="page" %}
-        {%- endif -%}
+{%- if page.displayname -%}
+    {% assign displayname = page.displayname[lang] %}
+    {% include header.html type="page" pagetitle=displayname %}
+{%- else -%}
+    {% include header.html type="page" %}
+{%- endif -%}
+
 <div class="container-fluid" role="main">
   <div class="row">
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
@@ -99,8 +107,8 @@ fitBounds: true
         {%- assign allcatfilteredissues = allcatfilteredissues | concat: filteredissues | uniq -%}
         <div class="row">
             <div class="col-12 col-lg-12 col-md-12">
-                <h2 id="{{category['permalink']}}">{{category["displayname"]}}
-                    {% if page.justLatestIssues %}<a href="{{category['permalink']}}" title="Vedi tutte le segnalazioni della categoria {{category['displayname']}}">{% endif %}
+                <h2 id="{{category['permalink']}}">{{category["displayname"][lang]}}
+                    {% if page.justLatestIssues %}<a href="{{category['permalink']}}" title="Vedi tutte le segnalazioni della categoria {{category['displayname'][lang]}}">{% endif %}
                         <span class="badge badge-pill badge-primary">
                             {{filteredissues.size}}
                         </span>
@@ -117,21 +125,21 @@ fitBounds: true
                         {% assign filteredissues_category = filteredissues %}
                         {% for subcategorytuple in category["subcategories"] %}
                         {% assign subcategory = subcategorytuple[0] %}
-                        {% assign subcategoryname = subcategorytuple[1]["displayname"] %}
+                        {% assign subcategoryname = subcategorytuple[1]["displayname"][lang] %}
                         {%- assign filteredissues = filteredissues_category | where_exp: "member","member.issue.labels contains subcategory" -%}
                         {% if filteredissues.size > 0 %}
                         <h3 id="{{subcategory | slugify}}">{{subcategoryname}} <span class="badge badge-pill badge-primary">{{filteredissues.size}}</span></h3>
 
                         {% for member in filteredissues %}
-                        {% include issuelist_cards.html %}
+                            {% include issuelist_cards.html %}
                         {% endfor %}
 
                         {%- endif -%}
                         {%- endfor -%}
                         {% else %}
-                        {% for member in filteredissues %}
-                        {% include issuelist_cards.html %}
-                        {% endfor %}
+                            {% for member in filteredissues %}
+                                {% include issuelist_cards.html %}
+                            {% endfor %}
                         {%- endif -%}
 
                     </div>
@@ -144,7 +152,7 @@ fitBounds: true
         {% endif %}
         {%- if page.justLatestIssues -%}
         <div class="row">
-            <div class="col-12 col-lg-12 col-md-12"><a href="{{category['permalink']}}" title="Vedi tutte le segnalazioni della categoria {{category['displayname']}}" class="btn btn-primary btn-lg">{{site.data.i18n.translations["see_all"]}} {{category["displayname"]}}</a></div>
+            <div class="col-12 col-lg-12 col-md-12"><a href="{{category['permalink']}}" title="Vedi tutte le segnalazioni della categoria {{category['displayname'][lang]}}" class="btn btn-primary btn-lg">{{site.data.i18n.translations["see_all"]}} {{category["displayname"][lang]}}</a></div>
             <hr class="col-12 col-lg-12 col-md-12">
         </div>
         {%- endif -%}

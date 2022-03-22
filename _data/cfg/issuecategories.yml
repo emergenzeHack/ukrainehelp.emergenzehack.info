@@ -1,33 +1,43 @@
 help requests:
-  displayname: Help requests
+  displayname: 
+    en: Help requests
+    it: Richieste di aiuto
   labelnames: 
     - Help
   permalink: /help/
   markericon: child
   markercolor: crimson
 fundraising:
-  displayname: Fundraising
+  displayname: 
+    en: Fundraising
+    it: Raccolta fondi
   labelnames: 
     - fundraising
   permalink: /fundraising/
   markericon: eur
   markercolor: yellow
 games and activities for children:
-  displayname: Children
+  displayname: 
+    en: Children
+    it: Bambini
   labelnames: 
     - Children
   permalink: /children/
   markericon: puzzle-piece
   markercolor: turquoise
 solidarity services and initiatives:
-  displayname: Solidarity services and initiatives
+  displayname: 
+    en: Solidarity services and initiatives
+    it: Servizi e iniziative solidali
   labelnames:
     - Services
   permalink: /services/
   markericon: handshake-o
   markercolor: lightcoral
 psychological support:
-  displayname: Psychological support
+  displayname: 
+    en: Psychological support
+    it: Supporto psicologico
   labelnames: 
     - psychologicalSupport
     - psycologicalSupport
@@ -35,63 +45,81 @@ psychological support:
   markericon: people-arrows
   markercolor: thistle 
 work and business support:
-  displayname: Work and Business Support
+  displayname:
+    en: Work and Business Support
+    it: Offerte di lavoro e sostegno alle imprese
   labelnames: 
     - job
   permalink: /sostegno-lavoro-e-imprese/
   markericon: industry
   markercolor: fuchsia
 goods donations and services offering:
-  displayname: Goods donations
+  displayname: 
+    en: Goods donations
+    it: Donazioni materiali
   labelnames: 
     - materialGoods
   permalink: /donazioni-beni-e-offerte-servizi/
   markericon: hand-holding-heart
   markercolor: teal
 useful news:
-  displayname: News
+  displayname: 
+    en: News
+    it: Notizie
   labelnames: 
     - News
   permalink: /notizie-utili/
   markericon: newspaper
   markercolor: lightskyblue
 fake news:
-  displayname: Fake News
+  displayname:
+    en: Fake News
+    it: Fake News
   labelnames: 
     - fakenews
   permalink: /fake-news/
   markericon: exclamation-circle
   markercolor: blueviolet
 women:
-  displayname: Support to women
+  displayname:
+    en: Support to women
+    it: Supporto donne
   labelnames: 
     - women
   permalink: /supportToWomen/
   markericon: female
   markercolor: indianred
 disability services:
-  displayname: Support to disabled
+  displayname: 
+    en: Support to disabled
+    it: Servizi per disabili
   labelnames: 
     - disability
   permalink: /disabilityServices/
   markericon: wheelchair
   markercolor: orange
 translations:
-  displayname: Language and translations
+  displayname:
+    en: Language and translations
+    it: Lingua e traduzioni
   labelnames: 
     - translation
   permalink: /translation/
   markericon: language
   markercolor: darkviolet
 legal:
-  displayname: Legal Support
+  displayname: 
+    en: Legal Support
+    it: Supporto legale
   labelnames: 
     - Legal
   permalink: /legal/
   markericon: book
   markercolor: gold
 healthcare:
-  displayname: Healthcare
+  displayname: 
+    en: Healthcare
+    it: Assistenza sanitaria
   labelnames: 
     - healthcare
     - healtcare
@@ -99,14 +127,18 @@ healthcare:
   markericon: ambulance
   markercolor: lawngreen
 travelTransport:
-  displayname: Travel and Transport
+  displayname:
+    en: Travel and Transport
+    it: Viaggi e trasporti
   labelnames: 
     - transport
   permalink: /travelTransport/
   markericon: car
   markercolor: yellowgreen
 hospitality:
-  displayname: Hospitality
+  displayname: 
+    en: Hospitality
+    it: Ospitalità
   labelnames: 
     - hospitality
     - Ospitalit\u00e0
@@ -114,7 +146,9 @@ hospitality:
   markericon: bed
   markercolor: royalblue
 document_data:
-  displayname: Document and Data
+  displayname: 
+    en: Document and Data
+    it: Documenti e dati
   labelnames: 
     - document_data
   permalink: /documentdata/

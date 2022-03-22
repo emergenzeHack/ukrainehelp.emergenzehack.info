@@ -27,7 +27,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>{%- if page.displayname != blank -%}{{ page.displayname }} | {{ site.title }}{%- elsif page.url == '/' -%}{{ page.title }}{%- else -%}{{ page.title }} | {{ site.title }}{%- endif -%}</title>
+        <title>{%- if page.displayname != blank -%}{{ page.displayname[site.lang] }} | {{ site.title }}{%- elsif page.url == '/' -%}{{ page.title }}{%- else -%}{{ page.title }} | {{ site.title }}{%- endif -%}</title>
         <description></description>
         <link>{{site.url}}/{{ page.url }}</link>
         <category domain="{{ site.url }}">Covid19</category>
