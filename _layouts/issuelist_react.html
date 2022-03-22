@@ -4,12 +4,19 @@ common-js:
   - "/js/issuelist.production.min.js"
 ---
 
+{% if page.lang != blank %}
+{% assign lang = page.lang %}
+{% else %}
+{% assign lang = site.lang %}
+{% endif %}
 
-        {%- if page.displayname -%}
-{% include header.html type="page" pagetitle=page.displayname %}
-        {%- else -%}
-{% include header.html type="page" %}
-        {%- endif -%}
+{%- if page.displayname -%}
+  {% displayname = page.displayname[lang] %}
+  {% include header.html type="page" pagetitle=displayname %}
+{%- else -%}
+  {% include header.html type="page" %}
+{%- endif -%}
+
 <div class="container-fluid" role="main">
   <div class="row">
     <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">

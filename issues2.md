@@ -5,6 +5,7 @@ subtitle: Scopri tutte le segnalazioni fatte sulla piattaforma
 permalink: /issues2/
 categorieMapAll: true
 justLatestIssues: true
+lang: it
 ---
 
 {%- if page.issuecategory -%}
@@ -26,7 +27,7 @@ justLatestIssues: true
                 <i class="fa fa-circle fa-stack-2x" aria-hidden="true" style="color:{{category['markercolor']}};"></i>
                 <i class="fa fa-{{category['markericon']}} fa-stack-1x fa-inverse" aria-hidden="true"></i>
               </span>
-<span class="text-center">{{category["displayname"]}}</span></a>
+<span class="text-center">{{category["displayname"][page.lang]}}</span></a>
 	</div>
 {% endfor %}
 </div>
