@@ -1,0 +1,239 @@
+---
+layout: form_page
+title: Initiatives and Services
+lang: en
+---
+{
+
+    "components": [
+        {
+            "label": "Type",
+            "optionsLabelPosition": "right",
+            "tableView": true,
+            "multiple": true,
+            "widget": "choicesjs",
+            "data": {
+            "values": [
+                {
+                    "label": "material goods",
+                    "value": "materialGoods",
+                },
+                {
+                    "label": "hospitality",
+                    "value": "hospitality",
+                },
+                {
+                    "label": "travel/transport",
+                    "value": "travelTransport",
+                },
+                {
+                    "label": "healthcare",
+                    "value": "healthcare",
+                },
+                {
+                    "label": "legal",
+                    "value": "legal",
+                },
+                {
+                    "label": "language and translation",
+                    "value": "translation",
+                },
+                {
+                    "label": "job offer",
+                    "value": "jobOffer",
+                },
+                {
+                    "label": "psychological support",
+                    "value": "psychologicalSupport",
+                },
+                {
+                    "label": "children",
+                    "value": "children",
+                },
+                {
+                    "label": "disability services",
+                    "value": "disabilityServices",
+                },
+                {
+                    "label": "support to women",
+                    "value": "supportToWomen",
+                }
+            ]
+            },
+            "validate": {
+                "required": true
+            },
+            "key": "type",
+            "type": "select",
+            "input": true
+        },
+        {
+            "label": "Offer from who?",
+            "tableView": true,
+            "validate": {
+                "required": true
+            },
+            "key": "offerFromWho",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Title",
+            "tableView": true,
+            "validate": {
+                "required": true
+            },
+            "key": "title",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Recipients",
+            "tableView": true,
+            "key": "recipients",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Description",
+            "autoExpand": false,
+            "tableView": true,
+            "key": "description",
+            "type": "textarea",
+            "input": true
+        },
+        {
+            "label": "Url",
+            "tableView": true,
+            "key": "url",
+            "type": "url",
+            "input": true
+        },
+        {
+            "label": "Location",
+            "enableManualMode": true,
+            "tableView": false,
+            "provider": "nominatim",
+            "key": "address",
+            "type": "address",
+            "providerOptions": {
+                "params": {
+                    "autocompleteOptions": {}
+                }
+            },
+            "input": true,
+            "components": [
+                {
+                    "label": "Address 1",
+                    "tableView": false,
+                    "key": "address1",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "Address 2",
+                    "tableView": false,
+                    "key": "address2",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "City",
+                    "tableView": false,
+                    "key": "city",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "State",
+                    "tableView": false,
+                    "key": "state",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "Country",
+                    "tableView": false,
+                    "key": "country",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                },
+                {
+                    "label": "Zip Code",
+                    "tableView": false,
+                    "key": "zip",
+                    "type": "textfield",
+                    "input": true,
+                    "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                }
+            ]
+        },
+        {
+            "label": "I confirm to have read and accepted privacy informative to threat personal data",
+            "tableView": false,
+            "defaultValue": false,
+            "validate": {
+                "required": true
+            },
+            "key": "iConfirmToHaveReadAndAcceptedInformativeToThreatPersonalData",
+            "type": "checkbox",
+            "input": true
+        },
+        {
+            "label": "Label",
+            "hidden": true,
+            "tableView": true,
+            "clearOnHide": false,
+            "validate": {
+                "required": true
+            },
+            "key": "label",
+            "type": "textfield",
+            "input": true,
+            "defaultValue": "services"
+        },
+        {
+            "type": "button",
+            "label": "Submit",
+            "key": "submit",
+            "disableOnInvalid": true,
+            "input": true,
+            "tableView": false
+        }
+    ]
+}, {
+    i18n: {
+      it: {
+          'Type' : 'Categoria',
+          'material goods': 'beni materiali',
+          'hospitality': 'ospitalità'  ,
+          'travel/transport': 'viaggi/trasporti',
+          'healthcare': 'assistenza sanitaria',
+          'legal': 'assistenza legale',
+          'language and translation': 'lingua e traduzioni',
+          'job offer': 'offerte di lavoro',
+          'psychological support': 'supporto psicologico',
+          'children': 'bambini',
+          'disability services': 'servizi per disabili',
+          'support to women': 'supporto donne',
+          'Offer from who?' : 'Offerto da chi?',
+          'Title' : 'Titolo',
+          'Recipients': 'Destinatari',
+          'Description': 'Descrizione',
+          'Location': 'Luogo',
+          'Address 1': 'Indirizzo 1',
+          'Address 2': 'Indirizzo 2',
+          'City': 'Città',
+          'State': 'Stato',
+          'Country': 'Paese',
+          'Zip Code': 'CAP',
+          'I confirm to have read and accepted privacy informative to threat personal data': 'Confermo di aver letto e accetto l\'informativa sulla privacy per il trattamento dei dati personali',
+          'Submit': 'Invia' 
+      }
+    }
+}
