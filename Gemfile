@@ -29,3 +29,5 @@ gem 'html-proofer'
 gem 'rinku'
 
 gem 'sassc', '~> 2.1.0' # https://github.com/sass/sassc-ruby/issues/146
+
+gem 'webrick'
