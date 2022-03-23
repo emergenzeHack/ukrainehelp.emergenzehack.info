@@ -24,7 +24,7 @@ lang: en
                 },
                 {
                     "label": "travel/transport",
-                    "value": "transport",
+                    "value": "travelTransport",
                     "shortcut": ""
                 },
                 {
@@ -34,7 +34,7 @@ lang: en
                 },
                 {
                     "label": "legal",
-                    "value": "Legal",
+                    "value": "legal",
                     "shortcut": ""
                 },
                 {
@@ -43,8 +43,13 @@ lang: en
                     "shortcut": ""
                 },
                 {
+                    "label": "education and training",
+                    "value": "education",
+                    "shortcut": ""
+                },
+                {
                     "label": "job offer",
-                    "value": "job",
+                    "value": "jobOffer",
                     "shortcut": ""
                 },
                 {
@@ -54,25 +59,25 @@ lang: en
                 },
                 {
                     "label": "children",
-                    "value": "Children",
+                    "value": "children",
                     "shortcut": ""
                 },
                 {
                     "label": "disability services",
-                    "value": "disability",
+                    "value": "disabilityServices",
                     "shortcut": ""
                 },
                 {
                     "label": "support to women",
-                    "value": "women",
+                    "value": "supportToWomen",
                     "shortcut": ""
                 }
             ],
             "validate": {
                 "required": true
             },
-            "key": "servicetypes",
-            "type": "selectboxes",
+            "key": "type",
+            "type": "radio",
             "input": true
         },
         {
@@ -224,6 +229,7 @@ lang: en
           'healthcare': 'assistenza sanitaria',
           'legal': 'assistenza legale',
           'language and translation': 'lingua e traduzioni',
+          'education and training': 'istruzione e formazione',
           'job offer': 'offerte di lavoro',
           'psychological support': 'supporto psicologico',
           'children': 'bambini',
