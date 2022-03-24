@@ -251,6 +251,7 @@ page_gen:
       dir: rss/categoria/
       name_expr: "record['permalink'].tr('/','')"
       page_data_prefix: issuecategory
+      extension: xml
     - index_files: false
       data: geo.regioni
       template: issuelistXML
