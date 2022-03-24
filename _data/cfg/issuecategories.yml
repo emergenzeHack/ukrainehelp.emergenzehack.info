@@ -154,3 +154,12 @@ document_data:
   permalink: /documentdata/
   markericon: file-text
   markercolor: lightsteelblue
+education:
+  displayname:
+    en: Education and Training
+    it: Istruzione e Formazione
+  labelnames:
+    - education
+  permalink: /education/
+  markericon: person-chalkboard
+  markercolor: dodgerblue
