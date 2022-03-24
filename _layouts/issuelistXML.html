@@ -10,7 +10,7 @@ layout: null
     {%- assign tmpcategory = tmpcategory | push: site.data.cfg.issuecategories[page.issuecategory] -%}
     {%- assign issuecategories = issuecategories |  push: tmpcategory -%}
 
-{%- elsif page.displayname != blank and page.markericon != blank -%}
+{%- elsif page.issuecategory.displayname != blank and page.issuecategory.markericon != blank -%}
 
     {% assign issuecategories = "" | split: "," %}
     {% assign tmpcategory = "" | split: "," %}
@@ -27,11 +27,11 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>{%- if page.displayname != blank -%}{{ page.displayname[site.lang] }} | {{ site.title }}{%- elsif page.url == '/' -%}{{ page.title }}{%- else -%}{{ page.title }} | {{ site.title }}{%- endif -%}</title>
+        <title>{%- if page.issuecategory.displayname != blank -%}{{ page.issuecategory.displayname[site.lang] }} | {{ site.title }}{%- elsif page.url == '/' -%}{{ page.title }}{%- else -%}{{ page.title }} | {{ site.title }}{%- endif -%}</title>
         <description></description>
         <link>{{site.url}}/{{ page.url }}</link>
-        <category domain="{{ site.url }}">Covid19</category>
-        <copyright>Copyright 2020 {{site.tite}}</copyright>
+        <category domain="{{ site.url }}">UkraineHelp</category>
+        <copyright>Copyright 2022 {{site.tite}}</copyright>
         <docs>{{site.url}}/rss</docs>
         <language>{{site.lang}}</language>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
@@ -39,30 +39,37 @@ layout: null
         <webMaster>{{site.email}}</webMaster>
         <generator>Jekyll</generator>
 
-            {%- assign openissues = site.data.machgen.issuesjson | where: "state","open" -%}
+        {%- assign openissues = site.data.machgen.issuesjson | where: "state","open" -%}
 
-            {%- if page.nome_provincia != blank -%}
-            {%- assign geofilteredissues = openissues | where_exp: "member", "member.issue.provincia == page.nome_provincia" -%}
+        {%- if page.nome_provincia != blank -%}
+        {%- assign geofilteredissues = openissues | where_exp: "member", "member.issue.provincia == page.nome_provincia" -%}
+        {%- else -%}
+        {%- if page.nome_regione != blank -%}
+        {%- assign geofilteredissues = openissues |  where_exp: "member", "member.issue.regione == page.nome_regione or member.issue.regione == 'tutte'" -%}
+        {%- else -%}
+        {%- assign geofilteredissues = openissues  -%}
+        {%- endif -%}
+        {%- endif -%}
+        
+        {%- assign filteredissues = '' | split: '' -%}
+        {%- for categorytuple in issuecategories -%}
+
+            {%- if page.issuecategory != blank -%}
+                {% comment %} when rss feed by category {% endcomment %}
+                {%- assign category = categorytuple[0] -%}
             {%- else -%}
-            {%- if page.nome_regione != blank -%}
-            {%- assign geofilteredissues = openissues |  where_exp: "member", "member.issue.regione == page.nome_regione or member.issue.regione == 'tutte'" -%}
-            {%- else -%}
-            {%- assign geofilteredissues = openissues  -%}
-            {%- endif -%}
+                {% comment %} when rss feed by regione {% endcomment %}
+                {%- assign category = categorytuple[1] -%}
             {%- endif -%}
 
-{%- assign filteredissues = '' | split: '' -%}
-{%- for categorytuple in issuecategories -%}
-{%- assign category = categorytuple[1] -%}
+            {% for issuelabel in category["labelnames"] %}
+                {%- assign tmpfilteredissues = geofilteredissues | where_exp: "member","member.issue.labels contains issuelabel" -%}
+                {%- assign filteredissues = filteredissues | concat: tmpfilteredissues | uniq -%}
+            {% endfor %}
+        {% endfor %}
 
-{% for issuelabel in category["labelnames"] %}
-    {%- assign tmpfilteredissues = geofilteredissues | where_exp: "member","member.issue.labels contains issuelabel" -%}
-    {%- assign filteredissues = filteredissues | concat: tmpfilteredissues | uniq -%}
-{% endfor %}
-{% endfor %}
-
-{%- assign filteredissues = filteredissues | sort: 'number' | reverse -%}
-            {%- for member in filteredissues -%}
+        {%- assign filteredissues = filteredissues | sort: 'number' | reverse -%}
+        {%- for member in filteredissues -%}
         <item>
             <title>{{member.title | xml_escape}}</title>
             <description>{{member.issue.data.Descrizione | xml_escape}}</description>
@@ -70,6 +77,7 @@ layout: null
             <guid>{{site.url}}/issues/{{member.number}}</guid>
             <pubDate>{{member.issue.created_at | date_to_rfc822}}</pubDate>
         </item>
-            {%- endfor -%}
+        {%- endfor -%}
     </channel>
+
 </rss>
