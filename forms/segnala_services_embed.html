@@ -1,5 +1,5 @@
 ---
-layout: form_page
+layout: form_bare
 title: Initiatives and Services
 lang: en
 ---
@@ -9,62 +9,70 @@ lang: en
         {
             "label": "Type",
             "optionsLabelPosition": "right",
-            "tableView": true,
-            "multiple": true,
-            "widget": "choicesjs",
-            "data": {
+            "inline": false,
+            "tableView": false,
             "values": [
                 {
                     "label": "material goods",
                     "value": "materialGoods",
+                    "shortcut": ""
                 },
                 {
                     "label": "hospitality",
                     "value": "hospitality",
+                    "shortcut": ""
                 },
                 {
                     "label": "travel/transport",
-                    "value": "travelTransport",
+                    "value": "transport",
+                    "shortcut": ""
                 },
                 {
                     "label": "healthcare",
                     "value": "healthcare",
+                    "shortcut": ""
                 },
                 {
                     "label": "legal",
-                    "value": "legal",
+                    "value": "Legal",
+                    "shortcut": ""
                 },
                 {
                     "label": "language and translation",
                     "value": "translation",
+                    "shortcut": ""
                 },
                 {
                     "label": "job offer",
-                    "value": "jobOffer",
+                    "value": "job",
+                    "shortcut": ""
                 },
                 {
                     "label": "psychological support",
                     "value": "psychologicalSupport",
+                    "shortcut": ""
                 },
                 {
                     "label": "children",
-                    "value": "children",
+                    "value": "Children",
+                    "shortcut": ""
                 },
                 {
                     "label": "disability services",
-                    "value": "disabilityServices",
+                    "value": "disability",
+                    "shortcut": ""
                 },
                 {
                     "label": "support to women",
-                    "value": "supportToWomen",
+                    "value": "women",
+                    "shortcut": ""
                 }
-            ]
-            },
+            ],
             "validate": {
                 "required": true
             },
-            "key": "type",
-            "type": "select",
+            "key": "servicetypes",
+            "type": "selectboxes",
             "input": true
         },
         {
