@@ -1,0 +1,160 @@
+---
+layout: form_bare
+title: Useful Contacts
+lang: en
+---
+{
+
+    "components": [
+    {
+        "label": "Name",
+        "tableView": true,
+        "validate": {
+            "required": true
+        },
+        "key": "title",
+        "type": "textfield",
+        "input": true
+    },
+    {
+        "label": "Phone Number",
+        "placeholder": "phone number with international prefix",
+        "tableView": true,
+        "key": "phoneNumber",
+        "type": "textfield",
+        "input": true
+    },
+    {
+        "label": "Email",
+        "tableView": true,
+        "key": "email",
+        "type": "email",
+        "input": true
+    },
+    {
+        "label": "Aim",
+        "placeholder": "for what can be useful?",
+        "autoExpand": false,
+        "tableView": true,
+        "key": "aim",
+        "type": "textarea",
+        "input": true
+    },
+    {
+        "label": "Url",
+        "tableView": true,
+        "key": "url",
+        "type": "url",
+        "input": true
+    },
+    {
+        "label": "Location",
+        "enableManualMode": true,
+        "tableView": false,
+        "provider": "nominatim",
+        "key": "address",
+        "type": "address",
+        "providerOptions": {
+            "params": {
+                "autocompleteOptions": {}
+            }
+        },
+        "input": true,
+        "components": [
+            {
+                "label": "Address 1",
+                "tableView": false,
+                "key": "address1",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "Address 2",
+                "tableView": false,
+                "key": "address2",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "City",
+                "tableView": false,
+                "key": "city",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "State",
+                "tableView": false,
+                "key": "state",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "Country",
+                "tableView": false,
+                "key": "country",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            },
+            {
+                "label": "Zip Code",
+                "tableView": false,
+                "key": "zip",
+                "type": "textfield",
+                "input": true,
+                "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+            }
+        ]
+    },
+    {
+        "label": "I confirm to have read and accepted privacy informative to threat personal data",
+        "tableView": false,
+        "key": "iConfirmToHaveReadAndAcceptedInformativeToThreatPersonalData",
+        "type": "checkbox",
+        "input": true,
+        "defaultValue": false
+    },
+    {
+        "label": "Label",
+        "hidden": true,
+        "tableView": true,
+        "clearOnHide": false,
+        "key": "label",
+        "type": "textfield",
+        "input": true,
+        "defaultValue": "contact"
+    },
+    {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+    }
+]
+}, {
+    i18n: {
+        it: {
+            'Name': 'Nome',
+            'Phone Number': 'Numero di telefono',
+            'phone number with international prefix': 'numero di telefono con prefisso internazionale',
+            'Aim': 'Scopo',
+            'for what can be useful?': 'per cosa è utile?',
+            'Location': 'Luogo',
+            'Address 1': 'Indirizzo 1',
+            'Address 2': 'Indirizzo 2',
+            'City': 'Città',
+            'State': 'Stato',
+            'Country': 'Paese',
+            'Zip Code': 'CAP',
+            'I confirm to have read and accepted privacy informative to threat personal data': 'Confermo di aver letto e accetto l\'informativa sulla privacy per il trattamento dei dati personali',
+            'Submit': 'Invia' 
+        }
+    }
+}

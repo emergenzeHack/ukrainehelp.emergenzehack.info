@@ -1,0 +1,201 @@
+---
+layout: form_bare
+title: Fundraising
+lang: en
+---
+{
+
+    "components": [
+    {
+        "label": "Who requires donation",
+        "tableView": true,
+        "validate": {
+            "required": true
+        },
+        "key": "title",
+        "type": "textfield",
+        "input": true
+    },
+    {
+        "label": "Description",
+        "autoExpand": false,
+        "tableView": true,
+        "key": "description",
+        "type": "textarea",
+        "input": true
+    },
+    {
+        "title": "Banking Data",
+        "collapsible": false,
+        "key": "bankingData",
+        "type": "panel",
+        "label": "Panel",
+        "input": false,
+        "tableView": false,
+        "components": [
+            {
+                "label": "Heading",
+                "tableView": true,
+                "key": "heading",
+                "type": "textfield",
+                "input": true
+            },
+            {
+                "label": "IBAN",
+                "tableView": true,
+                "key": "iban",
+                "type": "textfield",
+                "input": true
+            },
+            {
+                "label": "BIC SWIFT",
+                "tableView": true,
+                "key": "bicSwift",
+                "type": "textfield",
+                "input": true
+            },
+            {
+                "label": "CC Postal",
+                "tableView": true,
+                "key": "ccPostal",
+                "type": "textfield",
+                "input": true
+            },
+            {
+                "label": "Causal",
+                "tableView": true,
+                "key": "causal",
+                "type": "textfield",
+                "input": true
+            },
+            {
+                "label": "Link",
+                "tableView": true,
+                "key": "link",
+                "type": "url",
+                "input": true
+            },
+            {
+                "label": "Email",
+                "tableView": true,
+                "key": "email",
+                "type": "email",
+                "input": true
+            },
+            {
+                "label": "Location",
+                "enableManualMode": true,
+                "tableView": false,
+                "provider": "nominatim",
+                "key": "location",
+                "type": "address",
+                "providerOptions": {
+                    "params": {
+                        "autocompleteOptions": {}
+                    }
+                },
+                "input": true,
+                "components": [
+                    {
+                        "label": "Address 1",
+                        "tableView": false,
+                        "key": "address1",
+                        "type": "textfield",
+                        "input": true,
+                        "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                    },
+                    {
+                        "label": "Address 2",
+                        "tableView": false,
+                        "key": "address2",
+                        "type": "textfield",
+                        "input": true,
+                        "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                    },
+                    {
+                        "label": "City",
+                        "tableView": false,
+                        "key": "city",
+                        "type": "textfield",
+                        "input": true,
+                        "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                    },
+                    {
+                        "label": "State",
+                        "tableView": false,
+                        "key": "state",
+                        "type": "textfield",
+                        "input": true,
+                        "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                    },
+                    {
+                        "label": "Country",
+                        "tableView": false,
+                        "key": "country",
+                        "type": "textfield",
+                        "input": true,
+                        "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                    },
+                    {
+                        "label": "Zip Code",
+                        "tableView": false,
+                        "key": "zip",
+                        "type": "textfield",
+                        "input": true,
+                        "customConditional": "show = _.get(instance, 'parent.manualMode', false);"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "I confirm to have read and accepted privacy informative to threat personal data ",
+        "tableView": false,
+        "validate": {
+            "required": true
+        },
+        "key": "iConfirmToHaveReadAndAcceptedPrivacyInformativeToThreatPersonalData",
+        "type": "checkbox",
+        "input": true,
+        "defaultValue": false
+    },
+    {
+        "label": "Label",
+        "hidden": true,
+        "tableView": true,
+        "clearOnHide": false,
+        "key": "label",
+        "type": "textfield",
+        "input": true,
+        "defaultValue": "fundraising"
+    },
+    {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+    }
+]
+}, {
+    i18n: {
+      it: {
+          'Who requires donation': 'Chi richiede la donazione',
+          'Description': 'Descrizione',
+          'Banking Data' : 'Dati bancari',
+          'Heading': 'Intestazione',
+          'CC Postal' : 'Conto corrente postale',
+          'Causal': 'Causale',
+          'Location': 'Luogo',
+          'Address 1': 'Indirizzo 1',
+          'Address 2': 'Indirizzo 2',
+          'City': 'Città',
+          'State': 'Stato',
+          'Country': 'Paese',
+          'Zip Code': 'CAP',
+          'I confirm to have read and accepted privacy informative to threat personal data': 'Confermo di aver letto e accetto l\'informativa sulla privacy per il trattamento dei dati personali',
+          'Submit': 'Invia' 
+      }
+    }
+}
