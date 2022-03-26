@@ -139,5 +139,15 @@ permalink: en/channels/
             </a><span>to discuss and help on the development of the project</span>
           </li>
           {% endif %}
+          {% if site.author.mastodon %}
+	         <li>
+            <a href="{{ site.author.mastodon }}" title="Mastodon Account">
+              <span class="fa-stack fa-lg" aria-label="Mastodon Long" role="img">
+                <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-mastodon fa-stack-1x fa-inverse" aria-hidden="true"></i>
+              </span>&nbsp;&nbsp;Mastodon Account
+            </a><span>we are also on Mastodon</span>
+          </li>
+          {% endif %}
      </ul>
 </div>

@@ -167,6 +167,16 @@ permalink: /canali/
             </a><span>per coordinarci internamente</span>
           </li>
           {% endif %}
+          {% if site.author.mastodon %}
+	         <li>
+            <a href="{{ site.author.mastodon }}" title="Mastodon Account">
+              <span class="fa-stack fa-lg" aria-label="Mastodon Long" role="img">
+                <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+                <i class="fa-brands fa-mastodon fa-stack-1x fa-inverse" aria-hidden="true"></i>
+              </span>&nbsp;&nbsp;Mastodon Account
+            </a><span>siamo su Mastodon</span>
+          </li>
+          {% endif %}
      </ul>
           <p>Tutto ciò che ci invii sarà gestito dal nostro team, che potrà provvedere alla pubblicazione delle informazioni sul sito appena possibile. Ricordati che usando i nostri canali accetti automaticamente di sottoscrivere l'<a href="{{ site.url }}/legal_segnalazioni/">informativa legale</a> per le informazioni di questo progetto.</p>
 </div>
