@@ -56,7 +56,7 @@ work and business support:
 goods donations and services offering:
   displayname: 
     en: Goods donations
-    it: Donazioni materiali
+    it: Donazioni beni
   labelnames: 
     - materialGoods
   permalink: /donazioni-beni-e-offerte-servizi/
@@ -64,8 +64,8 @@ goods donations and services offering:
   markercolor: teal
 useful news:
   displayname: 
-    en: News
-    it: Notizie
+    en: Useful News
+    it: Notizie utili
   labelnames: 
     - News
   permalink: /notizie-utili/
