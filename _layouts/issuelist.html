@@ -152,7 +152,7 @@ fitBounds: true
         {% endif %}
         {%- if page.justLatestIssues -%}
         <div class="row">
-            <div class="col-12 col-lg-12 col-md-12"><a href="{{category['permalink']}}" title="Vedi tutte le segnalazioni della categoria {{category['displayname'][lang]}}" class="btn btn-primary btn-lg">{{site.data.i18n.translations["see_all"]}} {{category["displayname"][lang]}}</a></div>
+            <div class="col-12 col-lg-12 col-md-12"><a href="{{category['permalink']}}" title="Vedi tutte le segnalazioni della categoria {{category['displayname'][lang]}}" class="btn btn-primary btn-lg">{{site.data.i18n.translations[lang]["see_all"]}} {{category["displayname"][lang]}}</a></div>
             <hr class="col-12 col-lg-12 col-md-12">
         </div>
         {%- endif -%}
