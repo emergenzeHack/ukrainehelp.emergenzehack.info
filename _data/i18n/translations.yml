@@ -8,6 +8,12 @@ updated_at: Aggiornato
 municipality: Comune
 province: Provincia
 region: Regione
+it:
+  language: Lingua
+  see_all: Vedi tutte
+en:
+  language: Language
+  see_all: See all
 form_privacy_statement:
   en: "I confirm to have read and accepted privacy informative to treat personal data"
   it: "Confermo di aver letto e accetto l\\'informativa sulla privacy per il trattamento dei dati personali"
