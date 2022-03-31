@@ -11,8 +11,8 @@
   logo: /img/icone/segnala2-tci.png
   map: false
   link: segnala/
-  name_en: RECOMMEND
-  link_en: en/recommend
+  name_en: REPORT
+  link_en: en/report
   name_pt: Relatórios
   link_pt: pt/relatórios
 - name: RICHIESTE DI AIUTO

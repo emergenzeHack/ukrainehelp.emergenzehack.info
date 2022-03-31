@@ -19,7 +19,7 @@ languages:
     other-links:
   - language: en
     navbar-links:
-      RECOMMEND: "en/recommend/"
+      REPORT: "en/report/"
       DISCOVER : "en/issues/"
       CONTACTS: "en/channels/"
       WHAT IS THIS?:
