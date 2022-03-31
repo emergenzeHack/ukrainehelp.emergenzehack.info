@@ -4,26 +4,24 @@
 lang: it
 layout: bare
 title: Segnala
-permalink: /segnala-base/
+permalink: /segnala_embed/
 ---
 
-<div class="offset-md-1 col-md-10">
-  <a class="btn btn-success btn-block btn-form" href="/segnala/chiedi-aiuto">Chiedi aiuto</a>
-  <a class="btn btn-success btn-block btn-form" href="/segnala/dona-beni-servizi">Dona beni o servizi</a>
+<div class="offset-md-3 col-md-6">
 
-  <br>
-  
-  <a class="btn btn-outline-dark btn-block btn-form " href="/segnala/consegna-domicilio">Segnala Consegna a domicilio</a>
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/iniziative-servizi">
-    Segnala Iniziative e Servizi<br>
-    <small>Supporto Lavoro/Imprese, Iniziative culturali, ricreative e solidali</small>
-  </a>
+    {%- for type in site.data.i18n.issues.forms -%}
+      
+      {% if type.path == '/forms/segnala_help_page' %}
+    
+        <a class="btn btn-success btn-lg btn-block btn-form" href="{{type.path}}">{{type[page.lang]}}</a>
+    
+      {%- else -%}
+    
+        <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="{{type.path}}">{{type[page.lang]}}</a>
+    
+      {% endif %}
+    
+    {%- endfor -%}
 
-  <a class="btn btn-outline-dark btn-block btn-form " href="/segnala/raccolta-fondi">Segnala Raccolta Fondi</a>
-  <!--<a class="btn btn-outline-dark btn-block btn-form" href="/segnala/contatto-utile">Segnala Contatto utile</a>-->
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/bufala">Segnala Bufala</a>
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/documenti-dati">Segnala Documenti/Dati</a>
-  <a class="btn btn-outline-dark btn-block btn-form" href="/segnala/notizia">Segnala Notizia</a>
+<div class="text-center"><a href="https://ukrainehelp.emergenzehack.info">Maggiori informazioni su ukrainehelp.emergenzehack.info</a></div>
 </div>
-
-[Maggiori informazioni su ukrainehelp.emergenzehack.info](https://ukrainehelp.emergenzehack.info)
