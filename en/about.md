@@ -26,7 +26,7 @@ The project is aimed towards all the people who are concerned about what is happ
 
 Every software component we develop is released under an Open Source license that allows reuse and promotes its development publicly.
 
-All data we collect and produce is published and kept up-to-date as [Open Data](https://europehelp.info/opendata/).
+All data we collect and produce is published and kept up-to-date as [Open Data](https://ukrainehelp.emergenzehack.info/en/opendata/).
 
 The whole infrastructure is re-usable by organizations, associations, informal groups and even governments and public administrations in order to inform and promote citizen participation to respond to an emergency of any kind and in any part of Europe and the world.
 

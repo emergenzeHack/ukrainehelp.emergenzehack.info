@@ -30,7 +30,7 @@ Join our [Facebook group](https://www.facebook.com/groups/{{site.author.facebook
 
 If you are part of groups or communities: share and explain the project. The more of us participate, the more information circulates.
 
-If you use **Twitter**, you know that Twitter is a great tool to collect and disseminate information. You can follow [our account](https://https://twitter.com/{{site.author.twitter}}), talk about us and retweet the reports we publish.
+If you use **Twitter**, you know that Twitter is a great tool to collect and disseminate information. You can follow [our account](https://twitter.com/{{site.author.twitter}}), talk about us and retweet the reports we publish.
 
 If you use **Telegram** follow our [operational cha](https://t.me/ukraineinfohelp)t and participate in project activities.
 

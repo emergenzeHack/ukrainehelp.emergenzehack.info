@@ -155,7 +155,7 @@ L\'altro
 
 1. The title of the Issue becomes the title of the report on the front end.
 2. Changes (including publication/de-publication) appear on the final site after a maximum of 15 minutes. Use CTRL+F5 or anonymous navigation mode if you do not see any changes. If things still don't come back to you after this, proceed to open Issue and report the problem.
-3. If you need to change the Labels that are already assingned to the Issue (the ones you see already automatically assigned) please report it [here]([https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new))
+3. If you need to change the Labels that are already assingned to the Issue (the ones you see already automatically assigned) please report it [here](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info/issues/new)
 4. Do not remove the Label "form", it helps us to investigate the origin of the reports.
 
 
@@ -173,7 +173,7 @@ Therefore, issues marked with the “Posizione Mancante” label need manual int
 
 ## How to find the coordinates of a location?
 
-Let's take for example [this](https://www.europehelp.info/issues/) report on Milan.
+Let's take for example [this](https://ukrainehelp.emergenzehack.info/en/issues/) report on Milan.
 
 You can use this site: [Nominatim](https://nominatim.openstreetmap.org/).
 
@@ -365,9 +365,9 @@ Done it! Easy, right?
 
 ## How to insert an element in Press
 
-To insert an item in the [PRESS](https://www.europehelp.info/about/#press) table proceed as follows:
+To insert an item in the [PRESS](https://ukrainehelp.emergenzehack.info/press/) table proceed as follows:
 
-*   Go to this PRESS [file](https://github.com/emergenzehack/ukrainehelp.emergenzehack.info_data/blob/master/press.csv)
+*   Go to this PRESS [file](https://github.com/emergenzeHack/ukrainehelp.emergenzehack.info/blob/main/_data/press.csv)
 *   Click the pencil icon to edit the file on Github
 *   Add a line to the file and insert in sequence date,source,title,comma separated links. Note: there must be no additional commas except those separating the 4 fields.
 *   Click on the "Commit changes" or "Propose changes" button at the bottom of the page.
