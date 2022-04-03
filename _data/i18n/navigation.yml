@@ -20,7 +20,9 @@ languages:
   - language: en
     navbar-links:
       REPORT: "en/recommend/"
-      DISCOVER : "en/issues/"
+      DISCOVER : 
+        - ALL REPORTS: "en/issues/"
+        - REPORTS FOR ITALIAN REGIONS: "en/issues/region/"
       CONTACTS: "en/channels/"
       WHAT IS THIS?:
         - ABOUT: "en/about/"
