@@ -1,8 +1,8 @@
 ---
 lang: en
 layout: page
-title: "Emergency: reports in italian regions"
-subtitle: Reports for every Italian Region
+title: "Emergency: reports for Italian Regions"
+subtitle: Reports for Italian Regions
 permalink: en/issues/region/
 ---
 
