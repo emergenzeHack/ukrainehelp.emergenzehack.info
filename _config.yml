@@ -173,6 +173,8 @@ exclude:
   - vendor
   - .gitlab-ci.yml
   - .idea
+  - scripts
+  - .github
 
 # prose.io config
 prose:
