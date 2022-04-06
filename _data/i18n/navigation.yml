@@ -11,7 +11,6 @@ languages:
         - PARTNER: "partners/"
         - PRESS: "press/"
         - DOMANDE FREQUENTI: "faq/"
-        - STATISTICHE: "stat/"
         - USA I NOSTRI DATI: "opendata/"
       PARTECIPA:
         - COME PARTECIPARE: "contribuisci/"
@@ -29,7 +28,6 @@ languages:
         - ABOUT: "en/about/"
         - PARTNERS: "en/partners/"
         - FAQ: "en/faq/"
-        - STATISTICS: "stat/"
         - OPEN DATA: "en/opendata/"
       CONTRIBUTE:
         - ACTIVATE YOUR COMMUNITY: "en/contribute/"
