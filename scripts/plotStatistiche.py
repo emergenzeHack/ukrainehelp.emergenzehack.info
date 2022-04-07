@@ -22,7 +22,7 @@ def load_issue_data():
     s = issues['labels'].apply(eval).explode()
     p = pd.crosstab(s.index, s)
     labels = p.columns.to_list()
-    for l in ['tweet', 'telegram-channel', 'Valid/Accettato']:
+    for l in ['tweet', 'telegram-channel', 'Valid/Accettato', 'Services', 'AA Violation']:
         if l in labels:
             labels.remove(l)
 
