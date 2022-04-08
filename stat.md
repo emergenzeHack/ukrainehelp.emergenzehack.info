@@ -13,6 +13,6 @@ permalink: /stat/
 
 <script>
     Bokeh.set_log_level("debug");
-    Bokeh.embed.embed_item({{ site.data.plot.plot | jsonify }})
+    Bokeh.embed.embed_item({{ site.data.machgen.plot.plot | jsonify }})
 </script>
 
