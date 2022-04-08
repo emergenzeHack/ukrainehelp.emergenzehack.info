@@ -84,7 +84,7 @@
                                                             {%- endif -%}
                                                             {%- if (addressfield["lat"] != blank) and (addressfield["lon"] != blank) -%}
                                                                             <dt class="col-sm-3">Coordinates</dt>
-                                                                            <dd class="col-sm-9">{{addressfield["lat"]}} {{addressfield["lon"]}}</dd>
+                                                                            <dd class="col-sm-9">{{addressfield["lat"] | round: 4 }} {{addressfield["lon"] | round: 4 }}</dd>
                                                             {%- endif -%}
                                                         {%- endif -%}
                                                         </dd>
