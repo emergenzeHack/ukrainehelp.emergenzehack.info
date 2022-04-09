@@ -163,3 +163,12 @@ education:
   permalink: /education/
   markericon: person-chalkboard
   markercolor: dodgerblue
+useful contact:
+  displayname:
+  en: Useful Contacts
+  it: Contatti utili
+labelnames:
+  - useful contact
+permalink: /usefulcontacts/
+markericon: vcard-o
+markercolor: DarkSalmon
