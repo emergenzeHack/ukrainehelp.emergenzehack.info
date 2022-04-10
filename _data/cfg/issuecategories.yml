@@ -165,8 +165,8 @@ education:
   markercolor: dodgerblue
 useful_contact:
   displayname:
-  en: Useful Contacts
-  it: Contatti utili
+    en: Useful Contacts
+    it: Contatti utili
   labelnames:
     - useful contact
   permalink: /usefulcontacts/
