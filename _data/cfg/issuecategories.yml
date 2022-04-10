@@ -167,8 +167,8 @@ useful_contact:
   displayname:
   en: Useful Contacts
   it: Contatti utili
-labelnames:
-  - useful_contact
-permalink: /usefulcontacts/
-markericon: vcard-o
-markercolor: DarkSalmon
+  labelnames:
+    - useful_contact
+  permalink: /usefulcontacts/
+  markericon: vcard-o
+  markercolor: DarkSalmon
