@@ -8,11 +8,11 @@ layout: page
       
       {% if type.path == '/forms/segnala_help_page' %}
     
-        <a class="btn btn-success btn-lg btn-block btn-form" href="{{type.path}}">{{type[page.lang]}}</a>
+      <a class="btn btn-success btn-lg btn-block btn-form" href="{{type.path}}?lang={{page.lang}}">{{type[page.lang]}}</a>
     
       {%- else -%}
     
-        <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="{{type.path}}">{{type[page.lang]}}</a>
+      <a class="btn btn-outline-dark btn-lg btn-block btn-form" href="{{type.path}}?lang={{page.lang}}">{{type[page.lang]}}</a>
     
       {% endif %}
     
