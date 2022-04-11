@@ -36,39 +36,7 @@ lang: en
 
 <script>
     var submitDone=false;
-    Formio.icons = 'fontawesome';
-    Formio.createForm(document.getElementById('formio'), {{content}})
-        .then(function(form) {
-                // Prevent the submission from going to the form.io server.
-                form.nosubmit = true;
-                window.setLanguage = function(lang) {
-          form.language = lang;
-        };
 
-                // Triggered when they click the submit button.
-                form.on('submit', function(submission) {
-                        if (!submitDone) {
-                                submitDone = true;
-
-                                console.log(submission);
-                                return Formio.fetch('https://ukrainehelp.emergenzehack.info:5000/report', {
-                                        body: JSON.stringify(submission),
-                                        headers: {
-                                                'content-type': 'application/json'
-                                            },
-                                        method: 'POST',
-                                        mode: 'cors',
-                                    })
-                                    .then(function(response) {
-                                            form.emit('submitDone', submission)
-                                            response.json()
-                                        })
-                            } else {
-                                    form.emit('submitDone', submission)
-                                }
-                    });
-            });
-        
 /**
  * Get the URL parameters
  * source: https://css-tricks.com/snippets/javascript/get-url-variables/
@@ -96,6 +64,39 @@ function processParams (){
         }
 }
 
-window.onload = processParams;
+    Formio.icons = 'fontawesome';
+    Formio.createForm(document.getElementById('formio'), {{content}})
+        .then(function(form) {
+                // Prevent the submission from going to the form.io server.
+                form.nosubmit = true;
+                window.setLanguage = function(lang) {
+          form.language = lang;
+        };
+                processParams();
+
+                // Triggered when they click the submit button.
+                form.on('submit', function(submission) {
+                        if (!submitDone) {
+                                submitDone = true;
+
+                                console.log(submission);
+                                return Formio.fetch('https://ukrainehelp.emergenzehack.info:5000/report', {
+                                        body: JSON.stringify(submission),
+                                        headers: {
+                                                'content-type': 'application/json'
+                                            },
+                                        method: 'POST',
+                                        mode: 'cors',
+                                    })
+                                    .then(function(response) {
+                                            form.emit('submitDone', submission)
+                                            response.json()
+                                        })
+                            } else {
+                                    form.emit('submitDone', submission)
+                                }
+                    });
+            });
+        
 
 </script>
