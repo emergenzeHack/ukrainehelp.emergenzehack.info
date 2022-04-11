@@ -33,6 +33,19 @@
         return appendString;
     }
 
+    function searchResultsMap(resultsArray) {
+            for (var i = 0; i < resultsArray.length; i++) {  // Iterate over the results
+                var item = resultsArray[i];
+                if (item.state == "open") {
+                    if ('lat' in item && 'lon' in item) {
+                        markerList.push([item.lat, item.lon, item.title, item.number, item.label.join('|')]);
+                    }
+                }
+            }
+
+        displayMap();
+    }
+
     function displaySearchResults(results, store, usedLabels) {
         var searchResults = $('#search-results');
         if (results.length) { // Are there any results?
@@ -70,6 +83,8 @@
             appendString += '</div>';
 
             searchResults.html(appendString);
+
+            searchResultsMap(resultsArray);
         } else {
             searchResults.html('<li>Nessuna segnalazione trovata</li>');
         }
@@ -112,6 +127,8 @@
             }
             );
             appendString += '</div>';
+
+            searchResultsMap(resultsArray);
 
             searchResults.html(appendString);
         } else {
