@@ -97,6 +97,9 @@ window.store["{{site.url}}/issues/{{member.number}}"]={
     {%- elsif member.issue.data.address.address.lat != blank and member.issue.data.address.address.lon != blank -%}
         "lat": {{member.issue.data.address.address.lat}},
         "lon": {{member.issue.data.address.address.lon}},
+    {%- elsif member.issue.data.lat != blank and member.issue.data.lon != blank -%}
+        "lat":{{member.issue.data.lat}},
+        "lon": {{member.issue.data.lon}},
     {%- endif -%}
         "url": "{{site.url}}/issues/{{member.number}}",
         "state": "{{member.state}}"

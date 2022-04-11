@@ -95,22 +95,29 @@
                                             {%- endif -%}
                                         {%- endfor -%}
 
+                                        {%- if member.issue.data.Posizione != blank -%}
+                                        {%- assign coords = member.issue.data.Posizione | split:  " " -%}
+                                        {%- assign lat=coords[0] -%}
+                                        {%- assign lon=coords[1] -%}
+                                        {%- elsif member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank -%}
+                                        {%- assign lat=member.issue.data.location.address.lat -%}
+                                        {%- assign lon=member.issue.data.location.address.lon -%}
+                                        {%- elsif member.issue.data.address.address.lat != blank and member.issue.data.address.address.lon != blank -%}
+                                        {%- assign lat=member.issue.data.address.address.lat -%}
+                                        {%- assign lon=member.issue.data.address.address.lon -%}
+                                        {%- elsif member.issue.data.lat != blank and member.issue.data.lon != blank -%}
+                                        {%- assign lat=member.issue.data.lat -%}
+                                        {%- assign lon=member.issue.data.lon -%}
+                                        {%- endif -%}
 
-                                        {%- if member.issue.data.Posizione != blank or (member.issue.data.address.address.lat != blank and member.issue.data.address.address.lon != blank) or (member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank) -%} 
+                                        {%- if lat != blank and lon != blank -%}
                                         <dt class="col-sm-3">Map</dt>
                                         <dd class="col-sm-9"><div id="map{{member.number}}{{category['displayname'][page.lang]}}" class="w-100" style="height: 200px;"></div></dd>
                                         <script>
 
                                             var markerList=[];
 
-                                            {%- if member.issue.data.Posizione != blank -%}
-                                            {%- assign coords = member.issue.data.Posizione | split:  " " -%}
-                                            markerList.push([{{coords[0]}}, {{coords[1]}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
-                                            {%- elsif member.issue.data.location.address.lat != blank and member.issue.data.location.address.lon != blank -%}
-                                            markerList.push([{{member.issue.data.location.address.lat}}, {{member.issue.data.location.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
-                                            {%- else -%}
-                                            markerList.push([{{member.issue.data.address.address.lat}}, {{member.issue.data.address.address.lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
-                                            {%- endif -%}
+                                            markerList.push([{{lat}}, {{lon}}, "{{member.title|uri_escape}}", "{{ member.number }}", {{member.issue.labels}}]);
                                             {%- if category["markericon"] == blank -%}
                                                     var markerIcons = {};
                                                     {% for categorytuple in issuecategories %}
