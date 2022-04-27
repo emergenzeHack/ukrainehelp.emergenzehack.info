@@ -53,9 +53,10 @@
                                     <dl class="row">
                                         {%- for item in member.issue.data -%}
                                             {%- if item[1] != blank -%}
-                                            {% assign itemDescription = item[0] | replace: "_", " " | capitalize_all %}
+                                            {% assign itemDescription = item[0] | downcase %}
                                                 {% if site.data.cfg.issueFieldsBlacklist contains itemDescription %}
                                                 {% else %}
+                                                {% assign itemDescription = item[0] | replace: "_", " " | capitalize_all %}
                                                 {%- if itemDescription == "Namesurname" -%}
                                                     {% assign itemDescription = "Name" %}
                                                 {%- endif -%}
