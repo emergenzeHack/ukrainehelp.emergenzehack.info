@@ -18,12 +18,19 @@ lang: en
     {% endif %}
   {% endcapture %}
   {% assign logo_alt = logo_alt | strip %}
-  <a href="{{ site.baseurl }}/{{ category.link_en }}" class="thumbnail col-md-2" title="{{ logo_alt }}">
-    {% if category.logo and category.logo != empty %}
-    <img src="{{ site.baseurl }}{{ category.logo }}" alt="{{ category.logo-alt }}"><br/>
-    {% endif %}
-    {{ category.name_en }}
-  </a>
+  <div class="card border-0" style="width: 10rem;">
+      <div class="card-body w-100">
+          <a href="{{ site.baseurl }}/{{ category.link_en }}"  title="{{ logo_alt }}">
+              {% if category.logo and category.logo != empty %}
+              <img class="card-img-top w-50 mx-auto" src="{{ site.baseurl }}{{ category.logo }}" alt="{{ category.logo-alt }}"><br/>
+              {% endif %}
+              <h6 class="card-title">{{ category.name_en }}</h6>
+          </a>
+          {% if category.footer_include %}
+          {% include {{category.footer_include}} %}
+          {% endif %}
+      </div>
+  </div>
 {% endfor %}
 </div>
 
