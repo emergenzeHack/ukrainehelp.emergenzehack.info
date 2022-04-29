@@ -377,7 +377,7 @@ jekyll_tidy:
 
 issuemap:
         center: 42.629381, 13.288372
-        zoom: 5
+        zoom: 4 
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
