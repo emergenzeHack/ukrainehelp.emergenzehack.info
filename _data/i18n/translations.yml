@@ -19,6 +19,8 @@ en:
   cant_find_your_initiative: Do you have an initiative or a request to send
   report_it: Report it here
 form_privacy_statement:
-  en: "I confirm to have read and accepted privacy informative to treat personal data"
-  it: "Confermo di aver letto e accetto l\\'informativa sulla privacy per il trattamento dei dati personali"
-  
+  en: "I confirm to have read and accepted the <a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>privacy policy</a> for the processing of personal data"
+  it: "Confermo di aver letto e accetto l\\'<a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>informativa sulla privacy</a> per il trattamento dei dati personali"
+authorization_privacy:
+  en: "I authorize the processing of personal and sensitive data should I decide to publish them"
+  it: "Autorizzo al trattamento dei dati personali e sensibili ove decidessi di pubblicarli"
