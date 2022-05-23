@@ -20,7 +20,7 @@ lang: ua
       {% assign logo_alt = logo_alt | strip %}
   <div class="card border-0" style="width: 10rem;">
       <div class="card-body w-100">
-          <a href="{{ site.baseurl }}/{{ category.link }}"  title="{{ logo_alt }}">
+          <a href="{{ site.baseurl }}/{{ category.link_ua }}"  title="{{ logo_alt }}">
               {% if category.logo and category.logo != empty %}
               <img class="card-img-top w-50 mx-auto" src="{{ site.baseurl }}{{ category.logo }}" alt="{{ category.logo-alt }}"><br/>
               {% endif %}
