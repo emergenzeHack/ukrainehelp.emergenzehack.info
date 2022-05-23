@@ -2,6 +2,7 @@ help requests:
   displayname: 
     en: Help requests
     it: Richieste di aiuto
+    ua: Запит про допомогу.  
   labelnames: 
     - Help
   permalink: /help/
@@ -11,6 +12,7 @@ fundraising:
   displayname: 
     en: Fundraising
     it: Raccolta fondi
+    ua: Збір коштів
   labelnames: 
     - fundraising
   permalink: /fundraising/
@@ -20,6 +22,7 @@ games and activities for children:
   displayname: 
     en: Children
     it: Bambini
+    ua: Діти
   labelnames: 
     - Children
   permalink: /children/
@@ -29,6 +32,7 @@ solidarity services and initiatives:
   displayname: 
     en: Solidarity services and initiatives
     it: Servizi e iniziative solidali
+    ua: служби та ініціативи солідарності
   labelnames:
     - Services
   permalink: /services/
@@ -38,6 +42,7 @@ psychological support:
   displayname: 
     en: Psychological support
     it: Supporto psicologico
+    ua: Психологічна підтримка
   labelnames: 
     - psychologicalSupport
     - psycologicalSupport
@@ -48,6 +53,7 @@ work and business support:
   displayname:
     en: Work and Business Support
     it: Offerte di lavoro e sostegno alle imprese
+    ua: Пропозиція щодо працевлаштування та підтримка бізнесу
   labelnames: 
     - job
   permalink: /sostegno-lavoro-e-imprese/
@@ -57,6 +63,7 @@ goods donations and services offering:
   displayname: 
     en: Goods donations
     it: Donazioni beni
+    ua: Пожертвування
   labelnames: 
     - materialGoods
   permalink: /donazioni-beni-e-offerte-servizi/
@@ -66,6 +73,7 @@ useful news:
   displayname: 
     en: Useful News
     it: Notizie utili
+    ua: Важливі новини
   labelnames: 
     - News
   permalink: /notizie-utili/
@@ -75,6 +83,7 @@ fake news:
   displayname:
     en: Fake News
     it: Fake News
+    ua: Фейк
   labelnames: 
     - fakenews
   permalink: /fake-news/
@@ -84,6 +93,7 @@ women:
   displayname:
     en: Support to women
     it: Supporto donne
+    ua: Підтримка жінок
   labelnames: 
     - women
   permalink: /supportToWomen/
@@ -93,6 +103,7 @@ disability services:
   displayname: 
     en: Support to disabled
     it: Servizi per disabili
+    ua: Послуги для осіб з інвалідністю
   labelnames: 
     - disability
   permalink: /disabilityServices/
@@ -102,6 +113,7 @@ translations:
   displayname:
     en: Language and translations
     it: Lingua e traduzioni
+    ua: Мова та переклад
   labelnames: 
     - translation
   permalink: /translation/
@@ -111,6 +123,7 @@ legal:
   displayname: 
     en: Legal Support
     it: Supporto legale
+    ua: Юридиччний супровід
   labelnames: 
     - Legal
   permalink: /legal/
@@ -120,6 +133,7 @@ healthcare:
   displayname: 
     en: Healthcare
     it: Assistenza sanitaria
+    ua: Охорона здоров'я
   labelnames: 
     - healthcare
     - healtcare
@@ -130,6 +144,7 @@ travelTransport:
   displayname:
     en: Travel and Transport
     it: Viaggi e trasporti
+    ua: Подорожі та транспорт
   labelnames: 
     - transport
   permalink: /travelTransport/
@@ -139,6 +154,7 @@ hospitality:
   displayname: 
     en: Hospitality
     it: Ospitalità
+    ua: Гостинність
   labelnames: 
     - hospitality
     - Ospitalit\u00e0
@@ -149,6 +165,7 @@ document_data:
   displayname: 
     en: Document and Data
     it: Documenti e dati
+    ua: Документи та інформація
   labelnames: 
     - document_data
   permalink: /documentdata/
@@ -158,6 +175,7 @@ education:
   displayname:
     en: Education and Training
     it: Istruzione e Formazione
+    ua: Освіта і навчання
   labelnames:
     - education
   permalink: /education/
@@ -167,6 +185,7 @@ useful_contact:
   displayname:
     en: Useful Contacts
     it: Contatti utili
+    ua: Важливі контакти
   labelnames:
     - useful contact
   permalink: /usefulcontacts/

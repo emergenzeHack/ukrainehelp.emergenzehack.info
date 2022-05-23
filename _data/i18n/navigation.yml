@@ -64,5 +64,22 @@ languages:
       richiesta: "pt/solicitacao"
       issues: "pt/issues"
       regione: "pt/regiao"
+  - language: ua
+    navbar-links:
+      ЗВІТ: "ua/recommend/"
+      ВІДКРИТИ: 
+        - ВСІ ПОВІДОМЛЕННЯ: "ua/issues/"
+        - ІНФОРМАЦІЯ ПО РЕГІОНАХ: "ua/issues/region/"
+      КОНТАКТИ: "ua/channels/"
+      Що означає?:
+        - ABOUT: "ua/about/"
+        - PARTNERS: "ua/partners/"
+        - FAQ: "ua/faq/"
+        - STATISTICS: "stat/"
+        - OPEN DATA: "ua/opendata/"
+      БРАТИ УЧАСТЬ:
+        - ACTIVATE YOUR COMMUNITY: "ua/contribute/"
+        - WIKI: "ua/wiki/"
+    other-links:
 
 

@@ -3,27 +3,34 @@ forms:
     path: /forms/segnala_help_page
     en: Ask for help
     it: Chiedi Aiuto
+    ua: Проси допомогу
   - services: 
     path: /forms/segnala_services_page
     en: Recommend Initiatives and Services
     it: Segnala Iniziative e Servizi
+    ua: Повідом про ініціативу та послуги
   - fund: 
     path: /forms/segnala_fund_page
     en: Recommend Fundraising
     it: Segnala Raccolta Fondi
+    ua: Збір коштів
   - contact: 
     path: /forms/segnala_contact_page
     en: Add Helpful Contact
     it: Segnala Contatto Utile
+    ua: Важливий контакт
   - fakenews: 
     path: /forms/segnala_fakenews_page
     en: Report Fake News
     it: Segnala Bufala
+    ua: Повідом про фейк
   - document-data:
     path: /forms/segnala_document_data_page
     en: Upload Documents/Data
     it: Segnala Documento o Dati
+    ua: Повідомлення про документи та інформація
   - news:
     path: /forms/segnala_news_page
     en: Share News
     it: Segnala Notizia
+    ua: Повідомлення про новини

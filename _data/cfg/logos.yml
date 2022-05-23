@@ -15,6 +15,8 @@
   link_en: en/recommend
   name_pt: Relatórios
   link_pt: pt/relatórios
+  name_ua: ЗВІТ
+  link_ua: ua/ЗВІТ
 - name: RICHIESTE DI AIUTO
   logo-alt: richieste di aiuto
   logo: /img/icone/alloggi2-tci.png              #       SERVE ICONA NUOVA??
@@ -24,6 +26,8 @@
   link_en: help/
   name_pt: Pedidos de Ajuda
   link_pt: pt/ajuda
+  name_ua: ПРОХАННЯ ПРО ДОПОМОГУ
+  link_ua: help/
 - name: RACCOLTE FONDI
   logo-alt: raccolte fondi
   logo: /img/icone/01-fabbisogni.png
@@ -33,6 +37,8 @@
   link_en: fundraising/
   name_pt: Coleções de fundos
   link_pt: pt/fundos
+  name_ua: ЗБІР КОШТІВ
+  link_ua: fundraising/
 - name: NEWS
   logo-alt: news
   logo: /img/icone/news2-tci.png              #       SERVE ICONA NUOVA??
@@ -42,6 +48,8 @@
   link_en: notizie-utili
   name_pt: Notícias
   link_pt: pt/fake-news
+  name_ua: НОВИНИ
+  link_ua: notizie-utili/
 - name: INIZIATIVE E SERVIZI
   logo-alt: services & initiatives
   logo: /img/icone/05-segnalazioni.png              #       SERVE ICONA NUOVA??
@@ -51,6 +59,8 @@
   link_en: services
   name_pt: SERVICES & INITIATIVES
   link_pt: pt/services
+  name_ua: ІНІЦІАТИВА ТА ПОСЛУГИ
+  link_ua: services/
 - name: TUTTE LE SEGNALAZIONI
   logo-alt: Elenco delle segnalazioni ricevute
   logo: /img/icone/12-aiuta-a.png
@@ -60,4 +70,6 @@
   link_en: en/issues/
   name_pt: Todas as iniciativas
   link_pt: pt/iniciativas
+  name_ua: ВСІ ЗВІТИ
+  link_ua: ua/issues/
   footer_include: dropdown_lista_regioni.html
