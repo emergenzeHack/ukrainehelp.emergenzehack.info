@@ -7,14 +7,16 @@ lang: ua
 ---
 
 Ось мережі, за допомогою яких ви можете зв'язатися з нами, отримувати оновлення,повідомляти про важливу інформацію чи потреби:
-* (Група Фейсбук)[https://www.facebook.com/groups/ukrainehelpit]. Використовувати для взаємодії з нами 
-* (Репозиторій  GitHub)[https://github.com/emergenzeHack/ukrainehelp.emergenzehack.info]  для співпраці над розробками
-* (Сторінка Твітер)[https://twitter.com/UkraineHelpIT]. Використовувати для взаємодії з нами на сторінці
-* (Телеграм канал)[https://t.me/ukrainehelpit]  Бути в курсі всіх новин
-* (Електронна пошта)[mailto:ukrainehelpit@gmail.com] . Надіслати електронний лист ,щоб повідомити про зміст, який потрібно видалити або написати
-* (Мастодон акаунт)[https://mastodon.uno/@UkrainehelpIT]. Ми є  на Мастодоні
+
+* [Група Фейсбук](https://www.facebook.com/groups/ukrainehelpit). Використовувати для взаємодії з нами
+* [Репозиторій  GitHub](https://github.com/emergenzeHack/ukrainehelp.emergenzehack.info)  для співпраці над розробками
+* [Сторінка Твітер](https://twitter.com/UkraineHelpIT). Використовувати для взаємодії з нами на сторінці
+* [Телеграм канал](https://t.me/ukrainehelpit)  Бути в курсі всіх новин
+* [Електронна пошта](mailto:ukrainehelpit@gmail.com]) . Надіслати електронний лист ,щоб повідомити про зміст, який потрібно видалити або написати
+* [Мастодон акаунт](https://mastodon.uno/@UkrainehelpIT). Ми є  на Мастодоні
 
 Все,що ви надсилаєте нам, буде оброблено нашою командою,яка зможе опублікувати інформацію на сайті в найкоротші терміни. Пам'ятайте, що, використовуючи  наші канали, ви автоматично погоджується підписати юридичне повідомлення про інформацію про даний проект.
 
 ### Контакти
-(Email)[mailto:ukrainehelpit@gmail.com]
+
+[Email](mailto:ukrainehelpit@gmail.com)
