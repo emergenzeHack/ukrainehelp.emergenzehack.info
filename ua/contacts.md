@@ -2,7 +2,7 @@
 layout: page
 title: "Спілкування та соціальні  мережі"
 subtitle: "Зв'яжіться з нами та слідкуйте за соціальними мережами"
-permalink: ua/contribute/
+permalink: ua/channels/
 lang: ua
 ---
 
