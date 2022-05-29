@@ -68,7 +68,7 @@ languages:
     navbar-links:
       ЗВІТ: "ua/recommend/"
       ВІДКРИТИ: 
-        - ВСІ ПОВІДОМЛЕННЯ: "ua/issues/"
+        - УСІ ПОВІДОМЛЕННЯ: "ua/issues/"
         - ІНФОРМАЦІЯ ПО РЕГІОНАХ: "ua/issues/region/"
       КОНТАКТИ: "ua/channels/"
       Що означає?:

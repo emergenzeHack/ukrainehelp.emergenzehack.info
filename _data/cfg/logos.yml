@@ -26,7 +26,7 @@
   link_en: help/
   name_pt: Pedidos de Ajuda
   link_pt: pt/ajuda
-  name_ua: ПРОХАННЯ ПРО ДОПОМОГУ
+  name_ua: ЗАПИТИ ПРО ДОПОМОГУ
   link_ua: help/
 - name: RACCOLTE FONDI
   logo-alt: raccolte fondi
@@ -59,7 +59,7 @@
   link_en: services
   name_pt: SERVICES & INITIATIVES
   link_pt: pt/services
-  name_ua: ІНІЦІАТИВА ТА ПОСЛУГИ
+  name_ua: ІНІЦІАТИВИ ТА ПОСЛУГИ
   link_ua: services/
 - name: TUTTE LE SEGNALAZIONI
   logo-alt: Elenco delle segnalazioni ricevute

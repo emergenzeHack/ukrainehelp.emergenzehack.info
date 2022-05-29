@@ -2,7 +2,7 @@ help requests:
   displayname: 
     en: Help requests
     it: Richieste di aiuto
-    ua: Запит про допомогу.  
+    ua: Запити про допомогу
   labelnames: 
     - Help
   permalink: /help/
