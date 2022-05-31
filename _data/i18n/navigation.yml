@@ -66,18 +66,18 @@ languages:
       regione: "pt/regiao"
   - language: ua
     navbar-links:
-      ЗВІТ: "ua/recommend/"
-      ВІДКРИТИ: 
+      ПОВІДОМИТИ: "ua/recommend/"
+      ЗНАЙТИ:
         - УСІ ПОВІДОМЛЕННЯ: "ua/issues/"
         - ІНФОРМАЦІЯ ПО РЕГІОНАХ: "ua/issues/region/"
       КОНТАКТИ: "ua/channels/"
-      Що означає?:
+      ПРО ПРОЕКТ:
         - ABOUT: "ua/about/"
         - PARTNERS: "ua/partners/"
         - FAQ: "ua/faq/"
         - STATISTICS: "stat/"
         - OPEN DATA: "ua/opendata/"
-      БРАТИ УЧАСТЬ:
+      ПРИЙНЯТИ УЧАСТЬ:
         - ACTIVATE YOUR COMMUNITY: "ua/contribute/"
         - WIKI: "ua/wiki/"
     other-links:
