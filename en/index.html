@@ -27,7 +27,7 @@ lang: en
               <h6 class="card-title">{{ category.name_en }}</h6>
           </a>
           {% if category.footer_include %}
-	  {% include {{category.footer_include}} lang={{page.lang}} %}
+	  {% include {{category.footer_include}} lang=page.lang %}
           {% endif %}
       </div>
   </div>
