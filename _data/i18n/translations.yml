@@ -7,22 +7,24 @@ created_at: Creato
 updated_at: Aggiornato
 municipality: Comune
 province: Provincia
-region: Regione
 it:
   language: Lingua
   see_all: Vedi tutte
   cant_find_your_initiative: Hai un'iniziativa o una richiesta da inviare
   report_it: Segnala qui
+  region: Regione
 en:
   language: Language
   see_all: See all
   cant_find_your_initiative: Do you have an initiative or a request to send
   report_it: Report it here
+  region: Region
 ua:
   language: мова
   see_all: бачити все
   cant_find_your_initiative: У вас є ініціатива чи потреба
   report_it: Повідом тут
+  region: Регіон
 form_privacy_statement:
   en: "I confirm to have read and accepted the <a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>privacy policy</a> for the processing of personal data"
   it: "Confermo di aver letto e accetto l\\'<a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>informativa sulla privacy</a> per il trattamento dei dati personali"
