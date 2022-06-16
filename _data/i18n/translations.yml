@@ -25,9 +25,22 @@ ua:
   cant_find_your_initiative: У вас є ініціатива чи потреба
   report_it: Повідом тут
   region: Регіон
+  forms:
+    name: Ім\'я
+    surname: Призвіще
+    phonenumber: Номер телефону
+    email: Електронна пошта
+    url: Урл
+    what: Що
+    recipients: Одержувач
+    description: Опис
+    location: Місце
+    submit: Відправити
 form_privacy_statement:
   en: "I confirm to have read and accepted the <a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>privacy policy</a> for the processing of personal data"
   it: "Confermo di aver letto e accetto l\\'<a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>informativa sulla privacy</a> per il trattamento dei dati personali"
+  ua: "Я підтверджую,що прочитав і приймаю <a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>політику конфіденційності</a>,щодо обробки персональних даних"
 authorization_privacy:
   en: "I authorize the processing of special categories of personal data in accordance with Article 9, paragraph 1, GDPR"
   it: "Autorizzo al trattamento di categorie particolari di dati personali ai sensi dell’art. 9, comma 1, GDPR"
+  ua: "Я дозволяю обробку персональних та конфіденційних даних,якщо вирішу їх опублікувати"
