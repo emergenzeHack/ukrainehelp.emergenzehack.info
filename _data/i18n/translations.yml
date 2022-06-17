@@ -29,12 +29,18 @@ ua:
     name: Ім\'я
     surname: Призвіще
     phonenumber: Номер телефону
+    phone_with_international_prefix: номер телефону з міжнародним префіксом
     email: Електронна пошта
     url: Урл
     what: Що
     recipients: Одержувач
     description: Опис
     location: Місце
+    address: Aдреса
+    city:  Місто
+    state: держава
+    country: Країна
+    zip_code: ЗІП код
     submit: Відправити
 form_privacy_statement:
   en: "I confirm to have read and accepted the <a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>privacy policy</a> for the processing of personal data"
