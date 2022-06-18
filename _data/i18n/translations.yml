@@ -35,6 +35,8 @@ ua:
     what: Що
     recipients: Одержувач
     description: Опис
+    title: Назва
+    link: Посилання
     location: Місце
     address: Aдреса
     city:  Місто
