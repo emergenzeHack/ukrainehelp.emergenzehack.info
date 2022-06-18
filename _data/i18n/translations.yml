@@ -37,6 +37,7 @@ ua:
     description: Опис
     title: Назва
     link: Посилання
+    aim: Ціль
     location: Місце
     address: Aдреса
     city:  Місто
