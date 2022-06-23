@@ -51,6 +51,22 @@ ua:
     country: Країна
     zip_code: ЗІП код
     submit: Відправити
+    category: Категорія
+    material_goods: Предмети першої необхідності
+    hospitality: Гостинність
+    travel_transport: Подорожі та транспорт
+    healthcare: Медична допомога
+    legal_support: Юридична допомога
+    language_translation: Мова та переклад
+    job_offer: Працевлаштування
+    psychological_support: Психологічна підтримка
+    children: Діти
+    disability_service: Послуги для інвалідів
+    women_support: Підтримка для жінок
+    training_education: Освіта та навчання
+    offer_from_who: Надано ким?
+    title: Назва
+
 form_privacy_statement:
   en: "I confirm to have read and accepted the <a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>privacy policy</a> for the processing of personal data"
   it: "Confermo di aver letto e accetto l\\'<a href=\\'https://docs.google.com/document/d/1GT-wBGKZwdsoaAFSjLjL9gh2xyvOeEQa\\' target=\\'_blank\\'>informativa sulla privacy</a> per il trattamento dei dati personali"
